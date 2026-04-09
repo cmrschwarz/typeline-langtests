@@ -2106,5 +2106,5 @@
       "trace_path": "traces/tests-lang-regex-optional-capture-is-null-tl-9b7170a0525fcd91.jsonl"
     }
   ],
-  "viewer_available": false
+  "viewer_available": true
 }
