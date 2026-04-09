@@ -1,23 +1,23 @@
-{"event_id":0,"timestamp_ns":57216,"kind":{"type":"SourceCode","source":"context x: int = 42;\n\nfunc foo() {\n    set x = 52;\n    print :x\n}\n\nfoo x\n\n#*@stdout\n52\n42\n*#\n","filename":"./tests/lang/basic/context_value_is_hierarchical.tl"}}
-{"event_id":1,"timestamp_ns":223146,"kind":{"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}}
-{"event_id":2,"timestamp_ns":291444,"kind":{"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}}
-{"event_id":3,"timestamp_ns":359761,"kind":{"type":"GroupTrackCreated","subchain_id":0,"group_track_id":0,"prev_actor_id":0,"parent":null}}
-{"event_id":4,"timestamp_ns":436334,"kind":{"type":"GroupTrackChanged","subchain_id":0,"snapshot":{"id":0,"snapshot_ref":0,"passed_fields_count":0,"group_lengths":[1],"parent_group_advancement":[0],"iterators":{}},"reason":"initialization"}}
-{"event_id":5,"timestamp_ns":766651,"kind":{"type":"CallExpansionBegin","callee_name":"foo","caller_fi":0,"caller_op_id":1,"is_lazy":false,"pipeline_str":"@{\n    @[set 52]@o0.0\n    @[print x]@o1.0\n}","named_args":[["help","Constant(null)"]],"rich_args":[["help",{"Constant":{"Null":null}}]],"source_code":"func foo() {\n    set x = 52;\n    print :x\n}","call_site_source":"foo","call_site_location":"./tests/lang/basic/context_value_is_hierarchical.tl:8:1_8:4"}}
-{"event_id":6,"timestamp_ns":989808,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":1,"tf_id":0,"after":0}}
-{"event_id":7,"timestamp_ns":1080978,"kind":{"type":"ConstantCreated","name":"print.input","constant_id":0,"value":{"Int":52}}}
-{"event_id":8,"timestamp_ns":1196825,"kind":{"type":"TransformInstantiated","transform_id":0,"transform_name":"print","subchain_id":0,"parent_transform":null,"function_instance_id":1,"function_name":"foo","caller_fi":0,"predecessor":null,"successor":null,"inputs":[{"name":"input","value":{"Constant":{"Expr":{"Literal":{"value":{"Int":52},"span":{"source":"Unknown","start":0,"end":0},"joint":false,"indicator":"LeadingEq"}}}}}],"outputs":null}}
-{"event_id":9,"timestamp_ns":1431303,"kind":{"type":"CallExpansionEnd","callee_name":"foo","has_pending":false}}
-{"event_id":10,"timestamp_ns":1497787,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":2,"tf_id":1,"after":1}}
-{"event_id":11,"timestamp_ns":1578227,"kind":{"type":"ConstantCreated","name":"print.input","constant_id":1,"value":{"Int":42}}}
-{"event_id":12,"timestamp_ns":1650923,"kind":{"type":"TransformInstantiated","transform_id":1,"transform_name":"print","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":0,"successor":null,"inputs":[{"name":"input","value":{"Constant":{"Expr":{"Literal":{"value":{"Int":42},"span":{"source":"Unknown","start":0,"end":0},"joint":false,"indicator":"LeadingEq"}}}}}],"outputs":null}}
-{"event_id":13,"timestamp_ns":1887915,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":3,"tf_id":2,"after":2}}
-{"event_id":14,"timestamp_ns":1957656,"kind":{"type":"TransformInstantiated","transform_id":2,"transform_name":"terminator","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":1,"successor":null,"inputs":null,"outputs":null}}
-{"event_id":15,"timestamp_ns":2132292,"kind":{"type":"TransformUpdateBegin","transform_id":0,"transform_name":"print","batch_size":1,"input_done":true}}
-{"event_id":16,"timestamp_ns":2264859,"kind":{"type":"TransformUpdateEnd","transform_id":0,"transform_name":"print","done":true}}
-{"event_id":17,"timestamp_ns":2337455,"kind":{"type":"TransformUpdateBegin","transform_id":1,"transform_name":"print","batch_size":1,"input_done":true}}
-{"event_id":18,"timestamp_ns":2436861,"kind":{"type":"TransformUpdateEnd","transform_id":1,"transform_name":"print","done":true}}
-{"event_id":19,"timestamp_ns":2504647,"kind":{"type":"TransformUpdateBegin","transform_id":2,"transform_name":"terminator","batch_size":1,"input_done":true}}
-{"event_id":20,"timestamp_ns":2580018,"kind":{"type":"ActionGroupBegin","subchain_id":0,"actor_id":3,"action_group_id":0}}
-{"event_id":21,"timestamp_ns":2655770,"kind":{"type":"ActionGroupEnd","subchain_id":0,"actor_id":3,"action_group_id":0,"actions":[{"kind":"Drop","field_idx":0,"run_len":1,"actor_id":3}],"field_count_delta":-1}}
-{"event_id":22,"timestamp_ns":2772387,"kind":{"type":"TransformUpdateEnd","transform_id":2,"transform_name":"terminator","done":true}}
+{"event_id":0,"timestamp_ns":69639,"kind":{"type":"SourceCode","source":"context x: int = 42;\n\nfunc foo() {\n    set x = 52;\n    print :x\n}\n\nfoo x\n\n#*@stdout\n52\n42\n*#\n","filename":"./tests/lang/basic/context_value_is_hierarchical.tl"}}
+{"event_id":1,"timestamp_ns":228524,"kind":{"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}}
+{"event_id":2,"timestamp_ns":302962,"kind":{"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}}
+{"event_id":3,"timestamp_ns":376299,"kind":{"type":"GroupTrackCreated","subchain_id":0,"group_track_id":0,"prev_actor_id":0,"parent":null}}
+{"event_id":4,"timestamp_ns":501882,"kind":{"type":"GroupTrackChanged","subchain_id":0,"snapshot":{"id":0,"snapshot_ref":0,"passed_fields_count":0,"group_lengths":[1],"parent_group_advancement":[0],"iterators":{}},"reason":"initialization"}}
+{"event_id":5,"timestamp_ns":897417,"kind":{"type":"CallExpansionBegin","callee_name":"foo","caller_fi":0,"caller_op_id":1,"is_lazy":false,"pipeline_str":"@{\n    @[set 52]@o0.0\n    @[print x]@o1.0\n}","named_args":[["help","Constant(null)"]],"rich_args":[["help",{"Constant":{"Null":null}}]],"source_code":"func foo() {\n    set x = 52;\n    print :x\n}","call_site_source":"foo","call_site_location":"./tests/lang/basic/context_value_is_hierarchical.tl:8:1_8:4"}}
+{"event_id":6,"timestamp_ns":1176054,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":1,"tf_id":0,"after":0}}
+{"event_id":7,"timestamp_ns":1291799,"kind":{"type":"ConstantCreated","name":"print.input","constant_id":0,"value":{"Int":52}}}
+{"event_id":8,"timestamp_ns":1401433,"kind":{"type":"TransformInstantiated","transform_id":0,"transform_name":"print","subchain_id":0,"parent_transform":null,"function_instance_id":1,"function_name":"foo","caller_fi":0,"predecessor":null,"successor":null,"inputs":[{"name":"input","value":{"Constant":{"Expr":{"Literal":{"value":{"Int":52},"span":{"source":"Unknown","start":0,"end":0},"joint":false,"indicator":"LeadingEq"}}}}}],"outputs":null}}
+{"event_id":9,"timestamp_ns":1737667,"kind":{"type":"CallExpansionEnd","callee_name":"foo","has_pending":false}}
+{"event_id":10,"timestamp_ns":1828996,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":2,"tf_id":1,"after":1}}
+{"event_id":11,"timestamp_ns":1944000,"kind":{"type":"ConstantCreated","name":"print.input","constant_id":1,"value":{"Int":42}}}
+{"event_id":12,"timestamp_ns":2051901,"kind":{"type":"TransformInstantiated","transform_id":1,"transform_name":"print","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":0,"successor":null,"inputs":[{"name":"input","value":{"Constant":{"Expr":{"Literal":{"value":{"Int":42},"span":{"source":"Unknown","start":0,"end":0},"joint":false,"indicator":"LeadingEq"}}}}}],"outputs":null}}
+{"event_id":13,"timestamp_ns":2360995,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":3,"tf_id":2,"after":2}}
+{"event_id":14,"timestamp_ns":2493100,"kind":{"type":"TransformInstantiated","transform_id":2,"transform_name":"terminator","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":1,"successor":null,"inputs":null,"outputs":null}}
+{"event_id":15,"timestamp_ns":2675058,"kind":{"type":"TransformUpdateBegin","transform_id":0,"transform_name":"print","batch_size":1,"input_done":true}}
+{"event_id":16,"timestamp_ns":2828232,"kind":{"type":"TransformUpdateEnd","transform_id":0,"transform_name":"print","done":true}}
+{"event_id":17,"timestamp_ns":2917097,"kind":{"type":"TransformUpdateBegin","transform_id":1,"transform_name":"print","batch_size":1,"input_done":true}}
+{"event_id":18,"timestamp_ns":3048211,"kind":{"type":"TransformUpdateEnd","transform_id":1,"transform_name":"print","done":true}}
+{"event_id":19,"timestamp_ns":3141544,"kind":{"type":"TransformUpdateBegin","transform_id":2,"transform_name":"terminator","batch_size":1,"input_done":true}}
+{"event_id":20,"timestamp_ns":3242933,"kind":{"type":"ActionGroupBegin","subchain_id":0,"actor_id":3,"action_group_id":0}}
+{"event_id":21,"timestamp_ns":3342627,"kind":{"type":"ActionGroupEnd","subchain_id":0,"actor_id":3,"action_group_id":0,"actions":[{"kind":"Drop","field_idx":0,"run_len":1,"actor_id":3}],"field_count_delta":-1}}
+{"event_id":22,"timestamp_ns":3523534,"kind":{"type":"TransformUpdateEnd","transform_id":2,"transform_name":"terminator","done":true}}
