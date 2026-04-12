@@ -1,18 +1,24 @@
-{"event_id":0,"timestamp_ns":113769,"kind":{"type":"SourceCode","source":"func foo<T>(x: T) :: T {\n    x\n}\n\nalias bar<T> = foo<T>;\n\nbar :42\n#*@stdout\n42\n*#\n","filename":"./tests/lang/basic/alias_generic_declaration.tl"}}
-{"event_id":1,"timestamp_ns":327435,"kind":{"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}}
-{"event_id":2,"timestamp_ns":413333,"kind":{"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}}
-{"event_id":3,"timestamp_ns":500072,"kind":{"type":"GroupTrackCreated","subchain_id":0,"group_track_id":0,"prev_actor_id":0,"parent":null}}
-{"event_id":4,"timestamp_ns":604176,"kind":{"type":"GroupTrackChanged","subchain_id":0,"snapshot":{"id":0,"snapshot_ref":0,"passed_fields_count":0,"group_lengths":[1],"parent_group_advancement":[0],"iterators":{}},"reason":"initialization"}}
-{"event_id":5,"timestamp_ns":954936,"kind":{"type":"CallExpansionBegin","callee_name":"foo","caller_fi":0,"caller_op_id":1,"is_lazy":false,"pipeline_str":"@{}","named_args":[["x","Constant(Int(42))"],["help","Constant(null)"]],"rich_args":[["x",{"Constant":{"Int":42}}],["help",{"Constant":{"Null":null}}]],"source_code":"func foo<T>(x: T) :: T {\n    x\n}","call_site_source":"bar","call_site_location":"./tests/lang/basic/alias_generic_declaration.tl:7:1_7:4"}}
-{"event_id":6,"timestamp_ns":1320388,"kind":{"type":"CallExpansionEnd","callee_name":"foo","has_pending":false}}
-{"event_id":7,"timestamp_ns":1422119,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":1,"tf_id":0,"after":0}}
-{"event_id":8,"timestamp_ns":1559353,"kind":{"type":"ConstantCreated","name":"print.input","constant_id":0,"value":{"Int":42}}}
-{"event_id":9,"timestamp_ns":1676366,"kind":{"type":"TransformInstantiated","transform_id":0,"transform_name":"print","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":null,"successor":null,"inputs":[{"name":"input","value":{"Constant":{"Expr":{"Literal":{"value":{"Int":42},"span":{"source":"Unknown","start":0,"end":0},"joint":false,"indicator":"LeadingEq"}}}}}],"outputs":null}}
-{"event_id":10,"timestamp_ns":2024983,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":2,"tf_id":1,"after":1}}
-{"event_id":11,"timestamp_ns":2107466,"kind":{"type":"TransformInstantiated","transform_id":1,"transform_name":"terminator","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":0,"successor":null,"inputs":null,"outputs":null}}
-{"event_id":12,"timestamp_ns":2302695,"kind":{"type":"TransformUpdateBegin","transform_id":0,"transform_name":"print","batch_size":1,"input_done":true}}
-{"event_id":13,"timestamp_ns":2485987,"kind":{"type":"TransformUpdateEnd","transform_id":0,"transform_name":"print","done":true}}
-{"event_id":14,"timestamp_ns":2569401,"kind":{"type":"TransformUpdateBegin","transform_id":1,"transform_name":"terminator","batch_size":1,"input_done":true}}
-{"event_id":15,"timestamp_ns":2665693,"kind":{"type":"ActionGroupBegin","subchain_id":0,"actor_id":2,"action_group_id":0}}
-{"event_id":16,"timestamp_ns":2756138,"kind":{"type":"ActionGroupEnd","subchain_id":0,"actor_id":2,"action_group_id":0,"actions":[{"kind":"Drop","field_idx":0,"run_len":1,"actor_id":2}],"field_count_delta":-1}}
-{"event_id":17,"timestamp_ns":2909575,"kind":{"type":"TransformUpdateEnd","transform_id":1,"transform_name":"terminator","done":true}}
+{"event_id":0,"timestamp_ns":632470,"kind":{"type":"CompilingModule","module_path":"alias_generic_declaration","source_path":"./tests/lang/basic/alias_generic_declaration.tl","source_code":null}}
+{"event_id":1,"timestamp_ns":843974,"kind":{"type":"FinishedCompilingModule","module_path":"alias_generic_declaration","success":true,"source_code":null}}
+{"event_id":2,"timestamp_ns":928712,"kind":{"type":"CompilingDef","module_path":"alias_generic_declaration","def_id":"HirDefId { hcx_id: 1, def_id: 54 }","def_kind":"alias","source_code":"alias"}}
+{"event_id":3,"timestamp_ns":1017889,"kind":{"type":"FinishedCompilingDef","module_path":"alias_generic_declaration","def_id":"HirDefId { hcx_id: 1, def_id: 54 }","def_kind":"alias","success":true,"source_code":"alias"}}
+{"event_id":4,"timestamp_ns":1112455,"kind":{"type":"CompilingDef","module_path":"alias_generic_declaration","def_id":"HirDefId { hcx_id: 1, def_id: 53 }","def_kind":"func","source_code":"func foo<T>(x: T) :: T {\n    x\n}"}}
+{"event_id":5,"timestamp_ns":1211209,"kind":{"type":"FinishedCompilingDef","module_path":"alias_generic_declaration","def_id":"HirDefId { hcx_id: 1, def_id: 53 }","def_kind":"func","success":true,"source_code":"func foo<T>(x: T) :: T {\n    x\n}"}}
+{"event_id":6,"timestamp_ns":1493055,"kind":{"type":"SourceCode","source":"func foo<T>(x: T) :: T {\n    x\n}\n\nalias bar<T> = foo<T>;\n\nbar :42\n#*@stdout\n42\n*#\n","filename":"./tests/lang/basic/alias_generic_declaration.tl"}}
+{"event_id":7,"timestamp_ns":1607488,"kind":{"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}}
+{"event_id":8,"timestamp_ns":1710841,"kind":{"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}}
+{"event_id":9,"timestamp_ns":1782555,"kind":{"type":"GroupTrackCreated","subchain_id":0,"group_track_id":0,"prev_actor_id":0,"parent":null}}
+{"event_id":10,"timestamp_ns":1870990,"kind":{"type":"GroupTrackChanged","subchain_id":0,"snapshot":{"id":0,"snapshot_ref":0,"passed_fields_count":0,"group_lengths":[1],"parent_group_advancement":[0],"iterators":{}},"reason":"initialization"}}
+{"event_id":11,"timestamp_ns":2168114,"kind":{"type":"CallExpansionBegin","callee_name":"foo","caller_fi":0,"caller_op_id":1,"is_lazy":false,"pipeline_str":"@{}","named_args":[["x","Constant(Int(42))"],["help","Constant(null)"]],"rich_args":[["x",{"Constant":{"Int":42}}],["help",{"Constant":{"Null":null}}]],"source_code":"func foo<T>(x: T) :: T {\n    x\n}","call_site_source":"bar","call_site_location":"./tests/lang/basic/alias_generic_declaration.tl:7:1_7:4"}}
+{"event_id":12,"timestamp_ns":2441083,"kind":{"type":"CallExpansionEnd","callee_name":"foo","has_pending":false}}
+{"event_id":13,"timestamp_ns":2518567,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":1,"tf_id":0,"after":0}}
+{"event_id":14,"timestamp_ns":2619666,"kind":{"type":"ConstantCreated","name":"print.input","constant_id":0,"value":{"Int":42}}}
+{"event_id":15,"timestamp_ns":2746603,"kind":{"type":"TransformInstantiated","transform_id":0,"transform_name":"print","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":null,"successor":null,"inputs":[{"name":"input","value":{"Constant":{"Expr":{"Literal":{"value":{"Int":42},"span":{"source":"Unknown","start":0,"end":0},"joint":false,"indicator":"LeadingEq"}}}}}],"outputs":null}}
+{"event_id":16,"timestamp_ns":3028509,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":2,"tf_id":1,"after":1}}
+{"event_id":17,"timestamp_ns":3110441,"kind":{"type":"TransformInstantiated","transform_id":1,"transform_name":"terminator","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":0,"successor":null,"inputs":null,"outputs":null}}
+{"event_id":18,"timestamp_ns":3267163,"kind":{"type":"TransformUpdateBegin","transform_id":0,"transform_name":"print","batch_size":1,"input_done":true}}
+{"event_id":19,"timestamp_ns":3394601,"kind":{"type":"TransformUpdateEnd","transform_id":0,"transform_name":"print","done":true}}
+{"event_id":20,"timestamp_ns":3474040,"kind":{"type":"TransformUpdateBegin","transform_id":1,"transform_name":"terminator","batch_size":1,"input_done":true}}
+{"event_id":21,"timestamp_ns":3550031,"kind":{"type":"ActionGroupBegin","subchain_id":0,"actor_id":2,"action_group_id":0}}
+{"event_id":22,"timestamp_ns":3620002,"kind":{"type":"ActionGroupEnd","subchain_id":0,"actor_id":2,"action_group_id":0,"actions":[{"kind":"Drop","field_idx":0,"run_len":1,"actor_id":2}],"field_count_delta":-1}}
+{"event_id":23,"timestamp_ns":3780872,"kind":{"type":"TransformUpdateEnd","transform_id":1,"transform_name":"terminator","done":true}}

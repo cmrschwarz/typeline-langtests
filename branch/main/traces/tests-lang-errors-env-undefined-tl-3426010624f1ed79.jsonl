@@ -1,0 +1,2 @@
+{"event_id":0,"timestamp_ns":741743,"kind":{"type":"CompilingModule","module_path":"env_undefined","source_path":"./tests/lang/errors/env_undefined.tl","source_code":null}}
+{"event_id":1,"timestamp_ns":930435,"kind":{"type":"FinishedCompilingModule","module_path":"env_undefined","success":true,"source_code":null}}
