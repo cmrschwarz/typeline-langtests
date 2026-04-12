@@ -1,18 +1,18 @@
-{"event_id":0,"timestamp_ns":652416,"kind":{"type":"CompilingModule","module_path":"core_package_builtin_lookup","source_path":"./tests/lang/basic/modules/core_package_builtin_lookup.tl","source_code":null}}
-{"event_id":1,"timestamp_ns":852319,"kind":{"type":"FinishedCompilingModule","module_path":"core_package_builtin_lookup","success":true,"source_code":null}}
-{"event_id":2,"timestamp_ns":1148973,"kind":{"type":"SourceCode","source":"core.print =ok\n\n#*@stdout\nok\n*#\n","filename":"./tests/lang/basic/modules/core_package_builtin_lookup.tl"}}
-{"event_id":3,"timestamp_ns":1273715,"kind":{"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}}
-{"event_id":4,"timestamp_ns":1388880,"kind":{"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}}
-{"event_id":5,"timestamp_ns":1480581,"kind":{"type":"GroupTrackCreated","subchain_id":0,"group_track_id":0,"prev_actor_id":0,"parent":null}}
-{"event_id":6,"timestamp_ns":1584725,"kind":{"type":"GroupTrackChanged","subchain_id":0,"snapshot":{"id":0,"snapshot_ref":0,"passed_fields_count":0,"group_lengths":[1],"parent_group_advancement":[0],"iterators":{}},"reason":"initialization"}}
-{"event_id":7,"timestamp_ns":1760914,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":1,"tf_id":0,"after":0}}
-{"event_id":8,"timestamp_ns":1876429,"kind":{"type":"ConstantCreated","name":"print.input","constant_id":0,"value":{"Str":"ok"}}}
-{"event_id":9,"timestamp_ns":1991504,"kind":{"type":"TransformInstantiated","transform_id":0,"transform_name":"print","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":null,"successor":null,"inputs":[{"name":"input","value":{"Constant":{"Expr":{"Literal":{"value":{"Str":"ok"},"span":{"source":"Unknown","start":0,"end":0},"joint":false,"indicator":"LeadingEq"}}}}}],"outputs":null}}
-{"event_id":10,"timestamp_ns":2370450,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":2,"tf_id":1,"after":1}}
-{"event_id":11,"timestamp_ns":2464165,"kind":{"type":"TransformInstantiated","transform_id":1,"transform_name":"terminator","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":0,"successor":null,"inputs":null,"outputs":null}}
-{"event_id":12,"timestamp_ns":2642398,"kind":{"type":"TransformUpdateBegin","transform_id":0,"transform_name":"print","batch_size":1,"input_done":true}}
-{"event_id":13,"timestamp_ns":2795733,"kind":{"type":"TransformUpdateEnd","transform_id":0,"transform_name":"print","done":true}}
-{"event_id":14,"timestamp_ns":2886793,"kind":{"type":"TransformUpdateBegin","transform_id":1,"transform_name":"terminator","batch_size":1,"input_done":true}}
-{"event_id":15,"timestamp_ns":2983073,"kind":{"type":"ActionGroupBegin","subchain_id":0,"actor_id":2,"action_group_id":0}}
-{"event_id":16,"timestamp_ns":3070706,"kind":{"type":"ActionGroupEnd","subchain_id":0,"actor_id":2,"action_group_id":0,"actions":[{"kind":"Drop","field_idx":0,"run_len":1,"actor_id":2}],"field_count_delta":-1}}
-{"event_id":17,"timestamp_ns":3208634,"kind":{"type":"TransformUpdateEnd","transform_id":1,"transform_name":"terminator","done":true}}
+{"event_id":0,"timestamp_ns":938664,"kind":{"type":"CompilingModule","module_path":"core_package_builtin_lookup","source_path":"./tests/lang/basic/modules/core_package_builtin_lookup.tl","source_code":null}}
+{"event_id":1,"timestamp_ns":1185957,"kind":{"type":"FinishedCompilingModule","module_path":"core_package_builtin_lookup","success":true,"source_code":null}}
+{"event_id":2,"timestamp_ns":1636499,"kind":{"type":"SourceCode","source":"core.print =ok\n\n#*@stdout\nok\n*#\n","filename":"./tests/lang/basic/modules/core_package_builtin_lookup.tl"}}
+{"event_id":3,"timestamp_ns":1785998,"kind":{"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}}
+{"event_id":4,"timestamp_ns":1879623,"kind":{"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}}
+{"event_id":5,"timestamp_ns":1972547,"kind":{"type":"GroupTrackCreated","subchain_id":0,"group_track_id":0,"prev_actor_id":0,"parent":null}}
+{"event_id":6,"timestamp_ns":2085899,"kind":{"type":"GroupTrackChanged","subchain_id":0,"snapshot":{"id":0,"snapshot_ref":0,"passed_fields_count":0,"group_lengths":[1],"parent_group_advancement":[0],"iterators":{}},"reason":"initialization"}}
+{"event_id":7,"timestamp_ns":2282887,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":1,"tf_id":0,"after":0}}
+{"event_id":8,"timestamp_ns":2435602,"kind":{"type":"ConstantCreated","name":"print.input","constant_id":0,"value":{"Str":"ok"}}}
+{"event_id":9,"timestamp_ns":2560766,"kind":{"type":"TransformInstantiated","transform_id":0,"transform_name":"print","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":null,"successor":null,"inputs":[{"name":"input","value":{"Constant":{"Expr":{"Literal":{"value":{"Str":"ok"},"span":{"source":"Unknown","start":0,"end":0},"joint":false,"indicator":"LeadingEq"}}}}}],"outputs":null}}
+{"event_id":10,"timestamp_ns":2898678,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":2,"tf_id":1,"after":1}}
+{"event_id":11,"timestamp_ns":2998324,"kind":{"type":"TransformInstantiated","transform_id":1,"transform_name":"terminator","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":0,"successor":null,"inputs":null,"outputs":null}}
+{"event_id":12,"timestamp_ns":3173140,"kind":{"type":"TransformUpdateBegin","transform_id":0,"transform_name":"print","batch_size":1,"input_done":true}}
+{"event_id":13,"timestamp_ns":3416395,"kind":{"type":"TransformUpdateEnd","transform_id":0,"transform_name":"print","done":true}}
+{"event_id":14,"timestamp_ns":3516973,"kind":{"type":"TransformUpdateBegin","transform_id":1,"transform_name":"terminator","batch_size":1,"input_done":true}}
+{"event_id":15,"timestamp_ns":3616369,"kind":{"type":"ActionGroupBegin","subchain_id":0,"actor_id":2,"action_group_id":0}}
+{"event_id":16,"timestamp_ns":3708611,"kind":{"type":"ActionGroupEnd","subchain_id":0,"actor_id":2,"action_group_id":0,"actions":[{"kind":"Drop","field_idx":0,"run_len":1,"actor_id":2}],"field_count_delta":-1}}
+{"event_id":17,"timestamp_ns":3856738,"kind":{"type":"TransformUpdateEnd","transform_id":1,"transform_name":"terminator","done":true}}

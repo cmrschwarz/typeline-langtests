@@ -1,26 +1,26 @@
-{"event_id":0,"timestamp_ns":1471475,"kind":{"type":"CompilingModule","module_path":"require_package_alias","source_path":"./tests/lang/basic/modules/require_package_alias/require_package_alias.tl","source_code":null}}
-{"event_id":1,"timestamp_ns":1653023,"kind":{"type":"FinishedCompilingModule","module_path":"require_package_alias","success":true,"source_code":null}}
-{"event_id":2,"timestamp_ns":1748912,"kind":{"type":"CompilingModule","module_path":"dep","source_path":"/home/runner/work/typeline_v2_2/typeline_v2_2/tests/lang/basic/modules/require_package_alias/require_package_aux/dep.tl","source_code":"package dep;\n\npub mod util;\n"}}
-{"event_id":3,"timestamp_ns":1970245,"kind":{"type":"FinishedCompilingModule","module_path":"dep","success":true,"source_code":"package dep;\n\npub mod util;\n"}}
-{"event_id":4,"timestamp_ns":2077465,"kind":{"type":"CompilingModule","module_path":"dep::util","source_path":"/home/runner/work/typeline_v2_2/typeline_v2_2/tests/lang/basic/modules/require_package_alias/require_package_aux/util.tl","source_code":"pub func id(x: int) :: int {\n    {x}\n}\n"}}
-{"event_id":5,"timestamp_ns":2188582,"kind":{"type":"FinishedCompilingModule","module_path":"dep::util","success":true,"source_code":"pub func id(x: int) :: int {\n    {x}\n}\n"}}
-{"event_id":6,"timestamp_ns":2303576,"kind":{"type":"CompilingDef","module_path":"dep::util","def_id":"HirDefId { hcx_id: 5, def_id: 1 }","def_kind":"func","source_code":"func id(x: int) :: int {\n    {x}\n}"}}
-{"event_id":7,"timestamp_ns":2441323,"kind":{"type":"FinishedCompilingDef","module_path":"dep::util","def_id":"HirDefId { hcx_id: 5, def_id: 1 }","def_kind":"func","success":true,"source_code":"func id(x: int) :: int {\n    {x}\n}"}}
-{"event_id":8,"timestamp_ns":2810662,"kind":{"type":"SourceCode","source":"require dep = \"require_package_aux/dep.tl\";\n\ndep.util.id :9\n\n#*@stdout\n9\n*#\n","filename":"./tests/lang/basic/modules/require_package_alias/require_package_alias.tl"}}
-{"event_id":9,"timestamp_ns":2947898,"kind":{"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}}
-{"event_id":10,"timestamp_ns":3030792,"kind":{"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}}
-{"event_id":11,"timestamp_ns":3116752,"kind":{"type":"GroupTrackCreated","subchain_id":0,"group_track_id":0,"prev_actor_id":0,"parent":null}}
-{"event_id":12,"timestamp_ns":3217460,"kind":{"type":"GroupTrackChanged","subchain_id":0,"snapshot":{"id":0,"snapshot_ref":0,"passed_fields_count":0,"group_lengths":[1],"parent_group_advancement":[0],"iterators":{}},"reason":"initialization"}}
-{"event_id":13,"timestamp_ns":3522930,"kind":{"type":"CallExpansionBegin","callee_name":"id","caller_fi":0,"caller_op_id":1,"is_lazy":false,"pipeline_str":"@{}","named_args":[["x","Constant(Int(9))"],["help","Constant(null)"]],"rich_args":[["x",{"Constant":{"Int":9}}],["help",{"Constant":{"Null":null}}]],"source_code":"func id(x: int) :: int {\n    {x}\n}","call_site_source":"dep.util.id","call_site_location":"./tests/lang/basic/modules/require_package_alias/require_package_alias.tl:3:1_3:12"}}
-{"event_id":14,"timestamp_ns":3847926,"kind":{"type":"CallExpansionEnd","callee_name":"id","has_pending":false}}
-{"event_id":15,"timestamp_ns":3936201,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":1,"tf_id":0,"after":0}}
-{"event_id":16,"timestamp_ns":4049091,"kind":{"type":"ConstantCreated","name":"print.input","constant_id":0,"value":{"Int":9}}}
-{"event_id":17,"timestamp_ns":4149218,"kind":{"type":"TransformInstantiated","transform_id":0,"transform_name":"print","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":null,"successor":null,"inputs":[{"name":"input","value":{"Constant":{"Expr":{"Literal":{"value":{"Int":9},"span":{"source":"Unknown","start":0,"end":0},"joint":false,"indicator":"LeadingEq"}}}}}],"outputs":null}}
-{"event_id":18,"timestamp_ns":4445530,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":2,"tf_id":1,"after":1}}
-{"event_id":19,"timestamp_ns":4533635,"kind":{"type":"TransformInstantiated","transform_id":1,"transform_name":"terminator","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":0,"successor":null,"inputs":null,"outputs":null}}
-{"event_id":20,"timestamp_ns":4707770,"kind":{"type":"TransformUpdateBegin","transform_id":0,"transform_name":"print","batch_size":1,"input_done":true}}
-{"event_id":21,"timestamp_ns":4898135,"kind":{"type":"TransformUpdateEnd","transform_id":0,"transform_name":"print","done":true}}
-{"event_id":22,"timestamp_ns":4989124,"kind":{"type":"TransformUpdateBegin","transform_id":1,"transform_name":"terminator","batch_size":1,"input_done":true}}
-{"event_id":23,"timestamp_ns":5083901,"kind":{"type":"ActionGroupBegin","subchain_id":0,"actor_id":2,"action_group_id":0}}
-{"event_id":24,"timestamp_ns":5170262,"kind":{"type":"ActionGroupEnd","subchain_id":0,"actor_id":2,"action_group_id":0,"actions":[{"kind":"Drop","field_idx":0,"run_len":1,"actor_id":2}],"field_count_delta":-1}}
-{"event_id":25,"timestamp_ns":5315182,"kind":{"type":"TransformUpdateEnd","transform_id":1,"transform_name":"terminator","done":true}}
+{"event_id":0,"timestamp_ns":1692513,"kind":{"type":"CompilingModule","module_path":"require_package_alias","source_path":"./tests/lang/basic/modules/require_package_alias/require_package_alias.tl","source_code":null}}
+{"event_id":1,"timestamp_ns":1870636,"kind":{"type":"FinishedCompilingModule","module_path":"require_package_alias","success":true,"source_code":null}}
+{"event_id":2,"timestamp_ns":1954523,"kind":{"type":"CompilingModule","module_path":"dep","source_path":"/home/runner/work/typeline_v2_2/typeline_v2_2/tests/lang/basic/modules/require_package_alias/require_package_aux/dep.tl","source_code":"package dep;\n\npub mod util;\n"}}
+{"event_id":3,"timestamp_ns":2082933,"kind":{"type":"FinishedCompilingModule","module_path":"dep","success":true,"source_code":"package dep;\n\npub mod util;\n"}}
+{"event_id":4,"timestamp_ns":2174184,"kind":{"type":"CompilingModule","module_path":"dep::util","source_path":"/home/runner/work/typeline_v2_2/typeline_v2_2/tests/lang/basic/modules/require_package_alias/require_package_aux/util.tl","source_code":"pub func id(x: int) :: int {\n    {x}\n}\n"}}
+{"event_id":5,"timestamp_ns":2272517,"kind":{"type":"FinishedCompilingModule","module_path":"dep::util","success":true,"source_code":"pub func id(x: int) :: int {\n    {x}\n}\n"}}
+{"event_id":6,"timestamp_ns":2375179,"kind":{"type":"CompilingDef","module_path":"dep::util","def_id":"HirDefId { hcx_id: 5, def_id: 1 }","def_kind":"func","source_code":"func id(x: int) :: int {\n    {x}\n}"}}
+{"event_id":7,"timestamp_ns":2496456,"kind":{"type":"FinishedCompilingDef","module_path":"dep::util","def_id":"HirDefId { hcx_id: 5, def_id: 1 }","def_kind":"func","success":true,"source_code":"func id(x: int) :: int {\n    {x}\n}"}}
+{"event_id":8,"timestamp_ns":2874462,"kind":{"type":"SourceCode","source":"require dep = \"require_package_aux/dep.tl\";\n\ndep.util.id :9\n\n#*@stdout\n9\n*#\n","filename":"./tests/lang/basic/modules/require_package_alias/require_package_alias.tl"}}
+{"event_id":9,"timestamp_ns":3005998,"kind":{"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}}
+{"event_id":10,"timestamp_ns":3114250,"kind":{"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}}
+{"event_id":11,"timestamp_ns":3188529,"kind":{"type":"GroupTrackCreated","subchain_id":0,"group_track_id":0,"prev_actor_id":0,"parent":null}}
+{"event_id":12,"timestamp_ns":3279109,"kind":{"type":"GroupTrackChanged","subchain_id":0,"snapshot":{"id":0,"snapshot_ref":0,"passed_fields_count":0,"group_lengths":[1],"parent_group_advancement":[0],"iterators":{}},"reason":"initialization"}}
+{"event_id":13,"timestamp_ns":3577907,"kind":{"type":"CallExpansionBegin","callee_name":"id","caller_fi":0,"caller_op_id":1,"is_lazy":false,"pipeline_str":"@{}","named_args":[["x","Constant(Int(9))"],["help","Constant(null)"]],"rich_args":[["x",{"Constant":{"Int":9}}],["help",{"Constant":{"Null":null}}]],"source_code":"func id(x: int) :: int {\n    {x}\n}","call_site_source":"dep.util.id","call_site_location":"./tests/lang/basic/modules/require_package_alias/require_package_alias.tl:3:1_3:12"}}
+{"event_id":14,"timestamp_ns":3829217,"kind":{"type":"CallExpansionEnd","callee_name":"id","has_pending":false}}
+{"event_id":15,"timestamp_ns":3909327,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":1,"tf_id":0,"after":0}}
+{"event_id":16,"timestamp_ns":4020845,"kind":{"type":"ConstantCreated","name":"print.input","constant_id":0,"value":{"Int":9}}}
+{"event_id":17,"timestamp_ns":4162740,"kind":{"type":"TransformInstantiated","transform_id":0,"transform_name":"print","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":null,"successor":null,"inputs":[{"name":"input","value":{"Constant":{"Expr":{"Literal":{"value":{"Int":9},"span":{"source":"Unknown","start":0,"end":0},"joint":false,"indicator":"LeadingEq"}}}}}],"outputs":null}}
+{"event_id":18,"timestamp_ns":4430200,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":2,"tf_id":1,"after":1}}
+{"event_id":19,"timestamp_ns":4509749,"kind":{"type":"TransformInstantiated","transform_id":1,"transform_name":"terminator","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":0,"successor":null,"inputs":null,"outputs":null}}
+{"event_id":20,"timestamp_ns":4670259,"kind":{"type":"TransformUpdateBegin","transform_id":0,"transform_name":"print","batch_size":1,"input_done":true}}
+{"event_id":21,"timestamp_ns":4838293,"kind":{"type":"TransformUpdateEnd","transform_id":0,"transform_name":"print","done":true}}
+{"event_id":22,"timestamp_ns":4915627,"kind":{"type":"TransformUpdateBegin","transform_id":1,"transform_name":"terminator","batch_size":1,"input_done":true}}
+{"event_id":23,"timestamp_ns":4996358,"kind":{"type":"ActionGroupBegin","subchain_id":0,"actor_id":2,"action_group_id":0}}
+{"event_id":24,"timestamp_ns":5116192,"kind":{"type":"ActionGroupEnd","subchain_id":0,"actor_id":2,"action_group_id":0,"actions":[{"kind":"Drop","field_idx":0,"run_len":1,"actor_id":2}],"field_count_delta":-1}}
+{"event_id":25,"timestamp_ns":5240835,"kind":{"type":"TransformUpdateEnd","transform_id":1,"transform_name":"terminator","done":true}}

@@ -1,8 +1,8 @@
 {
   "build": {
     "branch_name": "main",
-    "commit_sha": "e43b2d37d627953148c1ed8b0631efb175a4d662",
-    "commit_timestamp": "2026-04-12T23:23:58+02:00"
+    "commit_sha": "8934a2e13be3adb39aa8573c7f78591ddee11e88",
+    "commit_timestamp": "2026-04-13T01:04:43+02:00"
   },
   "stats": {
     "failed": 0,
@@ -35,7 +35,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/alias_generic_function.tl",
-      "duration_ms": 23,
+      "duration_ms": 25,
       "error": null,
       "slug": "tests-lang-basic-alias-generic-function-tl-84cec8fd96890d22",
       "source_path": "tests/lang/basic/alias_generic_function.tl",
@@ -57,7 +57,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/basic_expr.tl",
-      "duration_ms": 21,
+      "duration_ms": 23,
       "error": null,
       "slug": "tests-lang-basic-basic-expr-tl-5b61b5d81f509fed",
       "source_path": "tests/lang/basic/basic_expr.tl",
@@ -79,7 +79,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/block_with_call.tl",
-      "duration_ms": 48,
+      "duration_ms": 49,
       "error": null,
       "slug": "tests-lang-basic-block-with-call-tl-9d88af2a4d4c0823",
       "source_path": "tests/lang/basic/block_with_call.tl",
@@ -101,7 +101,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/backref_after_each_cat_bs2.tl",
-      "duration_ms": 129,
+      "duration_ms": 130,
       "error": null,
       "slug": "tests-lang-basic-cat-backref-after-each-cat-bs2-tl-ca0d3adbb0a88a3a",
       "source_path": "tests/lang/basic/cat/backref_after_each_cat_bs2.tl",
@@ -112,7 +112,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/backref_after_each_cat_bs3_tail.tl",
-      "duration_ms": 130,
+      "duration_ms": 132,
       "error": null,
       "slug": "tests-lang-basic-cat-backref-after-each-cat-bs3-tail-tl-b3c17891655bd201",
       "source_path": "tests/lang/basic/cat/backref_after_each_cat_bs3_tail.tl",
@@ -123,7 +123,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/cat_aggregate_in_child_subchain.tl",
-      "duration_ms": 106,
+      "duration_ms": 109,
       "error": null,
       "slug": "tests-lang-basic-cat-cat-aggregate-in-child-subchain-tl-48ba35d772d7363f",
       "source_path": "tests/lang/basic/cat/cat_aggregate_in_child_subchain.tl",
@@ -134,7 +134,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/cat_basic.tl",
-      "duration_ms": 68,
+      "duration_ms": 63,
       "error": null,
       "slug": "tests-lang-basic-cat-cat-basic-tl-49cc0dd9d96f5d99",
       "source_path": "tests/lang/basic/cat/cat_basic.tl",
@@ -145,7 +145,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/cat_captures_named_output.tl",
-      "duration_ms": 66,
+      "duration_ms": 72,
       "error": null,
       "slug": "tests-lang-basic-cat-cat-captures-named-output-tl-325c0ca481692141",
       "source_path": "tests/lang/basic/cat/cat_captures_named_output.tl",
@@ -167,7 +167,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/cat_exposed_missing_name_null.tl",
-      "duration_ms": 139,
+      "duration_ms": 144,
       "error": null,
       "slug": "tests-lang-basic-cat-cat-exposed-missing-name-null-tl-2c5ff348f4258a2e",
       "source_path": "tests/lang/basic/cat/cat_exposed_missing_name_null.tl",
@@ -178,7 +178,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/cat_inner_seq_current_regression.tl",
-      "duration_ms": 103,
+      "duration_ms": 107,
       "error": null,
       "slug": "tests-lang-basic-cat-cat-inner-seq-current-regression-tl-6eae2e1cbf92a615",
       "source_path": "tests/lang/basic/cat/cat_inner_seq_current_regression.tl",
@@ -189,7 +189,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/cat_nested_block_vars.tl",
-      "duration_ms": 71,
+      "duration_ms": 74,
       "error": null,
       "slug": "tests-lang-basic-cat-cat-nested-block-vars-tl-a87da02e95e0bb61",
       "source_path": "tests/lang/basic/cat/cat_nested_block_vars.tl",
@@ -200,7 +200,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/cat_regex_captures_named_output.tl",
-      "duration_ms": 125,
+      "duration_ms": 130,
       "error": null,
       "slug": "tests-lang-basic-cat-cat-regex-captures-named-output-tl-153d29ddd7fdae37",
       "source_path": "tests/lang/basic/cat/cat_regex_captures_named_output.tl",
@@ -211,7 +211,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/cat_selective_branch_capture.tl",
-      "duration_ms": 73,
+      "duration_ms": 75,
       "error": null,
       "slug": "tests-lang-basic-cat-cat-selective-branch-capture-tl-cd72f7040f01176f",
       "source_path": "tests/lang/basic/cat/cat_selective_branch_capture.tl",
@@ -222,7 +222,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/cat_surviving_vars.tl",
-      "duration_ms": 89,
+      "duration_ms": 87,
       "error": null,
       "slug": "tests-lang-basic-cat-cat-surviving-vars-tl-64062a6a227ed9a3",
       "source_path": "tests/lang/basic/cat/cat_surviving_vars.tl",
@@ -233,7 +233,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/cat_three_branches.tl",
-      "duration_ms": 84,
+      "duration_ms": 85,
       "error": null,
       "slug": "tests-lang-basic-cat-cat-three-branches-tl-f0d15db84a1a4468",
       "source_path": "tests/lang/basic/cat/cat_three_branches.tl",
@@ -255,7 +255,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/each_cat_bs1.tl",
-      "duration_ms": 180,
+      "duration_ms": 181,
       "error": null,
       "slug": "tests-lang-basic-cat-each-cat-bs1-tl-7ebdca29f9716b15",
       "source_path": "tests/lang/basic/cat/each_cat_bs1.tl",
@@ -266,7 +266,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/each_cat_bs10.tl",
-      "duration_ms": 93,
+      "duration_ms": 94,
       "error": null,
       "slug": "tests-lang-basic-cat-each-cat-bs10-tl-b721946329c891ed",
       "source_path": "tests/lang/basic/cat/each_cat_bs10.tl",
@@ -277,7 +277,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/each_cat_bs3_tail.tl",
-      "duration_ms": 131,
+      "duration_ms": 133,
       "error": null,
       "slug": "tests-lang-basic-cat-each-cat-bs3-tail-tl-e930d8831fa061cb",
       "source_path": "tests/lang/basic/cat/each_cat_bs3_tail.tl",
@@ -288,7 +288,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/each_cat_constant_branch_bs3_tail.tl",
-      "duration_ms": 119,
+      "duration_ms": 120,
       "error": null,
       "slug": "tests-lang-basic-cat-each-cat-constant-branch-bs3-tail-tl-6c3bc4105003b3fc",
       "source_path": "tests/lang/basic/cat/each_cat_constant_branch_bs3_tail.tl",
@@ -310,7 +310,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/each_cat_three_branches_bs2.tl",
-      "duration_ms": 156,
+      "duration_ms": 159,
       "error": null,
       "slug": "tests-lang-basic-cat-each-cat-three-branches-bs2-tl-c2ebac99a9c6fc84",
       "source_path": "tests/lang/basic/cat/each_cat_three_branches_bs2.tl",
@@ -321,7 +321,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/each_cat_three_branches_bs3_tail.tl",
-      "duration_ms": 167,
+      "duration_ms": 168,
       "error": null,
       "slug": "tests-lang-basic-cat-each-cat-three-branches-bs3-tail-tl-6fd2212668ebfe1a",
       "source_path": "tests/lang/basic/cat/each_cat_three_branches_bs3_tail.tl",
@@ -332,7 +332,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat_constants.tl",
-      "duration_ms": 63,
+      "duration_ms": 62,
       "error": null,
       "slug": "tests-lang-basic-cat-constants-tl-aa86c438fb097315",
       "source_path": "tests/lang/basic/cat_constants.tl",
@@ -343,7 +343,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat_each_collect_table.tl",
-      "duration_ms": 220,
+      "duration_ms": 222,
       "error": null,
       "slug": "tests-lang-basic-cat-each-collect-table-tl-785b8a35777e77cd",
       "source_path": "tests/lang/basic/cat_each_collect_table.tl",
@@ -354,7 +354,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/context_call.tl",
-      "duration_ms": 29,
+      "duration_ms": 28,
       "error": null,
       "slug": "tests-lang-basic-context-call-tl-23ff247e9502bb3c",
       "source_path": "tests/lang/basic/context_call.tl",
@@ -387,7 +387,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/context_value_is_hierarchical.tl",
-      "duration_ms": 24,
+      "duration_ms": 23,
       "error": null,
       "slug": "tests-lang-basic-context-value-is-hierarchical-tl-6a949725f1711869",
       "source_path": "tests/lang/basic/context_value_is_hierarchical.tl",
@@ -409,7 +409,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/default_param.tl",
-      "duration_ms": 40,
+      "duration_ms": 39,
       "error": null,
       "slug": "tests-lang-basic-default-param-tl-20a30296355ebfff",
       "source_path": "tests/lang/basic/default_param.tl",
@@ -442,7 +442,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/each/batched_each_bs_3.tl",
-      "duration_ms": 850,
+      "duration_ms": 855,
       "error": null,
       "slug": "tests-lang-basic-each-batched-each-bs-3-tl-ae702cc89d84c950",
       "source_path": "tests/lang/basic/each/batched_each_bs_3.tl",
@@ -453,7 +453,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/each/each_exposed_scope_value.tl",
-      "duration_ms": 65,
+      "duration_ms": 70,
       "error": null,
       "slug": "tests-lang-basic-each-each-exposed-scope-value-tl-38b4b6aa06a56843",
       "source_path": "tests/lang/basic/each/each_exposed_scope_value.tl",
@@ -464,7 +464,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/each/each_seq_sum.tl",
-      "duration_ms": 122,
+      "duration_ms": 124,
       "error": null,
       "slug": "tests-lang-basic-each-each-seq-sum-tl-139221fc6154ad63",
       "source_path": "tests/lang/basic/each/each_seq_sum.tl",
@@ -475,7 +475,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/each/each_sum_batched.tl",
-      "duration_ms": 89,
+      "duration_ms": 97,
       "error": null,
       "slug": "tests-lang-basic-each-each-sum-batched-tl-55a5d9ca90906ce6",
       "source_path": "tests/lang/basic/each/each_sum_batched.tl",
@@ -486,7 +486,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/each/join_numbers.tl",
-      "duration_ms": 45,
+      "duration_ms": 47,
       "error": null,
       "slug": "tests-lang-basic-each-join-numbers-tl-816993d56a979556",
       "source_path": "tests/lang/basic/each/join_numbers.tl",
@@ -497,7 +497,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/each/join_per_group.tl",
-      "duration_ms": 49,
+      "duration_ms": 55,
       "error": null,
       "slug": "tests-lang-basic-each-join-per-group-tl-d3ac875b4a2e3c56",
       "source_path": "tests/lang/basic/each/join_per_group.tl",
@@ -508,7 +508,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/each/seq_in_each_sum.tl",
-      "duration_ms": 892,
+      "duration_ms": 895,
       "error": null,
       "slug": "tests-lang-basic-each-seq-in-each-sum-tl-262946075d11f1f0",
       "source_path": "tests/lang/basic/each/seq_in_each_sum.tl",
@@ -519,7 +519,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/each/seq_in_each_sum_bs5.tl",
-      "duration_ms": 380,
+      "duration_ms": 385,
       "error": null,
       "slug": "tests-lang-basic-each-seq-in-each-sum-bs5-tl-cf278840782a1393",
       "source_path": "tests/lang/basic/each/seq_in_each_sum_bs5.tl",
@@ -530,7 +530,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/each/sum_per_group.tl",
-      "duration_ms": 87,
+      "duration_ms": 89,
       "error": null,
       "slug": "tests-lang-basic-each-sum-per-group-tl-9acd30f57d95abf9",
       "source_path": "tests/lang/basic/each/sum_per_group.tl",
@@ -543,7 +543,7 @@
         "FOO": "hello"
       },
       "display_name": "tests/lang/basic/env/env_constant_lookup.tl [FOO=hello]",
-      "duration_ms": 21,
+      "duration_ms": 24,
       "error": null,
       "slug": "tests-lang-basic-env-env-constant-lookup-tl-foo-hello-afe247d2e2d32e6a",
       "source_path": "tests/lang/basic/env/env_constant_lookup.tl",
@@ -557,7 +557,7 @@
         "FOO": "left"
       },
       "display_name": "tests/lang/basic/env/env_dynamic_lookup.tl [BAR=right, FOO=left]",
-      "duration_ms": 68,
+      "duration_ms": 69,
       "error": null,
       "slug": "tests-lang-basic-env-env-dynamic-lookup-tl-bar-right-foo-left-758feb45dd3572af",
       "source_path": "tests/lang/basic/env/env_dynamic_lookup.tl",
@@ -568,7 +568,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/filter/filter_const_false_collect.tl",
-      "duration_ms": 48,
+      "duration_ms": 47,
       "error": null,
       "slug": "tests-lang-basic-filter-filter-const-false-collect-tl-24554d0423be4c5f",
       "source_path": "tests/lang/basic/filter/filter_const_false_collect.tl",
@@ -579,7 +579,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/filter/filter_const_true_collect.tl",
-      "duration_ms": 60,
+      "duration_ms": 61,
       "error": null,
       "slug": "tests-lang-basic-filter-filter-const-true-collect-tl-11177a6ee7c057e8",
       "source_path": "tests/lang/basic/filter/filter_const_true_collect.tl",
@@ -590,7 +590,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/filter/filter_even.tl",
-      "duration_ms": 73,
+      "duration_ms": 74,
       "error": null,
       "slug": "tests-lang-basic-filter-filter-even-tl-7a16a67f2ce200ce",
       "source_path": "tests/lang/basic/filter/filter_even.tl",
@@ -601,7 +601,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/filter/filter_false.tl",
-      "duration_ms": 35,
+      "duration_ms": 39,
       "error": null,
       "slug": "tests-lang-basic-filter-filter-false-tl-75720d71de706095",
       "source_path": "tests/lang/basic/filter/filter_false.tl",
@@ -612,7 +612,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/filter/filter_gt_collect_batched.tl",
-      "duration_ms": 79,
+      "duration_ms": 86,
       "error": null,
       "slug": "tests-lang-basic-filter-filter-gt-collect-batched-tl-e83dbddfa65d57a0",
       "source_path": "tests/lang/basic/filter/filter_gt_collect_batched.tl",
@@ -623,7 +623,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/filter/filter_true.tl",
-      "duration_ms": 46,
+      "duration_ms": 47,
       "error": null,
       "slug": "tests-lang-basic-filter-filter-true-tl-82bc603c5c8d37d6",
       "source_path": "tests/lang/basic/filter/filter_true.tl",
@@ -634,7 +634,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/format/format_composite_input.tl",
-      "duration_ms": 32,
+      "duration_ms": 37,
       "error": null,
       "slug": "tests-lang-basic-format-format-composite-input-tl-5ef99d8ec62493c5",
       "source_path": "tests/lang/basic/format/format_composite_input.tl",
@@ -656,7 +656,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/format/regex_in_each.tl",
-      "duration_ms": 43,
+      "duration_ms": 48,
       "error": null,
       "slug": "tests-lang-basic-format-regex-in-each-tl-36896ee99fbde2ad",
       "source_path": "tests/lang/basic/format/regex_in_each.tl",
@@ -667,7 +667,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/help_for_generic_fn.tl",
-      "duration_ms": 28,
+      "duration_ms": 30,
       "error": null,
       "slug": "tests-lang-basic-help-for-generic-fn-tl-bc19077783a34dfd",
       "source_path": "tests/lang/basic/help_for_generic_fn.tl",
@@ -678,7 +678,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/help_for_generic_fn_long_names.tl",
-      "duration_ms": 25,
+      "duration_ms": 29,
       "error": null,
       "slug": "tests-lang-basic-help-for-generic-fn-long-names-tl-1b7a750324dda80b",
       "source_path": "tests/lang/basic/help_for_generic_fn_long_names.tl",
@@ -689,7 +689,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/help_for_generic_fn_with_param.tl",
-      "duration_ms": 29,
+      "duration_ms": 31,
       "error": null,
       "slug": "tests-lang-basic-help-for-generic-fn-with-param-tl-2da8e5757abdbdc3",
       "source_path": "tests/lang/basic/help_for_generic_fn_with_param.tl",
@@ -700,7 +700,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/http_fetch_data_url_string.tl",
-      "duration_ms": 32,
+      "duration_ms": 37,
       "error": null,
       "slug": "tests-lang-basic-http-fetch-data-url-string-tl-057e9a83b871b878",
       "source_path": "tests/lang/basic/http_fetch_data_url_string.tl",
@@ -713,7 +713,7 @@
         "BS": "10"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order.tl [BS=10]",
-      "duration_ms": 192,
+      "duration_ms": 206,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-tl-bs-10-d571309a141ffa16",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order.tl",
@@ -726,7 +726,7 @@
         "BS": "1"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order.tl [BS=1]",
-      "duration_ms": 891,
+      "duration_ms": 883,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-tl-bs-1-7e14863aacbe497e",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order.tl",
@@ -739,7 +739,7 @@
         "BS": "2"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order.tl [BS=2]",
-      "duration_ms": 532,
+      "duration_ms": 525,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-tl-bs-2-86295bbbe65bc9b4",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order.tl",
@@ -752,7 +752,7 @@
         "BS": "3"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order.tl [BS=3]",
-      "duration_ms": 452,
+      "duration_ms": 469,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-tl-bs-3-b2fc4965361750fb",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order.tl",
@@ -765,7 +765,7 @@
         "BS": "4"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order.tl [BS=4]",
-      "duration_ms": 350,
+      "duration_ms": 372,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-tl-bs-4-4bbcf9a0f7dd4030",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order.tl",
@@ -778,7 +778,7 @@
         "BS": "5"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order.tl [BS=5]",
-      "duration_ms": 277,
+      "duration_ms": 279,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-tl-bs-5-05c9b737aa3eeb72",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order.tl",
@@ -791,7 +791,7 @@
         "BS": "6"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order.tl [BS=6]",
-      "duration_ms": 301,
+      "duration_ms": 293,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-tl-bs-6-66c733250d01a7a0",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order.tl",
@@ -804,7 +804,7 @@
         "BS": "7"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order.tl [BS=7]",
-      "duration_ms": 303,
+      "duration_ms": 299,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-tl-bs-7-5b9e7b78ca7ac617",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order.tl",
@@ -817,7 +817,7 @@
         "BS": "8"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order.tl [BS=8]",
-      "duration_ms": 313,
+      "duration_ms": 307,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-tl-bs-8-2b04bb7e3493f61e",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order.tl",
@@ -856,7 +856,7 @@
         "BS": "1"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl [BS=1]",
-      "duration_ms": 871,
+      "duration_ms": 877,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-reverse-tl-bs-1-a3c9fec814faa0cb",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl",
@@ -869,7 +869,7 @@
         "BS": "2"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl [BS=2]",
-      "duration_ms": 499,
+      "duration_ms": 508,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-reverse-tl-bs-2-4f076c68b4ab90da",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl",
@@ -882,7 +882,7 @@
         "BS": "3"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl [BS=3]",
-      "duration_ms": 454,
+      "duration_ms": 451,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-reverse-tl-bs-3-dc73226793d1323e",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl",
@@ -895,7 +895,7 @@
         "BS": "4"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl [BS=4]",
-      "duration_ms": 353,
+      "duration_ms": 365,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-reverse-tl-bs-4-4baca13098a217fb",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl",
@@ -908,7 +908,7 @@
         "BS": "5"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl [BS=5]",
-      "duration_ms": 278,
+      "duration_ms": 280,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-reverse-tl-bs-5-62893e3760b6e641",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl",
@@ -921,7 +921,7 @@
         "BS": "6"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl [BS=6]",
-      "duration_ms": 287,
+      "duration_ms": 294,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-reverse-tl-bs-6-e08a2d05fe434566",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl",
@@ -934,7 +934,7 @@
         "BS": "7"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl [BS=7]",
-      "duration_ms": 296,
+      "duration_ms": 288,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-reverse-tl-bs-7-7524e9e747d0ebd6",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl",
@@ -947,7 +947,7 @@
         "BS": "8"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl [BS=8]",
-      "duration_ms": 289,
+      "duration_ms": 303,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-reverse-tl-bs-8-b386ec91e9fd9242",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl",
@@ -960,7 +960,7 @@
         "BS": "9"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl [BS=9]",
-      "duration_ms": 298,
+      "duration_ms": 289,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-reverse-tl-bs-9-d92479b0adcd04fa",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl",
@@ -973,7 +973,7 @@
         "BS": "1"
       },
       "display_name": "tests/lang/basic/if/if_else_output.tl [BS=1]",
-      "duration_ms": 204,
+      "duration_ms": 206,
       "error": null,
       "slug": "tests-lang-basic-if-if-else-output-tl-bs-1-98fe837bd70a452f",
       "source_path": "tests/lang/basic/if/if_else_output.tl",
@@ -986,7 +986,7 @@
         "BS": "2"
       },
       "display_name": "tests/lang/basic/if/if_else_output.tl [BS=2]",
-      "duration_ms": 162,
+      "duration_ms": 168,
       "error": null,
       "slug": "tests-lang-basic-if-if-else-output-tl-bs-2-bdbf5b314fba5850",
       "source_path": "tests/lang/basic/if/if_else_output.tl",
@@ -999,7 +999,7 @@
         "BS": "3"
       },
       "display_name": "tests/lang/basic/if/if_else_output.tl [BS=3]",
-      "duration_ms": 108,
+      "duration_ms": 107,
       "error": null,
       "slug": "tests-lang-basic-if-if-else-output-tl-bs-3-86c051b1f78171bb",
       "source_path": "tests/lang/basic/if/if_else_output.tl",
@@ -1012,7 +1012,7 @@
         "BS": "4"
       },
       "display_name": "tests/lang/basic/if/if_else_output.tl [BS=4]",
-      "duration_ms": 113,
+      "duration_ms": 120,
       "error": null,
       "slug": "tests-lang-basic-if-if-else-output-tl-bs-4-c2e0cfd134df53bd",
       "source_path": "tests/lang/basic/if/if_else_output.tl",
@@ -1023,7 +1023,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/if/if_true_sum.tl",
-      "duration_ms": 43,
+      "duration_ms": 47,
       "error": null,
       "slug": "tests-lang-basic-if-if-true-sum-tl-e82bb4afe8eefcc6",
       "source_path": "tests/lang/basic/if/if_true_sum.tl",
@@ -1034,7 +1034,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/inferred_array_type.tl",
-      "duration_ms": 29,
+      "duration_ms": 36,
       "error": null,
       "slug": "tests-lang-basic-inferred-array-type-tl-baaad3edc86d6d48",
       "source_path": "tests/lang/basic/inferred_array_type.tl",
@@ -1045,7 +1045,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/json_dumps_basic.tl",
-      "duration_ms": 50,
+      "duration_ms": 48,
       "error": null,
       "slug": "tests-lang-basic-json-dumps-basic-tl-8cf638357195b5d1",
       "source_path": "tests/lang/basic/json_dumps_basic.tl",
@@ -1056,7 +1056,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/json_parse_basic.tl",
-      "duration_ms": 29,
+      "duration_ms": 30,
       "error": null,
       "slug": "tests-lang-basic-json-parse-basic-tl-6460eb29ec997148",
       "source_path": "tests/lang/basic/json_parse_basic.tl",
@@ -1067,7 +1067,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/json_parse_jsonl.tl",
-      "duration_ms": 30,
+      "duration_ms": 27,
       "error": null,
       "slug": "tests-lang-basic-json-parse-jsonl-tl-9316ddc6a009354b",
       "source_path": "tests/lang/basic/json_parse_jsonl.tl",
@@ -1078,7 +1078,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/lambda_capture.tl",
-      "duration_ms": 41,
+      "duration_ms": 43,
       "error": null,
       "slug": "tests-lang-basic-lambda-capture-tl-0de14a6bf6d3d1fe",
       "source_path": "tests/lang/basic/lambda_capture.tl",
@@ -1111,7 +1111,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/lambda_value_prefix_print.tl",
-      "duration_ms": 26,
+      "duration_ms": 23,
       "error": null,
       "slug": "tests-lang-basic-lambda-value-prefix-print-tl-f45ccf2be8e91df0",
       "source_path": "tests/lang/basic/lambda_value_prefix_print.tl",
@@ -1122,7 +1122,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/len_array.tl",
-      "duration_ms": 35,
+      "duration_ms": 37,
       "error": null,
       "slug": "tests-lang-basic-len-array-tl-47d6975dba5ad8c1",
       "source_path": "tests/lang/basic/len_array.tl",
@@ -1133,7 +1133,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/loop/loop_branch_nested_block_outer_capture.tl",
-      "duration_ms": 224,
+      "duration_ms": 223,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-branch-nested-block-outer-capture-tl-ac711fa08fbca238",
       "source_path": "tests/lang/basic/loop/loop_branch_nested_block_outer_capture.tl",
@@ -1159,7 +1159,7 @@
         "BS": "2"
       },
       "display_name": "tests/lang/basic/loop/loop_break_after_increment_param_bs.tl [BS=2]",
-      "duration_ms": 437,
+      "duration_ms": 441,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-break-after-increment-param-bs-tl-bs-2-eedec27578bafb4b",
       "source_path": "tests/lang/basic/loop/loop_break_after_increment_param_bs.tl",
@@ -1172,7 +1172,7 @@
         "BS": "3"
       },
       "display_name": "tests/lang/basic/loop/loop_break_after_increment_param_bs.tl [BS=3]",
-      "duration_ms": 391,
+      "duration_ms": 402,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-break-after-increment-param-bs-tl-bs-3-cb3da7c0bfb50361",
       "source_path": "tests/lang/basic/loop/loop_break_after_increment_param_bs.tl",
@@ -1183,7 +1183,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/loop/loop_break_passthrough.tl",
-      "duration_ms": 92,
+      "duration_ms": 96,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-break-passthrough-tl-eda22b9a139ddff7",
       "source_path": "tests/lang/basic/loop/loop_break_passthrough.tl",
@@ -1194,7 +1194,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/loop/loop_break_positional_value.tl",
-      "duration_ms": 90,
+      "duration_ms": 93,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-break-positional-value-tl-88bfa984100be021",
       "source_path": "tests/lang/basic/loop/loop_break_positional_value.tl",
@@ -1205,7 +1205,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/loop/loop_continue_after_increment.tl",
-      "duration_ms": 205,
+      "duration_ms": 214,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-continue-after-increment-tl-5c820bbc5a8d34fb",
       "source_path": "tests/lang/basic/loop/loop_continue_after_increment.tl",
@@ -1216,7 +1216,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/loop/loop_continue_positional_value.tl",
-      "duration_ms": 192,
+      "duration_ms": 198,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-continue-positional-value-tl-a902f1fe85048d85",
       "source_path": "tests/lang/basic/loop/loop_continue_positional_value.tl",
@@ -1227,7 +1227,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/loop/loop_control_not_tail.tl",
-      "duration_ms": 86,
+      "duration_ms": 97,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-control-not-tail-tl-e89b11427dd637f3",
       "source_path": "tests/lang/basic/loop/loop_control_not_tail.tl",
@@ -1240,7 +1240,7 @@
         "BS": "1"
       },
       "display_name": "tests/lang/basic/loop/loop_outer_capture_aggregate_param_bs.tl [BS=1]",
-      "duration_ms": 478,
+      "duration_ms": 485,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-outer-capture-aggregate-param-bs-tl-bs-1-ab7382864828137a",
       "source_path": "tests/lang/basic/loop/loop_outer_capture_aggregate_param_bs.tl",
@@ -1253,7 +1253,7 @@
         "BS": "2"
       },
       "display_name": "tests/lang/basic/loop/loop_outer_capture_aggregate_param_bs.tl [BS=2]",
-      "duration_ms": 399,
+      "duration_ms": 404,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-outer-capture-aggregate-param-bs-tl-bs-2-5d5828a673535b7a",
       "source_path": "tests/lang/basic/loop/loop_outer_capture_aggregate_param_bs.tl",
@@ -1266,7 +1266,7 @@
         "BS": "3"
       },
       "display_name": "tests/lang/basic/loop/loop_outer_capture_aggregate_param_bs.tl [BS=3]",
-      "duration_ms": 373,
+      "duration_ms": 386,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-outer-capture-aggregate-param-bs-tl-bs-3-b667a80d1371343e",
       "source_path": "tests/lang/basic/loop/loop_outer_capture_aggregate_param_bs.tl",
@@ -1277,7 +1277,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/loop/loop_set_binding_break_default.tl",
-      "duration_ms": 100,
+      "duration_ms": 110,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-set-binding-break-default-tl-0c1dcbca2d076972",
       "source_path": "tests/lang/basic/loop/loop_set_binding_break_default.tl",
@@ -1290,7 +1290,7 @@
         "BS": "1"
       },
       "display_name": "tests/lang/basic/loop/loop_set_binding_continue_default_param_bs.tl [BS=1]",
-      "duration_ms": 1061,
+      "duration_ms": 1065,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-set-binding-continue-default-param-bs-tl-bs-1-fa5af248ccf12912",
       "source_path": "tests/lang/basic/loop/loop_set_binding_continue_default_param_bs.tl",
@@ -1303,7 +1303,7 @@
         "BS": "2"
       },
       "display_name": "tests/lang/basic/loop/loop_set_binding_continue_default_param_bs.tl [BS=2]",
-      "duration_ms": 824,
+      "duration_ms": 856,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-set-binding-continue-default-param-bs-tl-bs-2-7ec2b91e599985c0",
       "source_path": "tests/lang/basic/loop/loop_set_binding_continue_default_param_bs.tl",
@@ -1316,7 +1316,7 @@
         "BS": "3"
       },
       "display_name": "tests/lang/basic/loop/loop_set_binding_continue_default_param_bs.tl [BS=3]",
-      "duration_ms": 807,
+      "duration_ms": 775,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-set-binding-continue-default-param-bs-tl-bs-3-3968df8b9e83806f",
       "source_path": "tests/lang/basic/loop/loop_set_binding_continue_default_param_bs.tl",
@@ -1327,7 +1327,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/loop/loop_sum.tl",
-      "duration_ms": 56,
+      "duration_ms": 59,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-sum-tl-f53d4d9153900e8f",
       "source_path": "tests/lang/basic/loop/loop_sum.tl",
@@ -1338,7 +1338,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/modules/core_package_builtin_lookup.tl",
-      "duration_ms": 23,
+      "duration_ms": 27,
       "error": null,
       "slug": "tests-lang-basic-modules-core-package-builtin-lookup-tl-ea28ae012f564fdc",
       "source_path": "tests/lang/basic/modules/core_package_builtin_lookup.tl",
@@ -1349,7 +1349,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/modules/inline_module.tl",
-      "duration_ms": 25,
+      "duration_ms": 27,
       "error": null,
       "slug": "tests-lang-basic-modules-inline-module-tl-614849caa538fbf1",
       "source_path": "tests/lang/basic/modules/inline_module.tl",
@@ -1371,7 +1371,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/modules/path_attr_module/path_attr_module.tl",
-      "duration_ms": 30,
+      "duration_ms": 32,
       "error": null,
       "slug": "tests-lang-basic-modules-path-attr-module-path-attr-module-tl-7d7ad3438a0649fe",
       "source_path": "tests/lang/basic/modules/path_attr_module/path_attr_module.tl",
@@ -1382,7 +1382,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/modules/pub_nested_use_leaf_visibility.tl",
-      "duration_ms": 25,
+      "duration_ms": 26,
       "error": null,
       "slug": "tests-lang-basic-modules-pub-nested-use-leaf-visibility-tl-1b6bdd04591810d2",
       "source_path": "tests/lang/basic/modules/pub_nested_use_leaf_visibility.tl",
@@ -1393,7 +1393,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/modules/pub_use_exports_to_sibling_module.tl",
-      "duration_ms": 26,
+      "duration_ms": 27,
       "error": null,
       "slug": "tests-lang-basic-modules-pub-use-exports-to-sibling-module-tl-51cdcf13d3eefd45",
       "source_path": "tests/lang/basic/modules/pub_use_exports_to_sibling_module.tl",
@@ -1415,7 +1415,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/modules/subpackage_lookup/subpackage_lookup.tl",
-      "duration_ms": 25,
+      "duration_ms": 27,
       "error": null,
       "slug": "tests-lang-basic-modules-subpackage-lookup-subpackage-lookup-tl-210d078808212990",
       "source_path": "tests/lang/basic/modules/subpackage_lookup/subpackage_lookup.tl",
@@ -1437,7 +1437,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/modules/use_group_alias_scope.tl",
-      "duration_ms": 25,
+      "duration_ms": 27,
       "error": null,
       "slug": "tests-lang-basic-modules-use-group-alias-scope-tl-96994c9c5af3e949",
       "source_path": "tests/lang/basic/modules/use_group_alias_scope.tl",
@@ -1448,7 +1448,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/modules/use_namespace_alias.tl",
-      "duration_ms": 23,
+      "duration_ms": 24,
       "error": null,
       "slug": "tests-lang-basic-modules-use-namespace-alias-tl-95732575040860d9",
       "source_path": "tests/lang/basic/modules/use_namespace_alias.tl",
@@ -1459,7 +1459,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/modules/use_nested_alias_scopes.tl",
-      "duration_ms": 27,
+      "duration_ms": 28,
       "error": null,
       "slug": "tests-lang-basic-modules-use-nested-alias-scopes-tl-023e80c76c21df71",
       "source_path": "tests/lang/basic/modules/use_nested_alias_scopes.tl",
@@ -1470,7 +1470,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/modules/use_nested_path_group.tl",
-      "duration_ms": 24,
+      "duration_ms": 26,
       "error": null,
       "slug": "tests-lang-basic-modules-use-nested-path-group-tl-90711b06c21f1cf3",
       "source_path": "tests/lang/basic/modules/use_nested_path_group.tl",
@@ -1481,7 +1481,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/multiple_flag_aliases.tl",
-      "duration_ms": 28,
+      "duration_ms": 31,
       "error": null,
       "slug": "tests-lang-basic-multiple-flag-aliases-tl-66802de576aeb791",
       "source_path": "tests/lang/basic/multiple_flag_aliases.tl",
@@ -1514,7 +1514,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/named_output_with_cmd.tl",
-      "duration_ms": 19,
+      "duration_ms": 23,
       "error": null,
       "slug": "tests-lang-basic-named-output-with-cmd-tl-f00b3023e3c8c1b5",
       "source_path": "tests/lang/basic/named_output_with_cmd.tl",
@@ -1536,7 +1536,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/nested_function_call_with_side_effects.tl",
-      "duration_ms": 35,
+      "duration_ms": 40,
       "error": null,
       "slug": "tests-lang-basic-nested-function-call-with-side-effects-tl-868d73da17d2a6e5",
       "source_path": "tests/lang/basic/nested_function_call_with_side_effects.tl",
@@ -1547,7 +1547,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/object_comma_disambiguates_narrow.tl",
-      "duration_ms": 29,
+      "duration_ms": 30,
       "error": null,
       "slug": "tests-lang-basic-object-comma-disambiguates-narrow-tl-0da743df9dcf7761",
       "source_path": "tests/lang/basic/object_comma_disambiguates_narrow.tl",
@@ -1558,7 +1558,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/object_dot_access.tl",
-      "duration_ms": 46,
+      "duration_ms": 44,
       "error": null,
       "slug": "tests-lang-basic-object-dot-access-tl-f95de8e522e331d2",
       "source_path": "tests/lang/basic/object_dot_access.tl",
@@ -1569,7 +1569,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/object_dynamic_key.tl",
-      "duration_ms": 29,
+      "duration_ms": 31,
       "error": null,
       "slug": "tests-lang-basic-object-dynamic-key-tl-a0295e1a0f0a90d6",
       "source_path": "tests/lang/basic/object_dynamic_key.tl",
@@ -1580,7 +1580,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/object_dynamic_key_value.tl",
-      "duration_ms": 28,
+      "duration_ms": 27,
       "error": null,
       "slug": "tests-lang-basic-object-dynamic-key-value-tl-4b7ca6eeb2e698ae",
       "source_path": "tests/lang/basic/object_dynamic_key_value.tl",
@@ -1624,7 +1624,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/pow_right_associative.tl",
-      "duration_ms": 19,
+      "duration_ms": 22,
       "error": null,
       "slug": "tests-lang-basic-pow-right-associative-tl-473d2f4b638762e9",
       "source_path": "tests/lang/basic/pow_right_associative.tl",
@@ -1646,7 +1646,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/self_referential_function.tl",
-      "duration_ms": 27,
+      "duration_ms": 30,
       "error": null,
       "slug": "tests-lang-basic-self-referential-function-tl-16fec1bd2b0ffb33",
       "source_path": "tests/lang/basic/self_referential_function.tl",
@@ -1657,7 +1657,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/short_help_works.tl",
-      "duration_ms": 29,
+      "duration_ms": 31,
       "error": null,
       "slug": "tests-lang-basic-short-help-works-tl-6548256b85a9373e",
       "source_path": "tests/lang/basic/short_help_works.tl",
@@ -1668,7 +1668,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/single_cmd_in_block.tl",
-      "duration_ms": 31,
+      "duration_ms": 35,
       "error": null,
       "slug": "tests-lang-basic-single-cmd-in-block-tl-044a6afb6ac01e81",
       "source_path": "tests/lang/basic/single_cmd_in_block.tl",
@@ -1679,7 +1679,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_all_object_single_column.tl",
-      "duration_ms": 38,
+      "duration_ms": 39,
       "error": null,
       "slug": "tests-lang-basic-table-table-all-object-single-column-tl-2e8aad007a99cc6f",
       "source_path": "tests/lang/basic/table/table_all_object_single_column.tl",
@@ -1690,7 +1690,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_color_headers_and_untyped_strings.tl",
-      "duration_ms": 26,
+      "duration_ms": 29,
       "error": null,
       "slug": "tests-lang-basic-table-table-color-headers-and-untyped-strings-tl-ab42efe7fce96821",
       "source_path": "tests/lang/basic/table/table_color_headers_and_untyped_strings.tl",
@@ -1712,7 +1712,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_env_mode_keeps_main_input_last.tl",
-      "duration_ms": 39,
+      "duration_ms": 48,
       "error": null,
       "slug": "tests-lang-basic-table-table-env-mode-keeps-main-input-last-tl-830f28561c390f42",
       "source_path": "tests/lang/basic/table/table_env_mode_keeps_main_input_last.tl",
@@ -1723,7 +1723,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_env_mode_uses_variable_insertion_order.tl",
-      "duration_ms": 31,
+      "duration_ms": 33,
       "error": null,
       "slug": "tests-lang-basic-table-table-env-mode-uses-variable-insertion-order-tl-de82d1a815bf71f1",
       "source_path": "tests/lang/basic/table/table_env_mode_uses_variable_insertion_order.tl",
@@ -1734,7 +1734,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_explicit_pipeline_input_split_unicode.tl",
-      "duration_ms": 34,
+      "duration_ms": 36,
       "error": null,
       "slug": "tests-lang-basic-table-table-explicit-pipeline-input-split-unicode-tl-a0aa9268bde18671",
       "source_path": "tests/lang/basic/table/table_explicit_pipeline_input_split_unicode.tl",
@@ -1745,7 +1745,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_explicit_value_ignores_pipeline_input.tl",
-      "duration_ms": 37,
+      "duration_ms": 39,
       "error": null,
       "slug": "tests-lang-basic-table-table-explicit-value-ignores-pipeline-input-tl-f525ee67f0a9e00b",
       "source_path": "tests/lang/basic/table/table_explicit_value_ignores_pipeline_input.tl",
@@ -1756,7 +1756,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_idx_default.tl",
-      "duration_ms": 39,
+      "duration_ms": 40,
       "error": null,
       "slug": "tests-lang-basic-table-table-idx-default-tl-0ba5a0ab6b12aa40",
       "source_path": "tests/lang/basic/table/table_idx_default.tl",
@@ -1778,7 +1778,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_idx_start.tl",
-      "duration_ms": 45,
+      "duration_ms": 47,
       "error": null,
       "slug": "tests-lang-basic-table-table-idx-start-tl-2439357ba7d0607f",
       "source_path": "tests/lang/basic/table/table_idx_start.tl",
@@ -1789,7 +1789,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_named_expression_columns.tl",
-      "duration_ms": 78,
+      "duration_ms": 81,
       "error": null,
       "slug": "tests-lang-basic-table-table-named-expression-columns-tl-d1a0172218903903",
       "source_path": "tests/lang/basic/table/table_named_expression_columns.tl",
@@ -1800,7 +1800,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_named_scalar.tl",
-      "duration_ms": 38,
+      "duration_ms": 41,
       "error": null,
       "slug": "tests-lang-basic-table-table-named-scalar-tl-fa4a11a21b56f98d",
       "source_path": "tests/lang/basic/table/table_named_scalar.tl",
@@ -1811,7 +1811,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_object_ascii.tl",
-      "duration_ms": 45,
+      "duration_ms": 48,
       "error": null,
       "slug": "tests-lang-basic-table-table-object-ascii-tl-1519c2c330f13ad2",
       "source_path": "tests/lang/basic/table/table_object_ascii.tl",
@@ -1822,7 +1822,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_object_split_ascii.tl",
-      "duration_ms": 42,
+      "duration_ms": 48,
       "error": null,
       "slug": "tests-lang-basic-table-table-object-split-ascii-tl-70bbd48389346269",
       "source_path": "tests/lang/basic/table/table_object_split_ascii.tl",
@@ -1833,7 +1833,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_object_split_limit_ascii.tl",
-      "duration_ms": 46,
+      "duration_ms": 49,
       "error": null,
       "slug": "tests-lang-basic-table-table-object-split-limit-ascii-tl-b57bccfd6b909dc3",
       "source_path": "tests/lang/basic/table/table_object_split_limit_ascii.tl",
@@ -1844,7 +1844,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_optimistic_keep_header.tl",
-      "duration_ms": 67,
+      "duration_ms": 71,
       "error": null,
       "slug": "tests-lang-basic-table-table-optimistic-keep-header-tl-f6b5657d4c9c4815",
       "source_path": "tests/lang/basic/table/table_optimistic_keep_header.tl",
@@ -1866,7 +1866,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_recursive_split_border.tl",
-      "duration_ms": 48,
+      "duration_ms": 53,
       "error": null,
       "slug": "tests-lang-basic-table-table-recursive-split-border-tl-ede9efc82b386d42",
       "source_path": "tests/lang/basic/table/table_recursive_split_border.tl",
@@ -1877,7 +1877,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_strict.tl",
-      "duration_ms": 59,
+      "duration_ms": 63,
       "error": null,
       "slug": "tests-lang-basic-table-table-strict-tl-f51f03eebfe748c5",
       "source_path": "tests/lang/basic/table/table_strict.tl",
@@ -1888,7 +1888,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_tuple_literals_ascii.tl",
-      "duration_ms": 39,
+      "duration_ms": 42,
       "error": null,
       "slug": "tests-lang-basic-table-table-tuple-literals-ascii-tl-9e8f66deac9a4c10",
       "source_path": "tests/lang/basic/table/table_tuple_literals_ascii.tl",
@@ -1899,7 +1899,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_typed_split_null_not_quoted.tl",
-      "duration_ms": 37,
+      "duration_ms": 39,
       "error": null,
       "slug": "tests-lang-basic-table-table-typed-split-null-not-quoted-tl-3f997dfa06cf56bb",
       "source_path": "tests/lang/basic/table/table_typed_split_null_not_quoted.tl",
@@ -1921,7 +1921,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_unnamed_scalar.tl",
-      "duration_ms": 30,
+      "duration_ms": 31,
       "error": null,
       "slug": "tests-lang-basic-table-table-unnamed-scalar-tl-40c89f4ee7448921",
       "source_path": "tests/lang/basic/table/table_unnamed_scalar.tl",
@@ -1932,7 +1932,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_unsplit_object_literals_stay_in_underscore_column.tl",
-      "duration_ms": 64,
+      "duration_ms": 67,
       "error": null,
       "slug": "tests-lang-basic-table-table-unsplit-object-literals-stay-in-underscore-column-tl-e9786c9a9517335c",
       "source_path": "tests/lang/basic/table/table_unsplit_object_literals_stay_in_underscore_column.tl",
@@ -1943,7 +1943,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/trailing_block_value.tl",
-      "duration_ms": 41,
+      "duration_ms": 42,
       "error": null,
       "slug": "tests-lang-basic-trailing-block-value-tl-e7495e26ae95b83a",
       "source_path": "tests/lang/basic/trailing_block_value.tl",
@@ -1954,7 +1954,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/var_decl_expr.tl",
-      "duration_ms": 22,
+      "duration_ms": 23,
       "error": null,
       "slug": "tests-lang-basic-var-decl-expr-tl-3f03292ed288d40a",
       "source_path": "tests/lang/basic/var_decl_expr.tl",
@@ -1965,7 +1965,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/var_decl_named_output.tl",
-      "duration_ms": 42,
+      "duration_ms": 44,
       "error": null,
       "slug": "tests-lang-basic-var-decl-named-output-tl-c7a8d38ccc74b59a",
       "source_path": "tests/lang/basic/var_decl_named_output.tl",
@@ -1976,7 +1976,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/webdriver/http_serve_nested_query_click.tl",
-      "duration_ms": 10848,
+      "duration_ms": 7390,
       "error": null,
       "slug": "tests-lang-basic-webdriver-http-serve-nested-query-click-tl-9d93290678302225",
       "source_path": "tests/lang/basic/webdriver/http_serve_nested_query_click.tl",
@@ -1987,7 +1987,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/webdriver/member_access.tl",
-      "duration_ms": 9317,
+      "duration_ms": 7450,
       "error": null,
       "slug": "tests-lang-basic-webdriver-member-access-tl-ded1428e40185e18",
       "source_path": "tests/lang/basic/webdriver/member_access.tl",
@@ -1998,7 +1998,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/webdriver/query_xpath_attribute.tl",
-      "duration_ms": 4256,
+      "duration_ms": 3679,
       "error": null,
       "slug": "tests-lang-basic-webdriver-query-xpath-attribute-tl-1effc0551bf7989c",
       "source_path": "tests/lang/basic/webdriver/query_xpath_attribute.tl",
@@ -2009,7 +2009,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zero_arg_explicit_call_ignores_pipeline_input.tl",
-      "duration_ms": 24,
+      "duration_ms": 23,
       "error": null,
       "slug": "tests-lang-basic-zero-arg-explicit-call-ignores-pipeline-input-tl-854cbaf75bee392a",
       "source_path": "tests/lang/basic/zero_arg_explicit_call_ignores_pipeline_input.tl",
@@ -2020,7 +2020,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zip/zip_basic_collect.tl",
-      "duration_ms": 153,
+      "duration_ms": 98,
       "error": null,
       "slug": "tests-lang-basic-zip-zip-basic-collect-tl-47895431a01a56ca",
       "source_path": "tests/lang/basic/zip/zip_basic_collect.tl",
@@ -2031,7 +2031,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zip/zip_filtered.tl",
-      "duration_ms": 314,
+      "duration_ms": 194,
       "error": null,
       "slug": "tests-lang-basic-zip-zip-filtered-tl-eca016365a8a8f34",
       "source_path": "tests/lang/basic/zip/zip_filtered.tl",
@@ -2042,7 +2042,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zip/zip_filtered_batched.tl",
-      "duration_ms": 460,
+      "duration_ms": 358,
       "error": null,
       "slug": "tests-lang-basic-zip-zip-filtered-batched-tl-2f3ea566e2ef834a",
       "source_path": "tests/lang/basic/zip/zip_filtered_batched.tl",
@@ -2053,7 +2053,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zip/zip_inner_seq_current_regression.tl",
-      "duration_ms": 243,
+      "duration_ms": 234,
       "error": null,
       "slug": "tests-lang-basic-zip-zip-inner-seq-current-regression-tl-1491b232fbb85189",
       "source_path": "tests/lang/basic/zip/zip_inner_seq_current_regression.tl",
@@ -2064,7 +2064,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zip/zip_invariant_branch_does_not_pad_collapsed_group.tl",
-      "duration_ms": 282,
+      "duration_ms": 200,
       "error": null,
       "slug": "tests-lang-basic-zip-zip-invariant-branch-does-not-pad-collapsed-group-tl-4723021c0a4db4ee",
       "source_path": "tests/lang/basic/zip/zip_invariant_branch_does_not_pad_collapsed_group.tl",
@@ -2075,7 +2075,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zip/zip_invariant_branch_inner_collect.tl",
-      "duration_ms": 90,
+      "duration_ms": 117,
       "error": null,
       "slug": "tests-lang-basic-zip-zip-invariant-branch-inner-collect-tl-957c11e02f166e2f",
       "source_path": "tests/lang/basic/zip/zip_invariant_branch_inner_collect.tl",
@@ -2086,7 +2086,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zip/zip_invariant_branch_outer_collect.tl",
-      "duration_ms": 93,
+      "duration_ms": 328,
       "error": null,
       "slug": "tests-lang-basic-zip-zip-invariant-branch-outer-collect-tl-b8c61efaf9439128",
       "source_path": "tests/lang/basic/zip/zip_invariant_branch_outer_collect.tl",
@@ -2097,7 +2097,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zip/zip_named_exports_table.tl",
-      "duration_ms": 107,
+      "duration_ms": 110,
       "error": null,
       "slug": "tests-lang-basic-zip-zip-named-exports-table-tl-04e22f4bb962c369",
       "source_path": "tests/lang/basic/zip/zip_named_exports_table.tl",
@@ -2108,7 +2108,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zip/zip_tuple_duplicates_table.tl",
-      "duration_ms": 93,
+      "duration_ms": 97,
       "error": null,
       "slug": "tests-lang-basic-zip-zip-tuple-duplicates-table-tl-b4e5326d3d5c7b32",
       "source_path": "tests/lang/basic/zip/zip_tuple_duplicates_table.tl",
@@ -2119,7 +2119,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zip/zip_without_e_hides_branch_exports.tl",
-      "duration_ms": 86,
+      "duration_ms": 87,
       "error": null,
       "slug": "tests-lang-basic-zip-zip-without-e-hides-branch-exports-tl-ef7f18db7a1bc024",
       "source_path": "tests/lang/basic/zip/zip_without_e_hides_branch_exports.tl",
@@ -2130,7 +2130,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/break_outside_loop.tl",
-      "duration_ms": 15,
+      "duration_ms": 16,
       "error": null,
       "slug": "tests-lang-errors-break-outside-loop-tl-db974541a6196376",
       "source_path": "tests/lang/errors/break_outside_loop.tl",
@@ -2152,7 +2152,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/call_lambda_missing_args.tl",
-      "duration_ms": 21,
+      "duration_ms": 23,
       "error": null,
       "slug": "tests-lang-errors-call-lambda-missing-args-tl-e4520081a2539d26",
       "source_path": "tests/lang/errors/call_lambda_missing_args.tl",
@@ -2163,7 +2163,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/continue_outside_loop.tl",
-      "duration_ms": 14,
+      "duration_ms": 15,
       "error": null,
       "slug": "tests-lang-errors-continue-outside-loop-tl-94edc36ae20ee221",
       "source_path": "tests/lang/errors/continue_outside_loop.tl",
@@ -2174,7 +2174,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/env_undefined.tl",
-      "duration_ms": 19,
+      "duration_ms": 20,
       "error": null,
       "slug": "tests-lang-errors-env-undefined-tl-3426010624f1ed79",
       "source_path": "tests/lang/errors/env_undefined.tl",
@@ -2185,7 +2185,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/flag_before_param_name.tl",
-      "duration_ms": 14,
+      "duration_ms": 15,
       "error": null,
       "slug": "tests-lang-errors-flag-before-param-name-tl-b58abcca9ad38b82",
       "source_path": "tests/lang/errors/flag_before_param_name.tl",
@@ -2207,7 +2207,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/missing_value_for_short_arg.tl",
-      "duration_ms": 14,
+      "duration_ms": 15,
       "error": null,
       "slug": "tests-lang-errors-missing-value-for-short-arg-tl-a7acf043e43a791d",
       "source_path": "tests/lang/errors/missing_value_for_short_arg.tl",
@@ -2218,7 +2218,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/modules/ambiguous_module_path/ambiguous_module_path.tl",
-      "duration_ms": 14,
+      "duration_ms": 16,
       "error": null,
       "slug": "tests-lang-errors-modules-ambiguous-module-path-ambiguous-module-path-tl-88a9ace4fdf4f26f",
       "source_path": "tests/lang/errors/modules/ambiguous_module_path/ambiguous_module_path.tl",
@@ -2229,7 +2229,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/modules/nested_mod_requires_path/nested_mod_requires_path.tl",
-      "duration_ms": 14,
+      "duration_ms": 15,
       "error": null,
       "slug": "tests-lang-errors-modules-nested-mod-requires-path-nested-mod-requires-path-tl-b7aecd61b92c4493",
       "source_path": "tests/lang/errors/modules/nested_mod_requires_path/nested_mod_requires_path.tl",
@@ -2240,7 +2240,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/modules/nested_pub_use_does_not_recurse.tl",
-      "duration_ms": 16,
+      "duration_ms": 17,
       "error": null,
       "slug": "tests-lang-errors-modules-nested-pub-use-does-not-recurse-tl-bc332ebcaca76e0f",
       "source_path": "tests/lang/errors/modules/nested_pub_use_does_not_recurse.tl",
@@ -2251,7 +2251,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/modules/no_implicit_submodule_decl/no_implicit_submodule_decl.tl",
-      "duration_ms": 15,
+      "duration_ms": 16,
       "error": null,
       "slug": "tests-lang-errors-modules-no-implicit-submodule-decl-no-implicit-submodule-decl-tl-5f05d2d03254d9a5",
       "source_path": "tests/lang/errors/modules/no_implicit_submodule_decl/no_implicit_submodule_decl.tl",
@@ -2262,7 +2262,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/modules/private_use_is_not_exported_to_sibling.tl",
-      "duration_ms": 14,
+      "duration_ms": 16,
       "error": null,
       "slug": "tests-lang-errors-modules-private-use-is-not-exported-to-sibling-tl-2a6db4daaae85a2f",
       "source_path": "tests/lang/errors/modules/private_use_is_not_exported_to_sibling.tl",
@@ -2284,7 +2284,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/modules/submodule_package_mismatch.tl",
-      "duration_ms": 14,
+      "duration_ms": 16,
       "error": null,
       "slug": "tests-lang-errors-modules-submodule-package-mismatch-tl-981c72ab4cda8f99",
       "source_path": "tests/lang/errors/modules/submodule_package_mismatch.tl",
@@ -2306,7 +2306,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/multiple_different_short_flags.tl",
-      "duration_ms": 14,
+      "duration_ms": 15,
       "error": null,
       "slug": "tests-lang-errors-multiple-different-short-flags-tl-42f433896d61854f",
       "source_path": "tests/lang/errors/multiple_different_short_flags.tl",
@@ -2328,7 +2328,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/regex_duplicate_empty_and_underscore_note.tl",
-      "duration_ms": 15,
+      "duration_ms": 16,
       "error": null,
       "slug": "tests-lang-errors-regex-duplicate-empty-and-underscore-note-tl-e408a66b3fffb733",
       "source_path": "tests/lang/errors/regex_duplicate_empty_and_underscore_note.tl",
@@ -2339,7 +2339,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/regex_duplicate_named_capture_single_diagnostic.tl",
-      "duration_ms": 15,
+      "duration_ms": 18,
       "error": null,
       "slug": "tests-lang-errors-regex-duplicate-named-capture-single-diagnostic-tl-26d9ee8fc068e01e",
       "source_path": "tests/lang/errors/regex_duplicate_named_capture_single_diagnostic.tl",
@@ -2361,7 +2361,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/regex/basic_capture_group.tl",
-      "duration_ms": 55,
+      "duration_ms": 54,
       "error": null,
       "slug": "tests-lang-regex-basic-capture-group-tl-ed739a12b0b200d6",
       "source_path": "tests/lang/regex/basic_capture_group.tl",
@@ -2372,7 +2372,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/regex/capture_in_pipeline.tl",
-      "duration_ms": 84,
+      "duration_ms": 87,
       "error": null,
       "slug": "tests-lang-regex-capture-in-pipeline-tl-2c3c45bd5d9d798c",
       "source_path": "tests/lang/regex/capture_in_pipeline.tl",
@@ -2383,7 +2383,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/regex/main_match_output.tl",
-      "duration_ms": 55,
+      "duration_ms": 58,
       "error": null,
       "slug": "tests-lang-regex-main-match-output-tl-9ad2875a30ff67fc",
       "source_path": "tests/lang/regex/main_match_output.tl",
@@ -2394,7 +2394,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/regex/multiple_capture_groups.tl",
-      "duration_ms": 59,
+      "duration_ms": 64,
       "error": null,
       "slug": "tests-lang-regex-multiple-capture-groups-tl-1d7d6417ecb27642",
       "source_path": "tests/lang/regex/multiple_capture_groups.tl",
@@ -2416,7 +2416,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/regex/optional_capture_is_null.tl",
-      "duration_ms": 36,
+      "duration_ms": 37,
       "error": null,
       "slug": "tests-lang-regex-optional-capture-is-null-tl-9b7170a0525fcd91",
       "source_path": "tests/lang/regex/optional_capture_is_null.tl",
