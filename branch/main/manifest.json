@@ -1,19 +1,19 @@
 {
   "build": {
     "branch_name": "main",
-    "commit_sha": "8934a2e13be3adb39aa8573c7f78591ddee11e88",
-    "commit_timestamp": "2026-04-13T01:04:43+02:00"
+    "commit_sha": "069b3f95a68b9007fcc7acb019fb54a40a6726ef",
+    "commit_timestamp": "2026-04-20T14:53:42+02:00"
   },
   "stats": {
     "failed": 0,
-    "passed": 213,
-    "total": 213
+    "passed": 227,
+    "total": 227
   },
   "tests": [
     {
       "bindings": {},
       "display_name": "tests/lang/basic/alias_builtin_command.tl",
-      "duration_ms": 52,
+      "duration_ms": 56,
       "error": null,
       "slug": "tests-lang-basic-alias-builtin-command-tl-13ca1bfe24eaf81a",
       "source_path": "tests/lang/basic/alias_builtin_command.tl",
@@ -24,7 +24,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/alias_generic_declaration.tl",
-      "duration_ms": 21,
+      "duration_ms": 26,
       "error": null,
       "slug": "tests-lang-basic-alias-generic-declaration-tl-e972b340e8fd5541",
       "source_path": "tests/lang/basic/alias_generic_declaration.tl",
@@ -35,7 +35,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/alias_generic_function.tl",
-      "duration_ms": 25,
+      "duration_ms": 26,
       "error": null,
       "slug": "tests-lang-basic-alias-generic-function-tl-84cec8fd96890d22",
       "source_path": "tests/lang/basic/alias_generic_function.tl",
@@ -45,8 +45,41 @@
     },
     {
       "bindings": {},
+      "display_name": "tests/lang/basic/array_index_int.tl",
+      "duration_ms": 34,
+      "error": null,
+      "slug": "tests-lang-basic-array-index-int-tl-803161a7b3c4607a",
+      "source_path": "tests/lang/basic/array_index_int.tl",
+      "status": "passed",
+      "trace_entries": 37,
+      "trace_path": "traces/tests-lang-basic-array-index-int-tl-803161a7b3c4607a.jsonl"
+    },
+    {
+      "bindings": {},
+      "display_name": "tests/lang/basic/array_index_range.tl",
+      "duration_ms": 44,
+      "error": null,
+      "slug": "tests-lang-basic-array-index-range-tl-14c9a34cf62b0c9e",
+      "source_path": "tests/lang/basic/array_index_range.tl",
+      "status": "passed",
+      "trace_entries": 48,
+      "trace_path": "traces/tests-lang-basic-array-index-range-tl-14c9a34cf62b0c9e.jsonl"
+    },
+    {
+      "bindings": {},
+      "display_name": "tests/lang/basic/array_index_range_inclusive.tl",
+      "duration_ms": 40,
+      "error": null,
+      "slug": "tests-lang-basic-array-index-range-inclusive-tl-e3c5ead42ed2b4d1",
+      "source_path": "tests/lang/basic/array_index_range_inclusive.tl",
+      "status": "passed",
+      "trace_entries": 48,
+      "trace_path": "traces/tests-lang-basic-array-index-range-inclusive-tl-e3c5ead42ed2b4d1.jsonl"
+    },
+    {
+      "bindings": {},
       "display_name": "tests/lang/basic/array_vs_access.tl",
-      "duration_ms": 39,
+      "duration_ms": 47,
       "error": null,
       "slug": "tests-lang-basic-array-vs-access-tl-ffa82672e17de608",
       "source_path": "tests/lang/basic/array_vs_access.tl",
@@ -57,7 +90,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/basic_expr.tl",
-      "duration_ms": 23,
+      "duration_ms": 22,
       "error": null,
       "slug": "tests-lang-basic-basic-expr-tl-5b61b5d81f509fed",
       "source_path": "tests/lang/basic/basic_expr.tl",
@@ -68,7 +101,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/basic_let.tl",
-      "duration_ms": 20,
+      "duration_ms": 22,
       "error": null,
       "slug": "tests-lang-basic-basic-let-tl-12f4e6c02069eb1b",
       "source_path": "tests/lang/basic/basic_let.tl",
@@ -79,7 +112,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/block_with_call.tl",
-      "duration_ms": 49,
+      "duration_ms": 45,
       "error": null,
       "slug": "tests-lang-basic-block-with-call-tl-9d88af2a4d4c0823",
       "source_path": "tests/lang/basic/block_with_call.tl",
@@ -90,7 +123,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/backref_after_each_cat.tl",
-      "duration_ms": 93,
+      "duration_ms": 96,
       "error": null,
       "slug": "tests-lang-basic-cat-backref-after-each-cat-tl-0035a488a8697d7b",
       "source_path": "tests/lang/basic/cat/backref_after_each_cat.tl",
@@ -101,7 +134,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/backref_after_each_cat_bs2.tl",
-      "duration_ms": 130,
+      "duration_ms": 126,
       "error": null,
       "slug": "tests-lang-basic-cat-backref-after-each-cat-bs2-tl-ca0d3adbb0a88a3a",
       "source_path": "tests/lang/basic/cat/backref_after_each_cat_bs2.tl",
@@ -112,7 +145,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/backref_after_each_cat_bs3_tail.tl",
-      "duration_ms": 132,
+      "duration_ms": 135,
       "error": null,
       "slug": "tests-lang-basic-cat-backref-after-each-cat-bs3-tail-tl-b3c17891655bd201",
       "source_path": "tests/lang/basic/cat/backref_after_each_cat_bs3_tail.tl",
@@ -123,7 +156,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/cat_aggregate_in_child_subchain.tl",
-      "duration_ms": 109,
+      "duration_ms": 107,
       "error": null,
       "slug": "tests-lang-basic-cat-cat-aggregate-in-child-subchain-tl-48ba35d772d7363f",
       "source_path": "tests/lang/basic/cat/cat_aggregate_in_child_subchain.tl",
@@ -134,7 +167,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/cat_basic.tl",
-      "duration_ms": 63,
+      "duration_ms": 71,
       "error": null,
       "slug": "tests-lang-basic-cat-cat-basic-tl-49cc0dd9d96f5d99",
       "source_path": "tests/lang/basic/cat/cat_basic.tl",
@@ -145,7 +178,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/cat_captures_named_output.tl",
-      "duration_ms": 72,
+      "duration_ms": 66,
       "error": null,
       "slug": "tests-lang-basic-cat-cat-captures-named-output-tl-325c0ca481692141",
       "source_path": "tests/lang/basic/cat/cat_captures_named_output.tl",
@@ -156,7 +189,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/cat_exposed_merge_duplicate_names.tl",
-      "duration_ms": 162,
+      "duration_ms": 168,
       "error": null,
       "slug": "tests-lang-basic-cat-cat-exposed-merge-duplicate-names-tl-0ee9bab81d206bea",
       "source_path": "tests/lang/basic/cat/cat_exposed_merge_duplicate_names.tl",
@@ -167,7 +200,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/cat_exposed_missing_name_null.tl",
-      "duration_ms": 144,
+      "duration_ms": 146,
       "error": null,
       "slug": "tests-lang-basic-cat-cat-exposed-missing-name-null-tl-2c5ff348f4258a2e",
       "source_path": "tests/lang/basic/cat/cat_exposed_missing_name_null.tl",
@@ -178,7 +211,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/cat_inner_seq_current_regression.tl",
-      "duration_ms": 107,
+      "duration_ms": 108,
       "error": null,
       "slug": "tests-lang-basic-cat-cat-inner-seq-current-regression-tl-6eae2e1cbf92a615",
       "source_path": "tests/lang/basic/cat/cat_inner_seq_current_regression.tl",
@@ -200,7 +233,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/cat_regex_captures_named_output.tl",
-      "duration_ms": 130,
+      "duration_ms": 125,
       "error": null,
       "slug": "tests-lang-basic-cat-cat-regex-captures-named-output-tl-153d29ddd7fdae37",
       "source_path": "tests/lang/basic/cat/cat_regex_captures_named_output.tl",
@@ -211,7 +244,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/cat_selective_branch_capture.tl",
-      "duration_ms": 75,
+      "duration_ms": 79,
       "error": null,
       "slug": "tests-lang-basic-cat-cat-selective-branch-capture-tl-cd72f7040f01176f",
       "source_path": "tests/lang/basic/cat/cat_selective_branch_capture.tl",
@@ -233,7 +266,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/cat_three_branches.tl",
-      "duration_ms": 85,
+      "duration_ms": 89,
       "error": null,
       "slug": "tests-lang-basic-cat-cat-three-branches-tl-f0d15db84a1a4468",
       "source_path": "tests/lang/basic/cat/cat_three_branches.tl",
@@ -244,7 +277,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/each_cat.tl",
-      "duration_ms": 94,
+      "duration_ms": 93,
       "error": null,
       "slug": "tests-lang-basic-cat-each-cat-tl-d0985e3283d66960",
       "source_path": "tests/lang/basic/cat/each_cat.tl",
@@ -255,7 +288,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/each_cat_bs1.tl",
-      "duration_ms": 181,
+      "duration_ms": 182,
       "error": null,
       "slug": "tests-lang-basic-cat-each-cat-bs1-tl-7ebdca29f9716b15",
       "source_path": "tests/lang/basic/cat/each_cat_bs1.tl",
@@ -266,7 +299,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/each_cat_bs10.tl",
-      "duration_ms": 94,
+      "duration_ms": 101,
       "error": null,
       "slug": "tests-lang-basic-cat-each-cat-bs10-tl-b721946329c891ed",
       "source_path": "tests/lang/basic/cat/each_cat_bs10.tl",
@@ -277,7 +310,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/each_cat_bs3_tail.tl",
-      "duration_ms": 133,
+      "duration_ms": 137,
       "error": null,
       "slug": "tests-lang-basic-cat-each-cat-bs3-tail-tl-e930d8831fa061cb",
       "source_path": "tests/lang/basic/cat/each_cat_bs3_tail.tl",
@@ -288,7 +321,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/each_cat_constant_branch_bs3_tail.tl",
-      "duration_ms": 120,
+      "duration_ms": 124,
       "error": null,
       "slug": "tests-lang-basic-cat-each-cat-constant-branch-bs3-tail-tl-6c3bc4105003b3fc",
       "source_path": "tests/lang/basic/cat/each_cat_constant_branch_bs3_tail.tl",
@@ -299,7 +332,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/each_cat_mixed_branches_bs2.tl",
-      "duration_ms": 145,
+      "duration_ms": 151,
       "error": null,
       "slug": "tests-lang-basic-cat-each-cat-mixed-branches-bs2-tl-611fb78114f9b16c",
       "source_path": "tests/lang/basic/cat/each_cat_mixed_branches_bs2.tl",
@@ -310,7 +343,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/each_cat_three_branches_bs2.tl",
-      "duration_ms": 159,
+      "duration_ms": 157,
       "error": null,
       "slug": "tests-lang-basic-cat-each-cat-three-branches-bs2-tl-c2ebac99a9c6fc84",
       "source_path": "tests/lang/basic/cat/each_cat_three_branches_bs2.tl",
@@ -321,7 +354,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat/each_cat_three_branches_bs3_tail.tl",
-      "duration_ms": 168,
+      "duration_ms": 169,
       "error": null,
       "slug": "tests-lang-basic-cat-each-cat-three-branches-bs3-tail-tl-6fd2212668ebfe1a",
       "source_path": "tests/lang/basic/cat/each_cat_three_branches_bs3_tail.tl",
@@ -332,7 +365,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat_constants.tl",
-      "duration_ms": 62,
+      "duration_ms": 56,
       "error": null,
       "slug": "tests-lang-basic-cat-constants-tl-aa86c438fb097315",
       "source_path": "tests/lang/basic/cat_constants.tl",
@@ -343,7 +376,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/cat_each_collect_table.tl",
-      "duration_ms": 222,
+      "duration_ms": 254,
       "error": null,
       "slug": "tests-lang-basic-cat-each-collect-table-tl-785b8a35777e77cd",
       "source_path": "tests/lang/basic/cat_each_collect_table.tl",
@@ -354,7 +387,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/context_call.tl",
-      "duration_ms": 28,
+      "duration_ms": 30,
       "error": null,
       "slug": "tests-lang-basic-context-call-tl-23ff247e9502bb3c",
       "source_path": "tests/lang/basic/context_call.tl",
@@ -365,7 +398,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/context_default_value.tl",
-      "duration_ms": 25,
+      "duration_ms": 26,
       "error": null,
       "slug": "tests-lang-basic-context-default-value-tl-62015853a6969630",
       "source_path": "tests/lang/basic/context_default_value.tl",
@@ -376,7 +409,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/context_in_lambda.tl",
-      "duration_ms": 34,
+      "duration_ms": 35,
       "error": null,
       "slug": "tests-lang-basic-context-in-lambda-tl-158de95a8c6d5354",
       "source_path": "tests/lang/basic/context_in_lambda.tl",
@@ -409,7 +442,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/default_param.tl",
-      "duration_ms": 39,
+      "duration_ms": 40,
       "error": null,
       "slug": "tests-lang-basic-default-param-tl-20a30296355ebfff",
       "source_path": "tests/lang/basic/default_param.tl",
@@ -420,7 +453,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/div_left_associative.tl",
-      "duration_ms": 23,
+      "duration_ms": 24,
       "error": null,
       "slug": "tests-lang-basic-div-left-associative-tl-1203b92e76d92ecb",
       "source_path": "tests/lang/basic/div_left_associative.tl",
@@ -431,7 +464,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/each/batched_each.tl",
-      "duration_ms": 291,
+      "duration_ms": 296,
       "error": null,
       "slug": "tests-lang-basic-each-batched-each-tl-055b24662aa43a78",
       "source_path": "tests/lang/basic/each/batched_each.tl",
@@ -442,7 +475,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/each/batched_each_bs_3.tl",
-      "duration_ms": 855,
+      "duration_ms": 877,
       "error": null,
       "slug": "tests-lang-basic-each-batched-each-bs-3-tl-ae702cc89d84c950",
       "source_path": "tests/lang/basic/each/batched_each_bs_3.tl",
@@ -453,7 +486,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/each/each_exposed_scope_value.tl",
-      "duration_ms": 70,
+      "duration_ms": 78,
       "error": null,
       "slug": "tests-lang-basic-each-each-exposed-scope-value-tl-38b4b6aa06a56843",
       "source_path": "tests/lang/basic/each/each_exposed_scope_value.tl",
@@ -464,7 +497,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/each/each_seq_sum.tl",
-      "duration_ms": 124,
+      "duration_ms": 125,
       "error": null,
       "slug": "tests-lang-basic-each-each-seq-sum-tl-139221fc6154ad63",
       "source_path": "tests/lang/basic/each/each_seq_sum.tl",
@@ -475,7 +508,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/each/each_sum_batched.tl",
-      "duration_ms": 97,
+      "duration_ms": 100,
       "error": null,
       "slug": "tests-lang-basic-each-each-sum-batched-tl-55a5d9ca90906ce6",
       "source_path": "tests/lang/basic/each/each_sum_batched.tl",
@@ -486,7 +519,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/each/join_numbers.tl",
-      "duration_ms": 47,
+      "duration_ms": 41,
       "error": null,
       "slug": "tests-lang-basic-each-join-numbers-tl-816993d56a979556",
       "source_path": "tests/lang/basic/each/join_numbers.tl",
@@ -497,7 +530,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/each/join_per_group.tl",
-      "duration_ms": 55,
+      "duration_ms": 54,
       "error": null,
       "slug": "tests-lang-basic-each-join-per-group-tl-d3ac875b4a2e3c56",
       "source_path": "tests/lang/basic/each/join_per_group.tl",
@@ -508,7 +541,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/each/seq_in_each_sum.tl",
-      "duration_ms": 895,
+      "duration_ms": 908,
       "error": null,
       "slug": "tests-lang-basic-each-seq-in-each-sum-tl-262946075d11f1f0",
       "source_path": "tests/lang/basic/each/seq_in_each_sum.tl",
@@ -519,7 +552,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/each/seq_in_each_sum_bs5.tl",
-      "duration_ms": 385,
+      "duration_ms": 415,
       "error": null,
       "slug": "tests-lang-basic-each-seq-in-each-sum-bs5-tl-cf278840782a1393",
       "source_path": "tests/lang/basic/each/seq_in_each_sum_bs5.tl",
@@ -537,6 +570,28 @@
       "status": "passed",
       "trace_entries": 86,
       "trace_path": "traces/tests-lang-basic-each-sum-per-group-tl-9acd30f57d95abf9.jsonl"
+    },
+    {
+      "bindings": {},
+      "display_name": "tests/lang/basic/enum/constructor.tl",
+      "duration_ms": 31,
+      "error": null,
+      "slug": "tests-lang-basic-enum-constructor-tl-0f09cceec4f7472b",
+      "source_path": "tests/lang/basic/enum/constructor.tl",
+      "status": "passed",
+      "trace_entries": 32,
+      "trace_path": "traces/tests-lang-basic-enum-constructor-tl-0f09cceec4f7472b.jsonl"
+    },
+    {
+      "bindings": {},
+      "display_name": "tests/lang/basic/enum/type_ascription.tl",
+      "duration_ms": 24,
+      "error": null,
+      "slug": "tests-lang-basic-enum-type-ascription-tl-a6fa2bec5d5639d3",
+      "source_path": "tests/lang/basic/enum/type_ascription.tl",
+      "status": "passed",
+      "trace_entries": 21,
+      "trace_path": "traces/tests-lang-basic-enum-type-ascription-tl-a6fa2bec5d5639d3.jsonl"
     },
     {
       "bindings": {
@@ -557,7 +612,7 @@
         "FOO": "left"
       },
       "display_name": "tests/lang/basic/env/env_dynamic_lookup.tl [BAR=right, FOO=left]",
-      "duration_ms": 69,
+      "duration_ms": 62,
       "error": null,
       "slug": "tests-lang-basic-env-env-dynamic-lookup-tl-bar-right-foo-left-758feb45dd3572af",
       "source_path": "tests/lang/basic/env/env_dynamic_lookup.tl",
@@ -568,7 +623,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/filter/filter_const_false_collect.tl",
-      "duration_ms": 47,
+      "duration_ms": 50,
       "error": null,
       "slug": "tests-lang-basic-filter-filter-const-false-collect-tl-24554d0423be4c5f",
       "source_path": "tests/lang/basic/filter/filter_const_false_collect.tl",
@@ -579,7 +634,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/filter/filter_const_true_collect.tl",
-      "duration_ms": 61,
+      "duration_ms": 57,
       "error": null,
       "slug": "tests-lang-basic-filter-filter-const-true-collect-tl-11177a6ee7c057e8",
       "source_path": "tests/lang/basic/filter/filter_const_true_collect.tl",
@@ -590,7 +645,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/filter/filter_even.tl",
-      "duration_ms": 74,
+      "duration_ms": 77,
       "error": null,
       "slug": "tests-lang-basic-filter-filter-even-tl-7a16a67f2ce200ce",
       "source_path": "tests/lang/basic/filter/filter_even.tl",
@@ -601,7 +656,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/filter/filter_false.tl",
-      "duration_ms": 39,
+      "duration_ms": 33,
       "error": null,
       "slug": "tests-lang-basic-filter-filter-false-tl-75720d71de706095",
       "source_path": "tests/lang/basic/filter/filter_false.tl",
@@ -612,7 +667,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/filter/filter_gt_collect_batched.tl",
-      "duration_ms": 86,
+      "duration_ms": 85,
       "error": null,
       "slug": "tests-lang-basic-filter-filter-gt-collect-batched-tl-e83dbddfa65d57a0",
       "source_path": "tests/lang/basic/filter/filter_gt_collect_batched.tl",
@@ -623,7 +678,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/filter/filter_true.tl",
-      "duration_ms": 47,
+      "duration_ms": 48,
       "error": null,
       "slug": "tests-lang-basic-filter-filter-true-tl-82bc603c5c8d37d6",
       "source_path": "tests/lang/basic/filter/filter_true.tl",
@@ -634,7 +689,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/format/format_composite_input.tl",
-      "duration_ms": 37,
+      "duration_ms": 38,
       "error": null,
       "slug": "tests-lang-basic-format-format-composite-input-tl-5ef99d8ec62493c5",
       "source_path": "tests/lang/basic/format/format_composite_input.tl",
@@ -645,7 +700,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/format/named_expression_after_macro.tl",
-      "duration_ms": 52,
+      "duration_ms": 50,
       "error": null,
       "slug": "tests-lang-basic-format-named-expression-after-macro-tl-75da6f91b18b5739",
       "source_path": "tests/lang/basic/format/named_expression_after_macro.tl",
@@ -656,7 +711,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/format/regex_in_each.tl",
-      "duration_ms": 48,
+      "duration_ms": 47,
       "error": null,
       "slug": "tests-lang-basic-format-regex-in-each-tl-36896ee99fbde2ad",
       "source_path": "tests/lang/basic/format/regex_in_each.tl",
@@ -667,7 +722,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/help_for_generic_fn.tl",
-      "duration_ms": 30,
+      "duration_ms": 29,
       "error": null,
       "slug": "tests-lang-basic-help-for-generic-fn-tl-bc19077783a34dfd",
       "source_path": "tests/lang/basic/help_for_generic_fn.tl",
@@ -678,7 +733,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/help_for_generic_fn_long_names.tl",
-      "duration_ms": 29,
+      "duration_ms": 31,
       "error": null,
       "slug": "tests-lang-basic-help-for-generic-fn-long-names-tl-1b7a750324dda80b",
       "source_path": "tests/lang/basic/help_for_generic_fn_long_names.tl",
@@ -700,7 +755,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/http_fetch_data_url_string.tl",
-      "duration_ms": 37,
+      "duration_ms": 36,
       "error": null,
       "slug": "tests-lang-basic-http-fetch-data-url-string-tl-057e9a83b871b878",
       "source_path": "tests/lang/basic/http_fetch_data_url_string.tl",
@@ -726,7 +781,7 @@
         "BS": "1"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order.tl [BS=1]",
-      "duration_ms": 883,
+      "duration_ms": 914,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-tl-bs-1-7e14863aacbe497e",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order.tl",
@@ -739,7 +794,7 @@
         "BS": "2"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order.tl [BS=2]",
-      "duration_ms": 525,
+      "duration_ms": 564,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-tl-bs-2-86295bbbe65bc9b4",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order.tl",
@@ -752,7 +807,7 @@
         "BS": "3"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order.tl [BS=3]",
-      "duration_ms": 469,
+      "duration_ms": 478,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-tl-bs-3-b2fc4965361750fb",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order.tl",
@@ -765,7 +820,7 @@
         "BS": "4"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order.tl [BS=4]",
-      "duration_ms": 372,
+      "duration_ms": 374,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-tl-bs-4-4bbcf9a0f7dd4030",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order.tl",
@@ -778,7 +833,7 @@
         "BS": "5"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order.tl [BS=5]",
-      "duration_ms": 279,
+      "duration_ms": 293,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-tl-bs-5-05c9b737aa3eeb72",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order.tl",
@@ -791,7 +846,7 @@
         "BS": "6"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order.tl [BS=6]",
-      "duration_ms": 293,
+      "duration_ms": 311,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-tl-bs-6-66c733250d01a7a0",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order.tl",
@@ -804,7 +859,7 @@
         "BS": "7"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order.tl [BS=7]",
-      "duration_ms": 299,
+      "duration_ms": 320,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-tl-bs-7-5b9e7b78ca7ac617",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order.tl",
@@ -817,7 +872,7 @@
         "BS": "8"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order.tl [BS=8]",
-      "duration_ms": 307,
+      "duration_ms": 343,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-tl-bs-8-2b04bb7e3493f61e",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order.tl",
@@ -830,7 +885,7 @@
         "BS": "9"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order.tl [BS=9]",
-      "duration_ms": 307,
+      "duration_ms": 321,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-tl-bs-9-1e1b4f6e3ab3b550",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order.tl",
@@ -843,7 +898,7 @@
         "BS": "10"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl [BS=10]",
-      "duration_ms": 199,
+      "duration_ms": 200,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-reverse-tl-bs-10-a02d1b101247044b",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl",
@@ -856,7 +911,7 @@
         "BS": "1"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl [BS=1]",
-      "duration_ms": 877,
+      "duration_ms": 896,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-reverse-tl-bs-1-a3c9fec814faa0cb",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl",
@@ -869,7 +924,7 @@
         "BS": "2"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl [BS=2]",
-      "duration_ms": 508,
+      "duration_ms": 521,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-reverse-tl-bs-2-4f076c68b4ab90da",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl",
@@ -882,7 +937,7 @@
         "BS": "3"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl [BS=3]",
-      "duration_ms": 451,
+      "duration_ms": 464,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-reverse-tl-bs-3-dc73226793d1323e",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl",
@@ -895,7 +950,7 @@
         "BS": "4"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl [BS=4]",
-      "duration_ms": 365,
+      "duration_ms": 474,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-reverse-tl-bs-4-4baca13098a217fb",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl",
@@ -908,7 +963,7 @@
         "BS": "5"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl [BS=5]",
-      "duration_ms": 280,
+      "duration_ms": 281,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-reverse-tl-bs-5-62893e3760b6e641",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl",
@@ -921,7 +976,7 @@
         "BS": "6"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl [BS=6]",
-      "duration_ms": 294,
+      "duration_ms": 301,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-reverse-tl-bs-6-e08a2d05fe434566",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl",
@@ -934,7 +989,7 @@
         "BS": "7"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl [BS=7]",
-      "duration_ms": 288,
+      "duration_ms": 305,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-reverse-tl-bs-7-7524e9e747d0ebd6",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl",
@@ -947,7 +1002,7 @@
         "BS": "8"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl [BS=8]",
-      "duration_ms": 303,
+      "duration_ms": 311,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-reverse-tl-bs-8-b386ec91e9fd9242",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl",
@@ -960,7 +1015,7 @@
         "BS": "9"
       },
       "display_name": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl [BS=9]",
-      "duration_ms": 289,
+      "duration_ms": 305,
       "error": null,
       "slug": "tests-lang-basic-if-if-aggregate-branch-order-reverse-tl-bs-9-d92479b0adcd04fa",
       "source_path": "tests/lang/basic/if/if_aggregate_branch_order_reverse.tl",
@@ -973,7 +1028,7 @@
         "BS": "1"
       },
       "display_name": "tests/lang/basic/if/if_else_output.tl [BS=1]",
-      "duration_ms": 206,
+      "duration_ms": 209,
       "error": null,
       "slug": "tests-lang-basic-if-if-else-output-tl-bs-1-98fe837bd70a452f",
       "source_path": "tests/lang/basic/if/if_else_output.tl",
@@ -986,7 +1041,7 @@
         "BS": "2"
       },
       "display_name": "tests/lang/basic/if/if_else_output.tl [BS=2]",
-      "duration_ms": 168,
+      "duration_ms": 162,
       "error": null,
       "slug": "tests-lang-basic-if-if-else-output-tl-bs-2-bdbf5b314fba5850",
       "source_path": "tests/lang/basic/if/if_else_output.tl",
@@ -999,7 +1054,7 @@
         "BS": "3"
       },
       "display_name": "tests/lang/basic/if/if_else_output.tl [BS=3]",
-      "duration_ms": 107,
+      "duration_ms": 117,
       "error": null,
       "slug": "tests-lang-basic-if-if-else-output-tl-bs-3-86c051b1f78171bb",
       "source_path": "tests/lang/basic/if/if_else_output.tl",
@@ -1012,7 +1067,7 @@
         "BS": "4"
       },
       "display_name": "tests/lang/basic/if/if_else_output.tl [BS=4]",
-      "duration_ms": 120,
+      "duration_ms": 110,
       "error": null,
       "slug": "tests-lang-basic-if-if-else-output-tl-bs-4-c2e0cfd134df53bd",
       "source_path": "tests/lang/basic/if/if_else_output.tl",
@@ -1023,7 +1078,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/if/if_true_sum.tl",
-      "duration_ms": 47,
+      "duration_ms": 49,
       "error": null,
       "slug": "tests-lang-basic-if-if-true-sum-tl-e82bb4afe8eefcc6",
       "source_path": "tests/lang/basic/if/if_true_sum.tl",
@@ -1034,7 +1089,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/inferred_array_type.tl",
-      "duration_ms": 36,
+      "duration_ms": 27,
       "error": null,
       "slug": "tests-lang-basic-inferred-array-type-tl-baaad3edc86d6d48",
       "source_path": "tests/lang/basic/inferred_array_type.tl",
@@ -1045,7 +1100,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/json_dumps_basic.tl",
-      "duration_ms": 48,
+      "duration_ms": 56,
       "error": null,
       "slug": "tests-lang-basic-json-dumps-basic-tl-8cf638357195b5d1",
       "source_path": "tests/lang/basic/json_dumps_basic.tl",
@@ -1056,7 +1111,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/json_parse_basic.tl",
-      "duration_ms": 30,
+      "duration_ms": 28,
       "error": null,
       "slug": "tests-lang-basic-json-parse-basic-tl-6460eb29ec997148",
       "source_path": "tests/lang/basic/json_parse_basic.tl",
@@ -1067,7 +1122,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/json_parse_jsonl.tl",
-      "duration_ms": 27,
+      "duration_ms": 32,
       "error": null,
       "slug": "tests-lang-basic-json-parse-jsonl-tl-9316ddc6a009354b",
       "source_path": "tests/lang/basic/json_parse_jsonl.tl",
@@ -1078,7 +1133,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/lambda_capture.tl",
-      "duration_ms": 43,
+      "duration_ms": 38,
       "error": null,
       "slug": "tests-lang-basic-lambda-capture-tl-0de14a6bf6d3d1fe",
       "source_path": "tests/lang/basic/lambda_capture.tl",
@@ -1089,7 +1144,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/lambda_flatten_call.tl",
-      "duration_ms": 47,
+      "duration_ms": 50,
       "error": null,
       "slug": "tests-lang-basic-lambda-flatten-call-tl-166c732762b3a877",
       "source_path": "tests/lang/basic/lambda_flatten_call.tl",
@@ -1111,7 +1166,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/lambda_value_prefix_print.tl",
-      "duration_ms": 23,
+      "duration_ms": 27,
       "error": null,
       "slug": "tests-lang-basic-lambda-value-prefix-print-tl-f45ccf2be8e91df0",
       "source_path": "tests/lang/basic/lambda_value_prefix_print.tl",
@@ -1122,7 +1177,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/len_array.tl",
-      "duration_ms": 37,
+      "duration_ms": 32,
       "error": null,
       "slug": "tests-lang-basic-len-array-tl-47d6975dba5ad8c1",
       "source_path": "tests/lang/basic/len_array.tl",
@@ -1132,8 +1187,19 @@
     },
     {
       "bindings": {},
+      "display_name": "tests/lang/basic/len_array_slice.tl",
+      "duration_ms": 49,
+      "error": null,
+      "slug": "tests-lang-basic-len-array-slice-tl-10a4ba38f98177c7",
+      "source_path": "tests/lang/basic/len_array_slice.tl",
+      "status": "passed",
+      "trace_entries": 56,
+      "trace_path": "traces/tests-lang-basic-len-array-slice-tl-10a4ba38f98177c7.jsonl"
+    },
+    {
+      "bindings": {},
       "display_name": "tests/lang/basic/loop/loop_branch_nested_block_outer_capture.tl",
-      "duration_ms": 223,
+      "duration_ms": 229,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-branch-nested-block-outer-capture-tl-ac711fa08fbca238",
       "source_path": "tests/lang/basic/loop/loop_branch_nested_block_outer_capture.tl",
@@ -1146,7 +1212,7 @@
         "BS": "1"
       },
       "display_name": "tests/lang/basic/loop/loop_break_after_increment_param_bs.tl [BS=1]",
-      "duration_ms": 530,
+      "duration_ms": 543,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-break-after-increment-param-bs-tl-bs-1-de9c253462d120f7",
       "source_path": "tests/lang/basic/loop/loop_break_after_increment_param_bs.tl",
@@ -1159,7 +1225,7 @@
         "BS": "2"
       },
       "display_name": "tests/lang/basic/loop/loop_break_after_increment_param_bs.tl [BS=2]",
-      "duration_ms": 441,
+      "duration_ms": 453,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-break-after-increment-param-bs-tl-bs-2-eedec27578bafb4b",
       "source_path": "tests/lang/basic/loop/loop_break_after_increment_param_bs.tl",
@@ -1172,7 +1238,7 @@
         "BS": "3"
       },
       "display_name": "tests/lang/basic/loop/loop_break_after_increment_param_bs.tl [BS=3]",
-      "duration_ms": 402,
+      "duration_ms": 417,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-break-after-increment-param-bs-tl-bs-3-cb3da7c0bfb50361",
       "source_path": "tests/lang/basic/loop/loop_break_after_increment_param_bs.tl",
@@ -1183,7 +1249,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/loop/loop_break_passthrough.tl",
-      "duration_ms": 96,
+      "duration_ms": 94,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-break-passthrough-tl-eda22b9a139ddff7",
       "source_path": "tests/lang/basic/loop/loop_break_passthrough.tl",
@@ -1194,7 +1260,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/loop/loop_break_positional_value.tl",
-      "duration_ms": 93,
+      "duration_ms": 86,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-break-positional-value-tl-88bfa984100be021",
       "source_path": "tests/lang/basic/loop/loop_break_positional_value.tl",
@@ -1205,7 +1271,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/loop/loop_continue_after_increment.tl",
-      "duration_ms": 214,
+      "duration_ms": 219,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-continue-after-increment-tl-5c820bbc5a8d34fb",
       "source_path": "tests/lang/basic/loop/loop_continue_after_increment.tl",
@@ -1227,7 +1293,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/loop/loop_control_not_tail.tl",
-      "duration_ms": 97,
+      "duration_ms": 90,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-control-not-tail-tl-e89b11427dd637f3",
       "source_path": "tests/lang/basic/loop/loop_control_not_tail.tl",
@@ -1240,7 +1306,7 @@
         "BS": "1"
       },
       "display_name": "tests/lang/basic/loop/loop_outer_capture_aggregate_param_bs.tl [BS=1]",
-      "duration_ms": 485,
+      "duration_ms": 492,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-outer-capture-aggregate-param-bs-tl-bs-1-ab7382864828137a",
       "source_path": "tests/lang/basic/loop/loop_outer_capture_aggregate_param_bs.tl",
@@ -1253,7 +1319,7 @@
         "BS": "2"
       },
       "display_name": "tests/lang/basic/loop/loop_outer_capture_aggregate_param_bs.tl [BS=2]",
-      "duration_ms": 404,
+      "duration_ms": 403,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-outer-capture-aggregate-param-bs-tl-bs-2-5d5828a673535b7a",
       "source_path": "tests/lang/basic/loop/loop_outer_capture_aggregate_param_bs.tl",
@@ -1266,7 +1332,7 @@
         "BS": "3"
       },
       "display_name": "tests/lang/basic/loop/loop_outer_capture_aggregate_param_bs.tl [BS=3]",
-      "duration_ms": 386,
+      "duration_ms": 399,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-outer-capture-aggregate-param-bs-tl-bs-3-b667a80d1371343e",
       "source_path": "tests/lang/basic/loop/loop_outer_capture_aggregate_param_bs.tl",
@@ -1277,7 +1343,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/loop/loop_set_binding_break_default.tl",
-      "duration_ms": 110,
+      "duration_ms": 113,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-set-binding-break-default-tl-0c1dcbca2d076972",
       "source_path": "tests/lang/basic/loop/loop_set_binding_break_default.tl",
@@ -1290,7 +1356,7 @@
         "BS": "1"
       },
       "display_name": "tests/lang/basic/loop/loop_set_binding_continue_default_param_bs.tl [BS=1]",
-      "duration_ms": 1065,
+      "duration_ms": 1136,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-set-binding-continue-default-param-bs-tl-bs-1-fa5af248ccf12912",
       "source_path": "tests/lang/basic/loop/loop_set_binding_continue_default_param_bs.tl",
@@ -1303,7 +1369,7 @@
         "BS": "2"
       },
       "display_name": "tests/lang/basic/loop/loop_set_binding_continue_default_param_bs.tl [BS=2]",
-      "duration_ms": 856,
+      "duration_ms": 889,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-set-binding-continue-default-param-bs-tl-bs-2-7ec2b91e599985c0",
       "source_path": "tests/lang/basic/loop/loop_set_binding_continue_default_param_bs.tl",
@@ -1316,7 +1382,7 @@
         "BS": "3"
       },
       "display_name": "tests/lang/basic/loop/loop_set_binding_continue_default_param_bs.tl [BS=3]",
-      "duration_ms": 775,
+      "duration_ms": 799,
       "error": null,
       "slug": "tests-lang-basic-loop-loop-set-binding-continue-default-param-bs-tl-bs-3-3968df8b9e83806f",
       "source_path": "tests/lang/basic/loop/loop_set_binding_continue_default_param_bs.tl",
@@ -1338,7 +1404,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/modules/core_package_builtin_lookup.tl",
-      "duration_ms": 27,
+      "duration_ms": 24,
       "error": null,
       "slug": "tests-lang-basic-modules-core-package-builtin-lookup-tl-ea28ae012f564fdc",
       "source_path": "tests/lang/basic/modules/core_package_builtin_lookup.tl",
@@ -1349,7 +1415,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/modules/inline_module.tl",
-      "duration_ms": 27,
+      "duration_ms": 25,
       "error": null,
       "slug": "tests-lang-basic-modules-inline-module-tl-614849caa538fbf1",
       "source_path": "tests/lang/basic/modules/inline_module.tl",
@@ -1360,7 +1426,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/modules/package_path_attr_subpackage/package_path_attr_subpackage.tl",
-      "duration_ms": 25,
+      "duration_ms": 23,
       "error": null,
       "slug": "tests-lang-basic-modules-package-path-attr-subpackage-package-path-attr-subpackage-tl-7b2128c91d5de728",
       "source_path": "tests/lang/basic/modules/package_path_attr_subpackage/package_path_attr_subpackage.tl",
@@ -1371,7 +1437,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/modules/path_attr_module/path_attr_module.tl",
-      "duration_ms": 32,
+      "duration_ms": 29,
       "error": null,
       "slug": "tests-lang-basic-modules-path-attr-module-path-attr-module-tl-7d7ad3438a0649fe",
       "source_path": "tests/lang/basic/modules/path_attr_module/path_attr_module.tl",
@@ -1382,7 +1448,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/modules/pub_nested_use_leaf_visibility.tl",
-      "duration_ms": 26,
+      "duration_ms": 24,
       "error": null,
       "slug": "tests-lang-basic-modules-pub-nested-use-leaf-visibility-tl-1b6bdd04591810d2",
       "source_path": "tests/lang/basic/modules/pub_nested_use_leaf_visibility.tl",
@@ -1393,7 +1459,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/modules/pub_use_exports_to_sibling_module.tl",
-      "duration_ms": 27,
+      "duration_ms": 26,
       "error": null,
       "slug": "tests-lang-basic-modules-pub-use-exports-to-sibling-module-tl-51cdcf13d3eefd45",
       "source_path": "tests/lang/basic/modules/pub_use_exports_to_sibling_module.tl",
@@ -1415,7 +1481,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/modules/subpackage_lookup/subpackage_lookup.tl",
-      "duration_ms": 27,
+      "duration_ms": 26,
       "error": null,
       "slug": "tests-lang-basic-modules-subpackage-lookup-subpackage-lookup-tl-210d078808212990",
       "source_path": "tests/lang/basic/modules/subpackage_lookup/subpackage_lookup.tl",
@@ -1437,7 +1503,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/modules/use_group_alias_scope.tl",
-      "duration_ms": 27,
+      "duration_ms": 26,
       "error": null,
       "slug": "tests-lang-basic-modules-use-group-alias-scope-tl-96994c9c5af3e949",
       "source_path": "tests/lang/basic/modules/use_group_alias_scope.tl",
@@ -1448,7 +1514,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/modules/use_namespace_alias.tl",
-      "duration_ms": 24,
+      "duration_ms": 23,
       "error": null,
       "slug": "tests-lang-basic-modules-use-namespace-alias-tl-95732575040860d9",
       "source_path": "tests/lang/basic/modules/use_namespace_alias.tl",
@@ -1470,7 +1536,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/modules/use_nested_path_group.tl",
-      "duration_ms": 26,
+      "duration_ms": 25,
       "error": null,
       "slug": "tests-lang-basic-modules-use-nested-path-group-tl-90711b06c21f1cf3",
       "source_path": "tests/lang/basic/modules/use_nested_path_group.tl",
@@ -1481,7 +1547,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/multiple_flag_aliases.tl",
-      "duration_ms": 31,
+      "duration_ms": 28,
       "error": null,
       "slug": "tests-lang-basic-multiple-flag-aliases-tl-66802de576aeb791",
       "source_path": "tests/lang/basic/multiple_flag_aliases.tl",
@@ -1492,7 +1558,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/multiple_flag_aliases_reordered.tl",
-      "duration_ms": 28,
+      "duration_ms": 27,
       "error": null,
       "slug": "tests-lang-basic-multiple-flag-aliases-reordered-tl-5fa457f593272a68",
       "source_path": "tests/lang/basic/multiple_flag_aliases_reordered.tl",
@@ -1503,7 +1569,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/named_output_simple.tl",
-      "duration_ms": 37,
+      "duration_ms": 35,
       "error": null,
       "slug": "tests-lang-basic-named-output-simple-tl-782dbe92080b204f",
       "source_path": "tests/lang/basic/named_output_simple.tl",
@@ -1525,7 +1591,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/nested_function_call.tl",
-      "duration_ms": 32,
+      "duration_ms": 30,
       "error": null,
       "slug": "tests-lang-basic-nested-function-call-tl-ccb588fb223345b2",
       "source_path": "tests/lang/basic/nested_function_call.tl",
@@ -1536,7 +1602,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/nested_function_call_with_side_effects.tl",
-      "duration_ms": 40,
+      "duration_ms": 37,
       "error": null,
       "slug": "tests-lang-basic-nested-function-call-with-side-effects-tl-868d73da17d2a6e5",
       "source_path": "tests/lang/basic/nested_function_call_with_side_effects.tl",
@@ -1546,8 +1612,63 @@
     },
     {
       "bindings": {},
+      "display_name": "tests/lang/basic/object/inline_object_small.tl",
+      "duration_ms": 83,
+      "error": null,
+      "slug": "tests-lang-basic-object-inline-object-small-tl-9d9e07fe5ce8947b",
+      "source_path": "tests/lang/basic/object/inline_object_small.tl",
+      "status": "passed",
+      "trace_entries": 66,
+      "trace_path": "traces/tests-lang-basic-object-inline-object-small-tl-9d9e07fe5ce8947b.jsonl"
+    },
+    {
+      "bindings": {},
+      "display_name": "tests/lang/basic/object/object_bool_member_access.tl",
+      "duration_ms": 52,
+      "error": null,
+      "slug": "tests-lang-basic-object-object-bool-member-access-tl-f854d2b60e2ea23c",
+      "source_path": "tests/lang/basic/object/object_bool_member_access.tl",
+      "status": "passed",
+      "trace_entries": 56,
+      "trace_path": "traces/tests-lang-basic-object-object-bool-member-access-tl-f854d2b60e2ea23c.jsonl"
+    },
+    {
+      "bindings": {},
+      "display_name": "tests/lang/basic/object/object_nested_rows_print.tl",
+      "duration_ms": 142,
+      "error": null,
+      "slug": "tests-lang-basic-object-object-nested-rows-print-tl-b6abaac8ed31ee0b",
+      "source_path": "tests/lang/basic/object/object_nested_rows_print.tl",
+      "status": "passed",
+      "trace_entries": 64,
+      "trace_path": "traces/tests-lang-basic-object-object-nested-rows-print-tl-b6abaac8ed31ee0b.jsonl"
+    },
+    {
+      "bindings": {},
+      "display_name": "tests/lang/basic/object/object_nested_rows_sizeof_inline_logical.tl",
+      "duration_ms": 161,
+      "error": null,
+      "slug": "tests-lang-basic-object-object-nested-rows-sizeof-inline-logical-tl-ecbab10f5264b744",
+      "source_path": "tests/lang/basic/object/object_nested_rows_sizeof_inline_logical.tl",
+      "status": "passed",
+      "trace_entries": 72,
+      "trace_path": "traces/tests-lang-basic-object-object-nested-rows-sizeof-inline-logical-tl-ecbab10f5264b744.jsonl"
+    },
+    {
+      "bindings": {},
+      "display_name": "tests/lang/basic/object/object_nested_rows_sizeof_nline.tl",
+      "duration_ms": 120,
+      "error": null,
+      "slug": "tests-lang-basic-object-object-nested-rows-sizeof-nline-tl-afe3f4a300caddbf",
+      "source_path": "tests/lang/basic/object/object_nested_rows_sizeof_nline.tl",
+      "status": "passed",
+      "trace_entries": 72,
+      "trace_path": "traces/tests-lang-basic-object-object-nested-rows-sizeof-nline-tl-afe3f4a300caddbf.jsonl"
+    },
+    {
+      "bindings": {},
       "display_name": "tests/lang/basic/object_comma_disambiguates_narrow.tl",
-      "duration_ms": 30,
+      "duration_ms": 29,
       "error": null,
       "slug": "tests-lang-basic-object-comma-disambiguates-narrow-tl-0da743df9dcf7761",
       "source_path": "tests/lang/basic/object_comma_disambiguates_narrow.tl",
@@ -1558,13 +1679,24 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/object_dot_access.tl",
-      "duration_ms": 44,
+      "duration_ms": 54,
       "error": null,
       "slug": "tests-lang-basic-object-dot-access-tl-f95de8e522e331d2",
       "source_path": "tests/lang/basic/object_dot_access.tl",
       "status": "passed",
       "trace_entries": 54,
       "trace_path": "traces/tests-lang-basic-object-dot-access-tl-f95de8e522e331d2.jsonl"
+    },
+    {
+      "bindings": {},
+      "display_name": "tests/lang/basic/object_dot_access_current_input.tl",
+      "duration_ms": 34,
+      "error": null,
+      "slug": "tests-lang-basic-object-dot-access-current-input-tl-1427526f31d3bf50",
+      "source_path": "tests/lang/basic/object_dot_access_current_input.tl",
+      "status": "passed",
+      "trace_entries": 38,
+      "trace_path": "traces/tests-lang-basic-object-dot-access-current-input-tl-1427526f31d3bf50.jsonl"
     },
     {
       "bindings": {},
@@ -1580,7 +1712,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/object_dynamic_key_value.tl",
-      "duration_ms": 27,
+      "duration_ms": 28,
       "error": null,
       "slug": "tests-lang-basic-object-dynamic-key-value-tl-4b7ca6eeb2e698ae",
       "source_path": "tests/lang/basic/object_dynamic_key_value.tl",
@@ -1591,7 +1723,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/object_index_string.tl",
-      "duration_ms": 35,
+      "duration_ms": 36,
       "error": null,
       "slug": "tests-lang-basic-object-index-string-tl-f48774e858beab93",
       "source_path": "tests/lang/basic/object_index_string.tl",
@@ -1602,7 +1734,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/object_multiple_dynamic_keys.tl",
-      "duration_ms": 28,
+      "duration_ms": 29,
       "error": null,
       "slug": "tests-lang-basic-object-multiple-dynamic-keys-tl-89232c8722c77af2",
       "source_path": "tests/lang/basic/object_multiple_dynamic_keys.tl",
@@ -1613,7 +1745,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/params_error.tl",
-      "duration_ms": 30,
+      "duration_ms": 28,
       "error": null,
       "slug": "tests-lang-basic-params-error-tl-02040697f2f356fd",
       "source_path": "tests/lang/basic/params_error.tl",
@@ -1645,8 +1777,19 @@
     },
     {
       "bindings": {},
+      "display_name": "tests/lang/basic/range_literal.tl",
+      "duration_ms": 27,
+      "error": null,
+      "slug": "tests-lang-basic-range-literal-tl-59e877a53b7d6906",
+      "source_path": "tests/lang/basic/range_literal.tl",
+      "status": "passed",
+      "trace_entries": 28,
+      "trace_path": "traces/tests-lang-basic-range-literal-tl-59e877a53b7d6906.jsonl"
+    },
+    {
+      "bindings": {},
       "display_name": "tests/lang/basic/self_referential_function.tl",
-      "duration_ms": 30,
+      "duration_ms": 33,
       "error": null,
       "slug": "tests-lang-basic-self-referential-function-tl-16fec1bd2b0ffb33",
       "source_path": "tests/lang/basic/self_referential_function.tl",
@@ -1656,8 +1799,19 @@
     },
     {
       "bindings": {},
+      "display_name": "tests/lang/basic/seq_cat_filter_sum.tl",
+      "duration_ms": 124,
+      "error": null,
+      "slug": "tests-lang-basic-seq-cat-filter-sum-tl-d780afc1fd810343",
+      "source_path": "tests/lang/basic/seq_cat_filter_sum.tl",
+      "status": "passed",
+      "trace_entries": 126,
+      "trace_path": "traces/tests-lang-basic-seq-cat-filter-sum-tl-d780afc1fd810343.jsonl"
+    },
+    {
+      "bindings": {},
       "display_name": "tests/lang/basic/short_help_works.tl",
-      "duration_ms": 31,
+      "duration_ms": 28,
       "error": null,
       "slug": "tests-lang-basic-short-help-works-tl-6548256b85a9373e",
       "source_path": "tests/lang/basic/short_help_works.tl",
@@ -1678,6 +1832,39 @@
     },
     {
       "bindings": {},
+      "display_name": "tests/lang/basic/str_index.tl",
+      "duration_ms": 42,
+      "error": null,
+      "slug": "tests-lang-basic-str-index-tl-2800124bec53dc5c",
+      "source_path": "tests/lang/basic/str_index.tl",
+      "status": "passed",
+      "trace_entries": 44,
+      "trace_path": "traces/tests-lang-basic-str-index-tl-2800124bec53dc5c.jsonl"
+    },
+    {
+      "bindings": {},
+      "display_name": "tests/lang/basic/struct/struct_cast_bool_member_access.tl",
+      "duration_ms": 47,
+      "error": null,
+      "slug": "tests-lang-basic-struct-struct-cast-bool-member-access-tl-6b308c17bef5ea6c",
+      "source_path": "tests/lang/basic/struct/struct_cast_bool_member_access.tl",
+      "status": "passed",
+      "trace_entries": 49,
+      "trace_path": "traces/tests-lang-basic-struct-struct-cast-bool-member-access-tl-6b308c17bef5ea6c.jsonl"
+    },
+    {
+      "bindings": {},
+      "display_name": "tests/lang/basic/struct/struct_cast_bool_print.tl",
+      "duration_ms": 41,
+      "error": null,
+      "slug": "tests-lang-basic-struct-struct-cast-bool-print-tl-ddb3569e4e2c5e91",
+      "source_path": "tests/lang/basic/struct/struct_cast_bool_print.tl",
+      "status": "passed",
+      "trace_entries": 40,
+      "trace_path": "traces/tests-lang-basic-struct-struct-cast-bool-print-tl-ddb3569e4e2c5e91.jsonl"
+    },
+    {
+      "bindings": {},
       "display_name": "tests/lang/basic/table/table_all_object_single_column.tl",
       "duration_ms": 39,
       "error": null,
@@ -1690,7 +1877,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_color_headers_and_untyped_strings.tl",
-      "duration_ms": 29,
+      "duration_ms": 30,
       "error": null,
       "slug": "tests-lang-basic-table-table-color-headers-and-untyped-strings-tl-ab42efe7fce96821",
       "source_path": "tests/lang/basic/table/table_color_headers_and_untyped_strings.tl",
@@ -1701,7 +1888,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_color_idx_and_quotes_object_keys_untyped.tl",
-      "duration_ms": 56,
+      "duration_ms": 62,
       "error": null,
       "slug": "tests-lang-basic-table-table-color-idx-and-quotes-object-keys-untyped-tl-08a8a82d24eb0327",
       "source_path": "tests/lang/basic/table/table_color_idx_and_quotes_object_keys_untyped.tl",
@@ -1712,7 +1899,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_env_mode_keeps_main_input_last.tl",
-      "duration_ms": 48,
+      "duration_ms": 44,
       "error": null,
       "slug": "tests-lang-basic-table-table-env-mode-keeps-main-input-last-tl-830f28561c390f42",
       "source_path": "tests/lang/basic/table/table_env_mode_keeps_main_input_last.tl",
@@ -1723,7 +1910,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_env_mode_uses_variable_insertion_order.tl",
-      "duration_ms": 33,
+      "duration_ms": 32,
       "error": null,
       "slug": "tests-lang-basic-table-table-env-mode-uses-variable-insertion-order-tl-de82d1a815bf71f1",
       "source_path": "tests/lang/basic/table/table_env_mode_uses_variable_insertion_order.tl",
@@ -1734,7 +1921,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_explicit_pipeline_input_split_unicode.tl",
-      "duration_ms": 36,
+      "duration_ms": 39,
       "error": null,
       "slug": "tests-lang-basic-table-table-explicit-pipeline-input-split-unicode-tl-a0aa9268bde18671",
       "source_path": "tests/lang/basic/table/table_explicit_pipeline_input_split_unicode.tl",
@@ -1745,7 +1932,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_explicit_value_ignores_pipeline_input.tl",
-      "duration_ms": 39,
+      "duration_ms": 40,
       "error": null,
       "slug": "tests-lang-basic-table-table-explicit-value-ignores-pipeline-input-tl-f525ee67f0a9e00b",
       "source_path": "tests/lang/basic/table/table_explicit_value_ignores_pipeline_input.tl",
@@ -1756,7 +1943,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_idx_default.tl",
-      "duration_ms": 40,
+      "duration_ms": 44,
       "error": null,
       "slug": "tests-lang-basic-table-table-idx-default-tl-0ba5a0ab6b12aa40",
       "source_path": "tests/lang/basic/table/table_idx_default.tl",
@@ -1767,7 +1954,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_idx_restart.tl",
-      "duration_ms": 106,
+      "duration_ms": 108,
       "error": null,
       "slug": "tests-lang-basic-table-table-idx-restart-tl-9f252a494507e150",
       "source_path": "tests/lang/basic/table/table_idx_restart.tl",
@@ -1778,7 +1965,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_idx_start.tl",
-      "duration_ms": 47,
+      "duration_ms": 41,
       "error": null,
       "slug": "tests-lang-basic-table-table-idx-start-tl-2439357ba7d0607f",
       "source_path": "tests/lang/basic/table/table_idx_start.tl",
@@ -1800,7 +1987,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_named_scalar.tl",
-      "duration_ms": 41,
+      "duration_ms": 39,
       "error": null,
       "slug": "tests-lang-basic-table-table-named-scalar-tl-fa4a11a21b56f98d",
       "source_path": "tests/lang/basic/table/table_named_scalar.tl",
@@ -1811,7 +1998,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_object_ascii.tl",
-      "duration_ms": 48,
+      "duration_ms": 49,
       "error": null,
       "slug": "tests-lang-basic-table-table-object-ascii-tl-1519c2c330f13ad2",
       "source_path": "tests/lang/basic/table/table_object_ascii.tl",
@@ -1822,7 +2009,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_object_split_ascii.tl",
-      "duration_ms": 48,
+      "duration_ms": 49,
       "error": null,
       "slug": "tests-lang-basic-table-table-object-split-ascii-tl-70bbd48389346269",
       "source_path": "tests/lang/basic/table/table_object_split_ascii.tl",
@@ -1833,7 +2020,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_object_split_limit_ascii.tl",
-      "duration_ms": 49,
+      "duration_ms": 50,
       "error": null,
       "slug": "tests-lang-basic-table-table-object-split-limit-ascii-tl-b57bccfd6b909dc3",
       "source_path": "tests/lang/basic/table/table_object_split_limit_ascii.tl",
@@ -1844,7 +2031,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_optimistic_keep_header.tl",
-      "duration_ms": 71,
+      "duration_ms": 70,
       "error": null,
       "slug": "tests-lang-basic-table-table-optimistic-keep-header-tl-f6b5657d4c9c4815",
       "source_path": "tests/lang/basic/table/table_optimistic_keep_header.tl",
@@ -1855,7 +2042,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_optimistic_restart.tl",
-      "duration_ms": 103,
+      "duration_ms": 98,
       "error": null,
       "slug": "tests-lang-basic-table-table-optimistic-restart-tl-b51dc93a6cf23160",
       "source_path": "tests/lang/basic/table/table_optimistic_restart.tl",
@@ -1866,7 +2053,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_recursive_split_border.tl",
-      "duration_ms": 53,
+      "duration_ms": 50,
       "error": null,
       "slug": "tests-lang-basic-table-table-recursive-split-border-tl-ede9efc82b386d42",
       "source_path": "tests/lang/basic/table/table_recursive_split_border.tl",
@@ -1877,7 +2064,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_strict.tl",
-      "duration_ms": 63,
+      "duration_ms": 61,
       "error": null,
       "slug": "tests-lang-basic-table-table-strict-tl-f51f03eebfe748c5",
       "source_path": "tests/lang/basic/table/table_strict.tl",
@@ -1899,7 +2086,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_typed_split_null_not_quoted.tl",
-      "duration_ms": 39,
+      "duration_ms": 38,
       "error": null,
       "slug": "tests-lang-basic-table-table-typed-split-null-not-quoted-tl-3f997dfa06cf56bb",
       "source_path": "tests/lang/basic/table/table_typed_split_null_not_quoted.tl",
@@ -1921,7 +2108,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_unnamed_scalar.tl",
-      "duration_ms": 31,
+      "duration_ms": 30,
       "error": null,
       "slug": "tests-lang-basic-table-table-unnamed-scalar-tl-40c89f4ee7448921",
       "source_path": "tests/lang/basic/table/table_unnamed_scalar.tl",
@@ -1932,7 +2119,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/table/table_unsplit_object_literals_stay_in_underscore_column.tl",
-      "duration_ms": 67,
+      "duration_ms": 69,
       "error": null,
       "slug": "tests-lang-basic-table-table-unsplit-object-literals-stay-in-underscore-column-tl-e9786c9a9517335c",
       "source_path": "tests/lang/basic/table/table_unsplit_object_literals_stay_in_underscore_column.tl",
@@ -1954,7 +2141,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/var_decl_expr.tl",
-      "duration_ms": 23,
+      "duration_ms": 21,
       "error": null,
       "slug": "tests-lang-basic-var-decl-expr-tl-3f03292ed288d40a",
       "source_path": "tests/lang/basic/var_decl_expr.tl",
@@ -1965,7 +2152,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/var_decl_named_output.tl",
-      "duration_ms": 44,
+      "duration_ms": 41,
       "error": null,
       "slug": "tests-lang-basic-var-decl-named-output-tl-c7a8d38ccc74b59a",
       "source_path": "tests/lang/basic/var_decl_named_output.tl",
@@ -1975,41 +2162,8 @@
     },
     {
       "bindings": {},
-      "display_name": "tests/lang/basic/webdriver/http_serve_nested_query_click.tl",
-      "duration_ms": 7390,
-      "error": null,
-      "slug": "tests-lang-basic-webdriver-http-serve-nested-query-click-tl-9d93290678302225",
-      "source_path": "tests/lang/basic/webdriver/http_serve_nested_query_click.tl",
-      "status": "passed",
-      "trace_entries": 68,
-      "trace_path": "traces/tests-lang-basic-webdriver-http-serve-nested-query-click-tl-9d93290678302225.jsonl"
-    },
-    {
-      "bindings": {},
-      "display_name": "tests/lang/basic/webdriver/member_access.tl",
-      "duration_ms": 7450,
-      "error": null,
-      "slug": "tests-lang-basic-webdriver-member-access-tl-ded1428e40185e18",
-      "source_path": "tests/lang/basic/webdriver/member_access.tl",
-      "status": "passed",
-      "trace_entries": 45,
-      "trace_path": "traces/tests-lang-basic-webdriver-member-access-tl-ded1428e40185e18.jsonl"
-    },
-    {
-      "bindings": {},
-      "display_name": "tests/lang/basic/webdriver/query_xpath_attribute.tl",
-      "duration_ms": 3679,
-      "error": null,
-      "slug": "tests-lang-basic-webdriver-query-xpath-attribute-tl-1effc0551bf7989c",
-      "source_path": "tests/lang/basic/webdriver/query_xpath_attribute.tl",
-      "status": "passed",
-      "trace_entries": 44,
-      "trace_path": "traces/tests-lang-basic-webdriver-query-xpath-attribute-tl-1effc0551bf7989c.jsonl"
-    },
-    {
-      "bindings": {},
       "display_name": "tests/lang/basic/zero_arg_explicit_call_ignores_pipeline_input.tl",
-      "duration_ms": 23,
+      "duration_ms": 25,
       "error": null,
       "slug": "tests-lang-basic-zero-arg-explicit-call-ignores-pipeline-input-tl-854cbaf75bee392a",
       "source_path": "tests/lang/basic/zero_arg_explicit_call_ignores_pipeline_input.tl",
@@ -2020,7 +2174,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zip/zip_basic_collect.tl",
-      "duration_ms": 98,
+      "duration_ms": 96,
       "error": null,
       "slug": "tests-lang-basic-zip-zip-basic-collect-tl-47895431a01a56ca",
       "source_path": "tests/lang/basic/zip/zip_basic_collect.tl",
@@ -2031,7 +2185,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zip/zip_filtered.tl",
-      "duration_ms": 194,
+      "duration_ms": 181,
       "error": null,
       "slug": "tests-lang-basic-zip-zip-filtered-tl-eca016365a8a8f34",
       "source_path": "tests/lang/basic/zip/zip_filtered.tl",
@@ -2042,7 +2196,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zip/zip_filtered_batched.tl",
-      "duration_ms": 358,
+      "duration_ms": 291,
       "error": null,
       "slug": "tests-lang-basic-zip-zip-filtered-batched-tl-2f3ea566e2ef834a",
       "source_path": "tests/lang/basic/zip/zip_filtered_batched.tl",
@@ -2053,7 +2207,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zip/zip_inner_seq_current_regression.tl",
-      "duration_ms": 234,
+      "duration_ms": 176,
       "error": null,
       "slug": "tests-lang-basic-zip-zip-inner-seq-current-regression-tl-1491b232fbb85189",
       "source_path": "tests/lang/basic/zip/zip_inner_seq_current_regression.tl",
@@ -2064,7 +2218,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zip/zip_invariant_branch_does_not_pad_collapsed_group.tl",
-      "duration_ms": 200,
+      "duration_ms": 101,
       "error": null,
       "slug": "tests-lang-basic-zip-zip-invariant-branch-does-not-pad-collapsed-group-tl-4723021c0a4db4ee",
       "source_path": "tests/lang/basic/zip/zip_invariant_branch_does_not_pad_collapsed_group.tl",
@@ -2075,7 +2229,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zip/zip_invariant_branch_inner_collect.tl",
-      "duration_ms": 117,
+      "duration_ms": 91,
       "error": null,
       "slug": "tests-lang-basic-zip-zip-invariant-branch-inner-collect-tl-957c11e02f166e2f",
       "source_path": "tests/lang/basic/zip/zip_invariant_branch_inner_collect.tl",
@@ -2086,7 +2240,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zip/zip_invariant_branch_outer_collect.tl",
-      "duration_ms": 328,
+      "duration_ms": 96,
       "error": null,
       "slug": "tests-lang-basic-zip-zip-invariant-branch-outer-collect-tl-b8c61efaf9439128",
       "source_path": "tests/lang/basic/zip/zip_invariant_branch_outer_collect.tl",
@@ -2097,7 +2251,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zip/zip_named_exports_table.tl",
-      "duration_ms": 110,
+      "duration_ms": 106,
       "error": null,
       "slug": "tests-lang-basic-zip-zip-named-exports-table-tl-04e22f4bb962c369",
       "source_path": "tests/lang/basic/zip/zip_named_exports_table.tl",
@@ -2108,7 +2262,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zip/zip_tuple_duplicates_table.tl",
-      "duration_ms": 97,
+      "duration_ms": 98,
       "error": null,
       "slug": "tests-lang-basic-zip-zip-tuple-duplicates-table-tl-b4e5326d3d5c7b32",
       "source_path": "tests/lang/basic/zip/zip_tuple_duplicates_table.tl",
@@ -2119,7 +2273,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/basic/zip/zip_without_e_hides_branch_exports.tl",
-      "duration_ms": 87,
+      "duration_ms": 95,
       "error": null,
       "slug": "tests-lang-basic-zip-zip-without-e-hides-branch-exports-tl-ef7f18db7a1bc024",
       "source_path": "tests/lang/basic/zip/zip_without_e_hides_branch_exports.tl",
@@ -2130,7 +2284,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/break_outside_loop.tl",
-      "duration_ms": 16,
+      "duration_ms": 15,
       "error": null,
       "slug": "tests-lang-errors-break-outside-loop-tl-db974541a6196376",
       "source_path": "tests/lang/errors/break_outside_loop.tl",
@@ -2141,7 +2295,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/call_explicit_generic_non_callable.tl",
-      "duration_ms": 20,
+      "duration_ms": 18,
       "error": null,
       "slug": "tests-lang-errors-call-explicit-generic-non-callable-tl-df41e7fb2e9e9672",
       "source_path": "tests/lang/errors/call_explicit_generic_non_callable.tl",
@@ -2152,7 +2306,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/call_lambda_missing_args.tl",
-      "duration_ms": 23,
+      "duration_ms": 22,
       "error": null,
       "slug": "tests-lang-errors-call-lambda-missing-args-tl-e4520081a2539d26",
       "source_path": "tests/lang/errors/call_lambda_missing_args.tl",
@@ -2163,7 +2317,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/continue_outside_loop.tl",
-      "duration_ms": 15,
+      "duration_ms": 14,
       "error": null,
       "slug": "tests-lang-errors-continue-outside-loop-tl-94edc36ae20ee221",
       "source_path": "tests/lang/errors/continue_outside_loop.tl",
@@ -2174,7 +2328,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/env_undefined.tl",
-      "duration_ms": 20,
+      "duration_ms": 19,
       "error": null,
       "slug": "tests-lang-errors-env-undefined-tl-3426010624f1ed79",
       "source_path": "tests/lang/errors/env_undefined.tl",
@@ -2185,7 +2339,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/flag_before_param_name.tl",
-      "duration_ms": 15,
+      "duration_ms": 14,
       "error": null,
       "slug": "tests-lang-errors-flag-before-param-name-tl-b58abcca9ad38b82",
       "source_path": "tests/lang/errors/flag_before_param_name.tl",
@@ -2196,7 +2350,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/loop_control_too_many_args.tl",
-      "duration_ms": 15,
+      "duration_ms": 14,
       "error": null,
       "slug": "tests-lang-errors-loop-control-too-many-args-tl-f86251cee0018c02",
       "source_path": "tests/lang/errors/loop_control_too_many_args.tl",
@@ -2207,7 +2361,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/missing_value_for_short_arg.tl",
-      "duration_ms": 15,
+      "duration_ms": 14,
       "error": null,
       "slug": "tests-lang-errors-missing-value-for-short-arg-tl-a7acf043e43a791d",
       "source_path": "tests/lang/errors/missing_value_for_short_arg.tl",
@@ -2218,7 +2372,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/modules/ambiguous_module_path/ambiguous_module_path.tl",
-      "duration_ms": 16,
+      "duration_ms": 15,
       "error": null,
       "slug": "tests-lang-errors-modules-ambiguous-module-path-ambiguous-module-path-tl-88a9ace4fdf4f26f",
       "source_path": "tests/lang/errors/modules/ambiguous_module_path/ambiguous_module_path.tl",
@@ -2229,7 +2383,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/modules/nested_mod_requires_path/nested_mod_requires_path.tl",
-      "duration_ms": 15,
+      "duration_ms": 14,
       "error": null,
       "slug": "tests-lang-errors-modules-nested-mod-requires-path-nested-mod-requires-path-tl-b7aecd61b92c4493",
       "source_path": "tests/lang/errors/modules/nested_mod_requires_path/nested_mod_requires_path.tl",
@@ -2240,7 +2394,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/modules/nested_pub_use_does_not_recurse.tl",
-      "duration_ms": 17,
+      "duration_ms": 15,
       "error": null,
       "slug": "tests-lang-errors-modules-nested-pub-use-does-not-recurse-tl-bc332ebcaca76e0f",
       "source_path": "tests/lang/errors/modules/nested_pub_use_does_not_recurse.tl",
@@ -2251,7 +2405,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/modules/no_implicit_submodule_decl/no_implicit_submodule_decl.tl",
-      "duration_ms": 16,
+      "duration_ms": 13,
       "error": null,
       "slug": "tests-lang-errors-modules-no-implicit-submodule-decl-no-implicit-submodule-decl-tl-5f05d2d03254d9a5",
       "source_path": "tests/lang/errors/modules/no_implicit_submodule_decl/no_implicit_submodule_decl.tl",
@@ -2262,7 +2416,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/modules/private_use_is_not_exported_to_sibling.tl",
-      "duration_ms": 16,
+      "duration_ms": 15,
       "error": null,
       "slug": "tests-lang-errors-modules-private-use-is-not-exported-to-sibling-tl-2a6db4daaae85a2f",
       "source_path": "tests/lang/errors/modules/private_use_is_not_exported_to_sibling.tl",
@@ -2273,7 +2427,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/modules/require_package_name_conflict/require_package_name_conflict.tl",
-      "duration_ms": 16,
+      "duration_ms": 14,
       "error": null,
       "slug": "tests-lang-errors-modules-require-package-name-conflict-require-package-name-conflict-tl-e54475474107d08e",
       "source_path": "tests/lang/errors/modules/require_package_name_conflict/require_package_name_conflict.tl",
@@ -2284,7 +2438,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/modules/submodule_package_mismatch.tl",
-      "duration_ms": 16,
+      "duration_ms": 14,
       "error": null,
       "slug": "tests-lang-errors-modules-submodule-package-mismatch-tl-981c72ab4cda8f99",
       "source_path": "tests/lang/errors/modules/submodule_package_mismatch.tl",
@@ -2295,7 +2449,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/modules/undeclared_submodule/undeclared_submodule.tl",
-      "duration_ms": 15,
+      "duration_ms": 14,
       "error": null,
       "slug": "tests-lang-errors-modules-undeclared-submodule-undeclared-submodule-tl-99dc4bfc8944ac19",
       "source_path": "tests/lang/errors/modules/undeclared_submodule/undeclared_submodule.tl",
@@ -2306,7 +2460,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/multiple_different_short_flags.tl",
-      "duration_ms": 15,
+      "duration_ms": 16,
       "error": null,
       "slug": "tests-lang-errors-multiple-different-short-flags-tl-42f433896d61854f",
       "source_path": "tests/lang/errors/multiple_different_short_flags.tl",
@@ -2317,7 +2471,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/multiple_long_flags.tl",
-      "duration_ms": 15,
+      "duration_ms": 16,
       "error": null,
       "slug": "tests-lang-errors-multiple-long-flags-tl-76d333824593cc8c",
       "source_path": "tests/lang/errors/multiple_long_flags.tl",
@@ -2328,7 +2482,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/regex_duplicate_empty_and_underscore_note.tl",
-      "duration_ms": 16,
+      "duration_ms": 18,
       "error": null,
       "slug": "tests-lang-errors-regex-duplicate-empty-and-underscore-note-tl-e408a66b3fffb733",
       "source_path": "tests/lang/errors/regex_duplicate_empty_and_underscore_note.tl",
@@ -2339,7 +2493,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/regex_duplicate_named_capture_single_diagnostic.tl",
-      "duration_ms": 18,
+      "duration_ms": 17,
       "error": null,
       "slug": "tests-lang-errors-regex-duplicate-named-capture-single-diagnostic-tl-26d9ee8fc068e01e",
       "source_path": "tests/lang/errors/regex_duplicate_named_capture_single_diagnostic.tl",
@@ -2350,7 +2504,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/errors/undefined_variable.tl",
-      "duration_ms": 15,
+      "duration_ms": 16,
       "error": null,
       "slug": "tests-lang-errors-undefined-variable-tl-d850e7dfaf4b6d5a",
       "source_path": "tests/lang/errors/undefined_variable.tl",
@@ -2361,7 +2515,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/regex/basic_capture_group.tl",
-      "duration_ms": 54,
+      "duration_ms": 53,
       "error": null,
       "slug": "tests-lang-regex-basic-capture-group-tl-ed739a12b0b200d6",
       "source_path": "tests/lang/regex/basic_capture_group.tl",
@@ -2372,7 +2526,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/regex/capture_in_pipeline.tl",
-      "duration_ms": 87,
+      "duration_ms": 84,
       "error": null,
       "slug": "tests-lang-regex-capture-in-pipeline-tl-2c3c45bd5d9d798c",
       "source_path": "tests/lang/regex/capture_in_pipeline.tl",
@@ -2383,7 +2537,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/regex/main_match_output.tl",
-      "duration_ms": 58,
+      "duration_ms": 51,
       "error": null,
       "slug": "tests-lang-regex-main-match-output-tl-9ad2875a30ff67fc",
       "source_path": "tests/lang/regex/main_match_output.tl",
@@ -2394,7 +2548,7 @@
     {
       "bindings": {},
       "display_name": "tests/lang/regex/multiple_capture_groups.tl",
-      "duration_ms": 64,
+      "duration_ms": 59,
       "error": null,
       "slug": "tests-lang-regex-multiple-capture-groups-tl-1d7d6417ecb27642",
       "source_path": "tests/lang/regex/multiple_capture_groups.tl",
@@ -2405,18 +2559,18 @@
     {
       "bindings": {},
       "display_name": "tests/lang/regex/no_match.tl",
-      "duration_ms": 33,
+      "duration_ms": 32,
       "error": null,
       "slug": "tests-lang-regex-no-match-tl-11cfcfc5efe6ae20",
       "source_path": "tests/lang/regex/no_match.tl",
       "status": "passed",
-      "trace_entries": 27,
+      "trace_entries": 26,
       "trace_path": "traces/tests-lang-regex-no-match-tl-11cfcfc5efe6ae20.jsonl"
     },
     {
       "bindings": {},
       "display_name": "tests/lang/regex/optional_capture_is_null.tl",
-      "duration_ms": 37,
+      "duration_ms": 35,
       "error": null,
       "slug": "tests-lang-regex-optional-capture-is-null-tl-9b7170a0525fcd91",
       "source_path": "tests/lang/regex/optional_capture_is_null.tl",

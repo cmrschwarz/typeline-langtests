@@ -1,2 +1,2 @@
-{"event_id":0,"timestamp_ns":857022,"kind":{"type":"CompilingModule","module_path":"call_explicit_generic_non_callable","source_path":"./tests/lang/errors/call_explicit_generic_non_callable.tl","source_code":null}}
-{"event_id":1,"timestamp_ns":1102100,"kind":{"type":"FinishedCompilingModule","module_path":"call_explicit_generic_non_callable","success":true,"source_code":null}}
+{"event_id":0,"timestamp_ns":751677,"kind":{"type":"CompilingModule","module_path":"call_explicit_generic_non_callable","source_path":"./tests/lang/errors/call_explicit_generic_non_callable.tl","source_code":null}}
+{"event_id":1,"timestamp_ns":959166,"kind":{"type":"FinishedCompilingModule","module_path":"call_explicit_generic_non_callable","success":true,"source_code":null}}

@@ -1,20 +1,20 @@
-{"event_id":0,"timestamp_ns":793993,"kind":{"type":"CompilingModule","module_path":"lambda_value","source_path":"./tests/lang/basic/lambda_value.tl","source_code":null}}
-{"event_id":1,"timestamp_ns":1001881,"kind":{"type":"FinishedCompilingModule","module_path":"lambda_value","success":true,"source_code":null}}
-{"event_id":2,"timestamp_ns":1403802,"kind":{"type":"SourceCode","source":"let foobar = {// 42};\n\nfoobar\n\n#*@stdout\n42\n*#\n","filename":"./tests/lang/basic/lambda_value.tl"}}
-{"event_id":3,"timestamp_ns":1534646,"kind":{"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}}
-{"event_id":4,"timestamp_ns":1620196,"kind":{"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}}
-{"event_id":5,"timestamp_ns":1708581,"kind":{"type":"GroupTrackCreated","subchain_id":0,"group_track_id":0,"prev_actor_id":0,"parent":null}}
-{"event_id":6,"timestamp_ns":1813787,"kind":{"type":"GroupTrackChanged","subchain_id":0,"snapshot":{"id":0,"snapshot_ref":0,"passed_fields_count":0,"group_lengths":[1],"parent_group_advancement":[0],"iterators":{}},"reason":"initialization"}}
-{"event_id":7,"timestamp_ns":2171665,"kind":{"type":"CallExpansionBegin","callee_name":"<lambda>","caller_fi":0,"caller_op_id":1,"is_lazy":false,"pipeline_str":"@{}","named_args":[["help","Constant(null)"]],"rich_args":[["help",{"Constant":{"Null":null}}]],"source_code":"{// 42}","call_site_source":"foobar","call_site_location":"./tests/lang/basic/lambda_value.tl:3:1_3:7"}}
-{"event_id":8,"timestamp_ns":2419278,"kind":{"type":"CallExpansionEnd","callee_name":"<lambda>","has_pending":false}}
-{"event_id":9,"timestamp_ns":2510378,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":1,"tf_id":0,"after":0}}
-{"event_id":10,"timestamp_ns":2628739,"kind":{"type":"ConstantCreated","name":"print.input","constant_id":0,"value":{"Int":42}}}
-{"event_id":11,"timestamp_ns":2737913,"kind":{"type":"TransformInstantiated","transform_id":0,"transform_name":"print","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":null,"successor":null,"inputs":[{"name":"input","value":{"Constant":{"Expr":{"Literal":{"value":{"Int":42},"span":{"source":"Unknown","start":0,"end":0},"joint":false,"indicator":"LeadingEq"}}}}}],"outputs":null}}
-{"event_id":12,"timestamp_ns":3065615,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":2,"tf_id":1,"after":1}}
-{"event_id":13,"timestamp_ns":3159430,"kind":{"type":"TransformInstantiated","transform_id":1,"transform_name":"terminator","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":0,"successor":null,"inputs":null,"outputs":null}}
-{"event_id":14,"timestamp_ns":3329578,"kind":{"type":"TransformUpdateBegin","transform_id":0,"transform_name":"print","batch_size":1,"input_done":true}}
-{"event_id":15,"timestamp_ns":3503392,"kind":{"type":"TransformUpdateEnd","transform_id":0,"transform_name":"print","done":true}}
-{"event_id":16,"timestamp_ns":3596677,"kind":{"type":"TransformUpdateBegin","transform_id":1,"transform_name":"terminator","batch_size":1,"input_done":true}}
-{"event_id":17,"timestamp_ns":3692916,"kind":{"type":"ActionGroupBegin","subchain_id":0,"actor_id":2,"action_group_id":0}}
-{"event_id":18,"timestamp_ns":3783836,"kind":{"type":"ActionGroupEnd","subchain_id":0,"actor_id":2,"action_group_id":0,"actions":[{"kind":"Drop","field_idx":0,"run_len":1,"actor_id":2}],"field_count_delta":-1}}
-{"event_id":19,"timestamp_ns":3928246,"kind":{"type":"TransformUpdateEnd","transform_id":1,"transform_name":"terminator","done":true}}
+{"event_id":0,"timestamp_ns":831337,"kind":{"type":"CompilingModule","module_path":"lambda_value","source_path":"./tests/lang/basic/lambda_value.tl","source_code":null}}
+{"event_id":1,"timestamp_ns":1026452,"kind":{"type":"FinishedCompilingModule","module_path":"lambda_value","success":true,"source_code":null}}
+{"event_id":2,"timestamp_ns":1445307,"kind":{"type":"SourceCode","source":"let foobar = {// 42};\n\nfoobar\n\n#*@stdout\n42\n*#\n","filename":"./tests/lang/basic/lambda_value.tl"}}
+{"event_id":3,"timestamp_ns":1575320,"kind":{"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}}
+{"event_id":4,"timestamp_ns":1654318,"kind":{"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}}
+{"event_id":5,"timestamp_ns":1733246,"kind":{"type":"GroupTrackCreated","subchain_id":0,"group_track_id":0,"prev_actor_id":0,"parent":null}}
+{"event_id":6,"timestamp_ns":1825860,"kind":{"type":"GroupTrackChanged","subchain_id":0,"snapshot":{"id":0,"snapshot_ref":0,"passed_fields_count":0,"group_lengths":[1],"parent_group_advancement":[0],"iterators":{}},"reason":"initialization"}}
+{"event_id":7,"timestamp_ns":2166988,"kind":{"type":"CallExpansionBegin","callee_name":"<lambda>","caller_fi":0,"caller_op_id":1,"is_lazy":false,"pipeline_str":"@{}","named_args":[["help","Constant(null)"]],"rich_args":[["help",{"Constant":[0,null]}]],"source_code":"{// 42}","call_site_source":"foobar","call_site_location":"./tests/lang/basic/lambda_value.tl:3:1_3:7"}}
+{"event_id":8,"timestamp_ns":2389084,"kind":{"type":"CallExpansionEnd","callee_name":"<lambda>","has_pending":false}}
+{"event_id":9,"timestamp_ns":2468283,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":1,"tf_id":0,"after":0}}
+{"event_id":10,"timestamp_ns":2581024,"kind":{"type":"ConstantCreated","name":"print.input","constant_id":0,"value":[3,42]}}
+{"event_id":11,"timestamp_ns":2672966,"kind":{"type":"TransformInstantiated","transform_id":0,"transform_name":"print","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":null,"successor":null,"inputs":[{"name":"input","value":{"Constant":[19,{"Literal":{"value":{"Int":42},"span":{"source":"Unknown","start":0,"end":0},"joint":false,"indicator":"LeadingEq"}}]}}],"outputs":null}}
+{"event_id":12,"timestamp_ns":2929647,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":2,"tf_id":1,"after":1}}
+{"event_id":13,"timestamp_ns":3008775,"kind":{"type":"TransformInstantiated","transform_id":1,"transform_name":"terminator","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":0,"successor":null,"inputs":null,"outputs":null}}
+{"event_id":14,"timestamp_ns":3192479,"kind":{"type":"TransformUpdateBegin","transform_id":0,"transform_name":"print","batch_size":1,"input_done":true}}
+{"event_id":15,"timestamp_ns":3362297,"kind":{"type":"TransformUpdateEnd","transform_id":0,"transform_name":"print","done":true}}
+{"event_id":16,"timestamp_ns":3438480,"kind":{"type":"TransformUpdateBegin","transform_id":1,"transform_name":"terminator","batch_size":1,"input_done":true}}
+{"event_id":17,"timestamp_ns":3518249,"kind":{"type":"ActionGroupBegin","subchain_id":0,"actor_id":2,"action_group_id":0}}
+{"event_id":18,"timestamp_ns":3594792,"kind":{"type":"ActionGroupEnd","subchain_id":0,"actor_id":2,"action_group_id":0,"actions":[{"kind":"Drop","field_idx":0,"run_len":1,"actor_id":2}],"field_count_delta":-1}}
+{"event_id":19,"timestamp_ns":3711921,"kind":{"type":"TransformUpdateEnd","transform_id":1,"transform_name":"terminator","done":true}}
