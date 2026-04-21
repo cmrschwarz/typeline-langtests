@@ -1,2 +1,2 @@
-{"event_id":0,"timestamp_ns":705391,"kind":{"type":"CompilingModule","module_path":"env_undefined","source_path":"./tests/lang/errors/env_undefined.tl","source_code":null}}
-{"event_id":1,"timestamp_ns":891440,"kind":{"type":"FinishedCompilingModule","module_path":"env_undefined","success":true,"source_code":null}}
+{"event_id":0,"timestamp_ns":785073,"kind":{"type":"CompilingModule","module_path":"env_undefined","source_path":"./tests/lang/errors/env_undefined.tl","source_code":null}}
+{"event_id":1,"timestamp_ns":956453,"kind":{"type":"FinishedCompilingModule","module_path":"env_undefined","success":true,"source_code":null}}
