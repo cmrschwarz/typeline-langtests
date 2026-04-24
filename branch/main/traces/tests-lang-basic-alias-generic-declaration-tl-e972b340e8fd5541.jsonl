@@ -1,24 +1,24 @@
-{"event_id":0,"timestamp_ns":10979536,"kind":{"type":"CompilingModule","module_path":"alias_generic_declaration","source_path":"./tests/lang/basic/alias_generic_declaration.tl","source_code":null}}
-{"event_id":1,"timestamp_ns":11217660,"kind":{"type":"FinishedCompilingModule","module_path":"alias_generic_declaration","success":true,"source_code":null}}
-{"event_id":2,"timestamp_ns":11314430,"kind":{"type":"CompilingDef","module_path":"alias_generic_declaration","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"alias","source_code":"alias"}}
-{"event_id":3,"timestamp_ns":11415027,"kind":{"type":"FinishedCompilingDef","module_path":"alias_generic_declaration","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"alias","success":true,"source_code":"alias"}}
-{"event_id":4,"timestamp_ns":11514192,"kind":{"type":"CompilingDef","module_path":"alias_generic_declaration","def_id":"HirDefId { hcx_id: 1, def_id: 54 }","def_kind":"func","source_code":"func foo<T>(x: T) :: T {\n    x\n}"}}
-{"event_id":5,"timestamp_ns":11619168,"kind":{"type":"FinishedCompilingDef","module_path":"alias_generic_declaration","def_id":"HirDefId { hcx_id: 1, def_id: 54 }","def_kind":"func","success":true,"source_code":"func foo<T>(x: T) :: T {\n    x\n}"}}
-{"event_id":6,"timestamp_ns":11981072,"kind":{"type":"SourceCode","source":"func foo<T>(x: T) :: T {\n    x\n}\n\nalias bar<T> = foo<T>;\n\nbar :42\n#*@stdout\n42\n*#\n","filename":"./tests/lang/basic/alias_generic_declaration.tl"}}
-{"event_id":7,"timestamp_ns":12142173,"kind":{"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}}
-{"event_id":8,"timestamp_ns":12214558,"kind":{"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}}
-{"event_id":9,"timestamp_ns":12288756,"kind":{"type":"GroupTrackCreated","subchain_id":0,"group_track_id":0,"prev_actor_id":0,"parent":null}}
-{"event_id":10,"timestamp_ns":12376429,"kind":{"type":"GroupTrackChanged","subchain_id":0,"snapshot":{"id":0,"snapshot_ref":0,"passed_fields_count":0,"group_lengths":[1],"parent_group_advancement":[0],"iterators":{}},"reason":"initialization"}}
-{"event_id":11,"timestamp_ns":12710432,"kind":{"type":"CallExpansionBegin","callee_name":"foo","caller_fi":0,"caller_op_id":1,"is_lazy":false,"pipeline_str":"@{}","named_args":[["x","Constant(Int(42))"],["help","Constant(null)"]],"rich_args":[["x",{"Constant":[3,42]}],["help",{"Constant":[0,null]}]],"source_code":"func foo<T>(x: T) :: T {\n    x\n}","call_site_source":"bar","call_site_location":"./tests/lang/basic/alias_generic_declaration.tl:7:1_7:4"}}
-{"event_id":12,"timestamp_ns":12996385,"kind":{"type":"CallExpansionEnd","callee_name":"foo","has_pending":false}}
-{"event_id":13,"timestamp_ns":13118693,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":1,"tf_id":0,"after":0}}
-{"event_id":14,"timestamp_ns":13241512,"kind":{"type":"ConstantCreated","name":"print.input","constant_id":0,"value":[3,42]}}
-{"event_id":15,"timestamp_ns":13346027,"kind":{"type":"TransformInstantiated","transform_id":0,"transform_name":"print","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":null,"successor":null,"inputs":[{"name":"input","value":{"Constant":[19,{"Literal":{"value":{"Int":42},"span":{"source":"Unknown","start":0,"end":0},"joint":false,"indicator":"LeadingEq"}}]}}],"outputs":null}}
-{"event_id":16,"timestamp_ns":13644874,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":2,"tf_id":1,"after":1}}
-{"event_id":17,"timestamp_ns":13726065,"kind":{"type":"TransformInstantiated","transform_id":1,"transform_name":"terminator","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":0,"successor":null,"inputs":null,"outputs":null}}
-{"event_id":18,"timestamp_ns":13882327,"kind":{"type":"TransformUpdateBegin","transform_id":0,"transform_name":"print","batch_size":1,"input_done":true}}
-{"event_id":19,"timestamp_ns":14060940,"kind":{"type":"TransformUpdateEnd","transform_id":0,"transform_name":"print","done":true}}
-{"event_id":20,"timestamp_ns":14146709,"kind":{"type":"TransformUpdateBegin","transform_id":1,"transform_name":"terminator","batch_size":1,"input_done":true}}
-{"event_id":21,"timestamp_ns":14229664,"kind":{"type":"ActionGroupBegin","subchain_id":0,"actor_id":2,"action_group_id":0}}
-{"event_id":22,"timestamp_ns":14306026,"kind":{"type":"ActionGroupEnd","subchain_id":0,"actor_id":2,"action_group_id":0,"actions":[{"kind":"Drop","field_idx":0,"run_len":1,"actor_id":2}],"field_count_delta":-1}}
-{"event_id":23,"timestamp_ns":14432532,"kind":{"type":"TransformUpdateEnd","transform_id":1,"transform_name":"terminator","done":true}}
+{"event_id":0,"timestamp_ns":815021,"kind":{"type":"CompilingModule","module_path":"alias_generic_declaration","source_path":"./tests/lang/basic/alias_generic_declaration.tl","source_code":null}}
+{"event_id":1,"timestamp_ns":1020755,"kind":{"type":"FinishedCompilingModule","module_path":"alias_generic_declaration","success":true,"source_code":null}}
+{"event_id":2,"timestamp_ns":1118097,"kind":{"type":"CompilingDef","module_path":"alias_generic_declaration","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"alias","source_code":"alias"}}
+{"event_id":3,"timestamp_ns":1211241,"kind":{"type":"FinishedCompilingDef","module_path":"alias_generic_declaration","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"alias","success":true,"source_code":"alias"}}
+{"event_id":4,"timestamp_ns":1307731,"kind":{"type":"CompilingDef","module_path":"alias_generic_declaration","def_id":"HirDefId { hcx_id: 1, def_id: 54 }","def_kind":"func","source_code":"func foo<T>(x: T) :: T {\n    x\n}"}}
+{"event_id":5,"timestamp_ns":1452572,"kind":{"type":"FinishedCompilingDef","module_path":"alias_generic_declaration","def_id":"HirDefId { hcx_id: 1, def_id: 54 }","def_kind":"func","success":true,"source_code":"func foo<T>(x: T) :: T {\n    x\n}"}}
+{"event_id":6,"timestamp_ns":1825658,"kind":{"type":"SourceCode","source":"func foo<T>(x: T) :: T {\n    x\n}\n\nalias bar<T> = foo<T>;\n\nbar :42\n#*@stdout\n42\n*#\n","filename":"./tests/lang/basic/alias_generic_declaration.tl"}}
+{"event_id":7,"timestamp_ns":1963165,"kind":{"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}}
+{"event_id":8,"timestamp_ns":2044096,"kind":{"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}}
+{"event_id":9,"timestamp_ns":2128874,"kind":{"type":"GroupTrackCreated","subchain_id":0,"group_track_id":0,"prev_actor_id":0,"parent":null}}
+{"event_id":10,"timestamp_ns":2226085,"kind":{"type":"GroupTrackChanged","subchain_id":0,"snapshot":{"id":0,"snapshot_ref":0,"passed_fields_count":0,"group_lengths":[1],"parent_group_advancement":[0],"iterators":{}},"reason":"initialization"}}
+{"event_id":11,"timestamp_ns":2583843,"kind":{"type":"CallExpansionBegin","callee_name":"foo","caller_fi":0,"caller_op_id":1,"is_lazy":false,"pipeline_str":"@{}","named_args":[["x","Constant(Int(42))"],["help","Constant(null)"]],"rich_args":[["x",{"Constant":[3,42]}],["help",{"Constant":[0,null]}]],"source_code":"func foo<T>(x: T) :: T {\n    x\n}","call_site_source":"bar","call_site_location":"./tests/lang/basic/alias_generic_declaration.tl:7:1_7:4"}}
+{"event_id":12,"timestamp_ns":2875428,"kind":{"type":"CallExpansionEnd","callee_name":"foo","has_pending":false}}
+{"event_id":13,"timestamp_ns":2962440,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":1,"tf_id":0,"after":0}}
+{"event_id":14,"timestamp_ns":3078868,"kind":{"type":"ConstantCreated","name":"print.input","constant_id":0,"value":[3,42]}}
+{"event_id":15,"timestamp_ns":3181569,"kind":{"type":"TransformInstantiated","transform_id":0,"transform_name":"print","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":null,"successor":null,"inputs":[{"name":"input","value":{"Constant":[19,{"Literal":{"value":{"Int":42},"span":{"source":"Unknown","start":0,"end":0},"joint":false,"indicator":"LeadingEq"}}]}}],"outputs":null}}
+{"event_id":16,"timestamp_ns":3483773,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":2,"tf_id":1,"after":1}}
+{"event_id":17,"timestamp_ns":3563302,"kind":{"type":"TransformInstantiated","transform_id":1,"transform_name":"terminator","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":0,"successor":null,"inputs":null,"outputs":null}}
+{"event_id":18,"timestamp_ns":3715806,"kind":{"type":"TransformUpdateBegin","transform_id":0,"transform_name":"print","batch_size":1,"input_done":true}}
+{"event_id":19,"timestamp_ns":3888549,"kind":{"type":"TransformUpdateEnd","transform_id":0,"transform_name":"print","done":true}}
+{"event_id":20,"timestamp_ns":3967046,"kind":{"type":"TransformUpdateBegin","transform_id":1,"transform_name":"terminator","batch_size":1,"input_done":true}}
+{"event_id":21,"timestamp_ns":4057414,"kind":{"type":"ActionGroupBegin","subchain_id":0,"actor_id":2,"action_group_id":0}}
+{"event_id":22,"timestamp_ns":4136422,"kind":{"type":"ActionGroupEnd","subchain_id":0,"actor_id":2,"action_group_id":0,"actions":[{"kind":"Drop","field_idx":0,"run_len":1,"actor_id":2}],"field_count_delta":-1}}
+{"event_id":23,"timestamp_ns":4266394,"kind":{"type":"TransformUpdateEnd","transform_id":1,"transform_name":"terminator","done":true}}

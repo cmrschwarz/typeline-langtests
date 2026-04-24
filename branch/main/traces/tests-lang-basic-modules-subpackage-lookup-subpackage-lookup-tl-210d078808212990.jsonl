@@ -1,26 +1,26 @@
-{"event_id":0,"timestamp_ns":1585144,"kind":{"type":"CompilingModule","module_path":"subpackage_lookup","source_path":"./tests/lang/basic/modules/subpackage_lookup/subpackage_lookup.tl","source_code":null}}
-{"event_id":1,"timestamp_ns":1784536,"kind":{"type":"FinishedCompilingModule","module_path":"subpackage_lookup","success":true,"source_code":null}}
-{"event_id":2,"timestamp_ns":1856390,"kind":{"type":"CompilingModule","module_path":"dep","source_path":"/home/runner/work/typeline_v2_2/typeline_v2_2/tests/lang/basic/modules/subpackage_lookup/subpackage_lookup_aux/dep.tl","source_code":"package dep {\n    package bar;\n}\n"}}
-{"event_id":3,"timestamp_ns":1944344,"kind":{"type":"FinishedCompilingModule","module_path":"dep","success":true,"source_code":"package dep {\n    package bar;\n}\n"}}
-{"event_id":4,"timestamp_ns":2028941,"kind":{"type":"CompilingModule","module_path":"dep::bar","source_path":"/home/runner/work/typeline_v2_2/typeline_v2_2/tests/lang/basic/modules/subpackage_lookup/subpackage_lookup_aux/bar.tl","source_code":"package bar;\n\npub func id(x: int) :: int {\n    {x}\n}\n"}}
-{"event_id":5,"timestamp_ns":2122185,"kind":{"type":"FinishedCompilingModule","module_path":"dep::bar","success":true,"source_code":"package bar;\n\npub func id(x: int) :: int {\n    {x}\n}\n"}}
-{"event_id":6,"timestamp_ns":2216391,"kind":{"type":"CompilingDef","module_path":"dep::bar","def_id":"HirDefId { hcx_id: 5, def_id: 1 }","def_kind":"func","source_code":"func id(x: int) :: int {\n    {x}\n}"}}
-{"event_id":7,"timestamp_ns":2323270,"kind":{"type":"FinishedCompilingDef","module_path":"dep::bar","def_id":"HirDefId { hcx_id: 5, def_id: 1 }","def_kind":"func","success":true,"source_code":"func id(x: int) :: int {\n    {x}\n}"}}
-{"event_id":8,"timestamp_ns":2705242,"kind":{"type":"SourceCode","source":"require dep = \"subpackage_lookup_aux/dep.tl\";\n\ndep.bar.id :7\n\n#*@stdout\n7\n*#\n","filename":"./tests/lang/basic/modules/subpackage_lookup/subpackage_lookup.tl"}}
-{"event_id":9,"timestamp_ns":2837057,"kind":{"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}}
-{"event_id":10,"timestamp_ns":2913600,"kind":{"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}}
-{"event_id":11,"timestamp_ns":2999320,"kind":{"type":"GroupTrackCreated","subchain_id":0,"group_track_id":0,"prev_actor_id":0,"parent":null}}
-{"event_id":12,"timestamp_ns":3104636,"kind":{"type":"GroupTrackChanged","subchain_id":0,"snapshot":{"id":0,"snapshot_ref":0,"passed_fields_count":0,"group_lengths":[1],"parent_group_advancement":[0],"iterators":{}},"reason":"initialization"}}
-{"event_id":13,"timestamp_ns":3420084,"kind":{"type":"CallExpansionBegin","callee_name":"id","caller_fi":0,"caller_op_id":1,"is_lazy":false,"pipeline_str":"@{}","named_args":[["x","Constant(Int(7))"],["help","Constant(null)"]],"rich_args":[["x",{"Constant":[3,7]}],["help",{"Constant":[0,null]}]],"source_code":"func id(x: int) :: int {\n    {x}\n}","call_site_source":"dep.bar.id","call_site_location":"./tests/lang/basic/modules/subpackage_lookup/subpackage_lookup.tl:3:1_3:11"}}
-{"event_id":14,"timestamp_ns":3705396,"kind":{"type":"CallExpansionEnd","callee_name":"id","has_pending":false}}
-{"event_id":15,"timestamp_ns":3801916,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":1,"tf_id":0,"after":0}}
-{"event_id":16,"timestamp_ns":3923012,"kind":{"type":"ConstantCreated","name":"print.input","constant_id":0,"value":[3,7]}}
-{"event_id":17,"timestamp_ns":4010996,"kind":{"type":"TransformInstantiated","transform_id":0,"transform_name":"print","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":null,"successor":null,"inputs":[{"name":"input","value":{"Constant":[19,{"Literal":{"value":{"Int":7},"span":{"source":"Unknown","start":0,"end":0},"joint":false,"indicator":"LeadingEq"}}]}}],"outputs":null}}
-{"event_id":18,"timestamp_ns":4293823,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":2,"tf_id":1,"after":1}}
-{"event_id":19,"timestamp_ns":4369213,"kind":{"type":"TransformInstantiated","transform_id":1,"transform_name":"terminator","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":0,"successor":null,"inputs":null,"outputs":null}}
-{"event_id":20,"timestamp_ns":4526266,"kind":{"type":"TransformUpdateBegin","transform_id":0,"transform_name":"print","batch_size":1,"input_done":true}}
-{"event_id":21,"timestamp_ns":4730777,"kind":{"type":"TransformUpdateEnd","transform_id":0,"transform_name":"print","done":true}}
-{"event_id":22,"timestamp_ns":4805717,"kind":{"type":"TransformUpdateBegin","transform_id":1,"transform_name":"terminator","batch_size":1,"input_done":true}}
-{"event_id":23,"timestamp_ns":4880276,"kind":{"type":"ActionGroupBegin","subchain_id":0,"actor_id":2,"action_group_id":0}}
-{"event_id":24,"timestamp_ns":4955596,"kind":{"type":"ActionGroupEnd","subchain_id":0,"actor_id":2,"action_group_id":0,"actions":[{"kind":"Drop","field_idx":0,"run_len":1,"actor_id":2}],"field_count_delta":-1}}
-{"event_id":25,"timestamp_ns":5076802,"kind":{"type":"TransformUpdateEnd","transform_id":1,"transform_name":"terminator","done":true}}
+{"event_id":0,"timestamp_ns":1785013,"kind":{"type":"CompilingModule","module_path":"subpackage_lookup","source_path":"./tests/lang/basic/modules/subpackage_lookup/subpackage_lookup.tl","source_code":null}}
+{"event_id":1,"timestamp_ns":1981189,"kind":{"type":"FinishedCompilingModule","module_path":"subpackage_lookup","success":true,"source_code":null}}
+{"event_id":2,"timestamp_ns":2075034,"kind":{"type":"CompilingModule","module_path":"dep","source_path":"/home/runner/work/typeline_v2_2/typeline_v2_2/tests/lang/basic/modules/subpackage_lookup/subpackage_lookup_aux/dep.tl","source_code":"package dep {\n    package bar;\n}\n"}}
+{"event_id":3,"timestamp_ns":2187875,"kind":{"type":"FinishedCompilingModule","module_path":"dep","success":true,"source_code":"package dep {\n    package bar;\n}\n"}}
+{"event_id":4,"timestamp_ns":2342514,"kind":{"type":"CompilingModule","module_path":"dep::bar","source_path":"/home/runner/work/typeline_v2_2/typeline_v2_2/tests/lang/basic/modules/subpackage_lookup/subpackage_lookup_aux/bar.tl","source_code":"package bar;\n\npub func id(x: int) :: int {\n    {x}\n}\n"}}
+{"event_id":5,"timestamp_ns":2465283,"kind":{"type":"FinishedCompilingModule","module_path":"dep::bar","success":true,"source_code":"package bar;\n\npub func id(x: int) :: int {\n    {x}\n}\n"}}
+{"event_id":6,"timestamp_ns":2591078,"kind":{"type":"CompilingDef","module_path":"dep::bar","def_id":"HirDefId { hcx_id: 5, def_id: 1 }","def_kind":"func","source_code":"func id(x: int) :: int {\n    {x}\n}"}}
+{"event_id":7,"timestamp_ns":2731069,"kind":{"type":"FinishedCompilingDef","module_path":"dep::bar","def_id":"HirDefId { hcx_id: 5, def_id: 1 }","def_kind":"func","success":true,"source_code":"func id(x: int) :: int {\n    {x}\n}"}}
+{"event_id":8,"timestamp_ns":3143219,"kind":{"type":"SourceCode","source":"require dep = \"subpackage_lookup_aux/dep.tl\";\n\ndep.bar.id :7\n\n#*@stdout\n7\n*#\n","filename":"./tests/lang/basic/modules/subpackage_lookup/subpackage_lookup.tl"}}
+{"event_id":9,"timestamp_ns":3310722,"kind":{"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}}
+{"event_id":10,"timestamp_ns":3404196,"kind":{"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}}
+{"event_id":11,"timestamp_ns":3493313,"kind":{"type":"GroupTrackCreated","subchain_id":0,"group_track_id":0,"prev_actor_id":0,"parent":null}}
+{"event_id":12,"timestamp_ns":3592748,"kind":{"type":"GroupTrackChanged","subchain_id":0,"snapshot":{"id":0,"snapshot_ref":0,"passed_fields_count":0,"group_lengths":[1],"parent_group_advancement":[0],"iterators":{}},"reason":"initialization"}}
+{"event_id":13,"timestamp_ns":3935037,"kind":{"type":"CallExpansionBegin","callee_name":"id","caller_fi":0,"caller_op_id":1,"is_lazy":false,"pipeline_str":"@{}","named_args":[["x","Constant(Int(7))"],["help","Constant(null)"]],"rich_args":[["x",{"Constant":[3,7]}],["help",{"Constant":[0,null]}]],"source_code":"func id(x: int) :: int {\n    {x}\n}","call_site_source":"dep.bar.id","call_site_location":"./tests/lang/basic/modules/subpackage_lookup/subpackage_lookup.tl:3:1_3:11"}}
+{"event_id":14,"timestamp_ns":4237342,"kind":{"type":"CallExpansionEnd","callee_name":"id","has_pending":false}}
+{"event_id":15,"timestamp_ns":4373576,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":1,"tf_id":0,"after":0}}
+{"event_id":16,"timestamp_ns":4503068,"kind":{"type":"ConstantCreated","name":"print.input","constant_id":0,"value":[3,7]}}
+{"event_id":17,"timestamp_ns":4609336,"kind":{"type":"TransformInstantiated","transform_id":0,"transform_name":"print","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":null,"successor":null,"inputs":[{"name":"input","value":{"Constant":[19,{"Literal":{"value":{"Int":7},"span":{"source":"Unknown","start":0,"end":0},"joint":false,"indicator":"LeadingEq"}}]}}],"outputs":null}}
+{"event_id":18,"timestamp_ns":4921930,"kind":{"type":"ActorCreated","subchain_id":0,"actor_id":2,"tf_id":1,"after":1}}
+{"event_id":19,"timestamp_ns":5012129,"kind":{"type":"TransformInstantiated","transform_id":1,"transform_name":"terminator","subchain_id":0,"parent_transform":null,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":0,"successor":null,"inputs":null,"outputs":null}}
+{"event_id":20,"timestamp_ns":5193447,"kind":{"type":"TransformUpdateBegin","transform_id":0,"transform_name":"print","batch_size":1,"input_done":true}}
+{"event_id":21,"timestamp_ns":5412586,"kind":{"type":"TransformUpdateEnd","transform_id":0,"transform_name":"print","done":true}}
+{"event_id":22,"timestamp_ns":5504568,"kind":{"type":"TransformUpdateBegin","transform_id":1,"transform_name":"terminator","batch_size":1,"input_done":true}}
+{"event_id":23,"timestamp_ns":5607550,"kind":{"type":"ActionGroupBegin","subchain_id":0,"actor_id":2,"action_group_id":0}}
+{"event_id":24,"timestamp_ns":5698670,"kind":{"type":"ActionGroupEnd","subchain_id":0,"actor_id":2,"action_group_id":0,"actions":[{"kind":"Drop","field_idx":0,"run_len":1,"actor_id":2}],"field_count_delta":-1}}
+{"event_id":25,"timestamp_ns":5847538,"kind":{"type":"TransformUpdateEnd","transform_id":1,"transform_name":"terminator","done":true}}
