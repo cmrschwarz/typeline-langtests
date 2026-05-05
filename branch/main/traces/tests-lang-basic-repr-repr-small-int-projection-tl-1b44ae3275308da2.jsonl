@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"repr_small_int_projection","source_path":"./tests/lang/basic/repr/repr_small_int_projection.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"repr_small_int_projection","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/repr/repr_small_int_projection.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"seq:10 sum repr print\n1+1 repr print\n[[42]] flatten flatten repr print\n\n#*@stdout\nU8\nU8\nU8\n*#\n","filename":"./tests/lang/basic/repr/repr_small_int_projection.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

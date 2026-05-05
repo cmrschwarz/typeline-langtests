@@ -1,13 +1,13 @@
-{"type":"CompilingModule","module_path":"use_group_alias_scope","source_path":"./tests/lang/basic/modules/use_group_alias_scope.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"use_group_alias_scope","success":true,"source_code":null}
-{"type":"CompilingModule","module_path":"use_group_alias_scope::foo","source_path":"./tests/lang/basic/modules/use_group_alias_scope.tl","source_code":"{\n    func bar(x: int) :: int {\n        {x}\n    }\n\n    mod baz {\n        func qux(x: int) :: int {\n            {x}\n        }\n    }\n}"}
-{"type":"FinishedCompilingModule","module_path":"use_group_alias_scope::foo","success":true,"source_code":"{\n    func bar(x: int) :: int {\n        {x}\n    }\n\n    mod baz {\n        func qux(x: int) :: int {\n            {x}\n        }\n    }\n}"}
-{"type":"CompilingModule","module_path":"use_group_alias_scope::foo::baz","source_path":"./tests/lang/basic/modules/use_group_alias_scope.tl","source_code":"{\n        func qux(x: int) :: int {\n            {x}\n        }\n    }"}
-{"type":"FinishedCompilingModule","module_path":"use_group_alias_scope::foo::baz","success":true,"source_code":"{\n        func qux(x: int) :: int {\n            {x}\n        }\n    }"}
-{"type":"CompilingDef","module_path":"use_group_alias_scope::foo::baz","def_id":"HirDefId { hcx_id: 5, def_id: 1 }","def_kind":"func","source_code":"func qux(x: int) :: int {\n            {x}\n        }"}
-{"type":"FinishedCompilingDef","module_path":"use_group_alias_scope::foo::baz","def_id":"HirDefId { hcx_id: 5, def_id: 1 }","def_kind":"func","success":true,"source_code":"func qux(x: int) :: int {\n            {x}\n        }"}
-{"type":"CompilingDef","module_path":"use_group_alias_scope::foo","def_id":"HirDefId { hcx_id: 3, def_id: 1 }","def_kind":"func","source_code":"func bar(x: int) :: int {\n        {x}\n    }"}
-{"type":"FinishedCompilingDef","module_path":"use_group_alias_scope::foo","def_id":"HirDefId { hcx_id: 3, def_id: 1 }","def_kind":"func","success":true,"source_code":"func bar(x: int) :: int {\n        {x}\n    }"}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/modules/use_group_alias_scope.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main.foo","source_path":"./tests/lang/basic/modules/use_group_alias_scope.tl","source_code":"{\n    func bar(x: int) :: int {\n        {x}\n    }\n\n    mod baz {\n        func qux(x: int) :: int {\n            {x}\n        }\n    }\n}"}
+{"type":"FinishedCompilingModule","module_path":"main.foo","success":true,"source_code":"{\n    func bar(x: int) :: int {\n        {x}\n    }\n\n    mod baz {\n        func qux(x: int) :: int {\n            {x}\n        }\n    }\n}"}
+{"type":"CompilingModule","module_path":"main.foo.baz","source_path":"./tests/lang/basic/modules/use_group_alias_scope.tl","source_code":"{\n        func qux(x: int) :: int {\n            {x}\n        }\n    }"}
+{"type":"FinishedCompilingModule","module_path":"main.foo.baz","success":true,"source_code":"{\n        func qux(x: int) :: int {\n            {x}\n        }\n    }"}
+{"type":"CompilingDef","module_path":"main.foo.baz","def_id":"HirDefId { hcx_id: 5, def_id: 1 }","def_kind":"func","source_code":"func qux(x: int) :: int {\n            {x}\n        }"}
+{"type":"FinishedCompilingDef","module_path":"main.foo.baz","def_id":"HirDefId { hcx_id: 5, def_id: 1 }","def_kind":"func","success":true,"source_code":"func qux(x: int) :: int {\n            {x}\n        }"}
+{"type":"CompilingDef","module_path":"main.foo","def_id":"HirDefId { hcx_id: 3, def_id: 1 }","def_kind":"func","source_code":"func bar(x: int) :: int {\n        {x}\n    }"}
+{"type":"FinishedCompilingDef","module_path":"main.foo","def_id":"HirDefId { hcx_id: 3, def_id: 1 }","def_kind":"func","success":true,"source_code":"func bar(x: int) :: int {\n        {x}\n    }"}
 {"type":"SourceCode","source":"mod foo {\n    func bar(x: int) :: int {\n        {x}\n    }\n\n    mod baz {\n        func qux(x: int) :: int {\n            {x}\n        }\n    }\n}\n\nuse f = foo.{bar, baz.*};\n\nf.bar :2\nf.qux :3\n\n#*@stdout\n3\n*#\n","filename":"./tests/lang/basic/modules/use_group_alias_scope.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

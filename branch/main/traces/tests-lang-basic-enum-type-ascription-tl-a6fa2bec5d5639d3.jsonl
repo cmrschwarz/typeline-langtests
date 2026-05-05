@@ -1,7 +1,7 @@
-{"type":"CompilingModule","module_path":"type_ascription","source_path":"./tests/lang/basic/enum/type_ascription.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"type_ascription","success":true,"source_code":null}
-{"type":"CompilingDef","module_path":"type_ascription","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"enum","source_code":"enum Choice {\n    A,\n    B(int),\n}"}
-{"type":"FinishedCompilingDef","module_path":"type_ascription","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"enum","success":true,"source_code":"enum Choice {\n    A,\n    B(int),\n}"}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/enum/type_ascription.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
+{"type":"CompilingDef","module_path":"main","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"enum","source_code":"enum Choice {\n    A,\n    B(int),\n}"}
+{"type":"FinishedCompilingDef","module_path":"main","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"enum","success":true,"source_code":"enum Choice {\n    A,\n    B(int),\n}"}
 {"type":"SourceCode","source":"enum Choice {\n    A,\n    B(int),\n}\n\nprint :{ let x: Choice = Choice.B(5); x }\n\n#*@stdout\nChoice.B(5)\n*#\n","filename":"./tests/lang/basic/enum/type_ascription.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

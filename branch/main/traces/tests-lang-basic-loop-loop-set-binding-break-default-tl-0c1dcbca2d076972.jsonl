@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"loop_set_binding_break_default","source_path":"./tests/lang/basic/loop/loop_set_binding_break_default.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"loop_set_binding_break_default","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/loop/loop_set_binding_break_default.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"seq:3\nlet x = _;\n\nloop {\n\tset x = x + 10\n\tbreak\n}\n\n#*@stdout\n10\n11\n12\n*#\n","filename":"./tests/lang/basic/loop/loop_set_binding_break_default.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}
@@ -54,13 +54,13 @@
 {"type":"CreatedField","tf_id":1,"field_id":6,"actor_id":0,"field_name":"loop.out","subchain_id":2}
 {"type":"CreatedField","tf_id":1,"field_id":7,"actor_id":0,"field_name":"dummy","subchain_id":2}
 {"type":"ActorCreated","subchain_id":2,"actor_id":1,"tf_id":0,"after":0}
-{"type":"TransformInstantiated","transform_id":0,"transform_name":"loop.it[0].sc[2].add","subchain_id":2,"parent_transform":1,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":null,"successor":null,"inputs":null,"outputs":null}
+{"type":"TransformInstantiated","transform_id":0,"transform_name":"loop.it[0].sc[2].+","subchain_id":2,"parent_transform":1,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":null,"successor":null,"inputs":null,"outputs":null}
 {"type":"ActorCreated","subchain_id":2,"actor_id":2,"tf_id":4,"after":1}
 {"type":"TransformInstantiated","transform_id":4,"transform_name":"loop.it[0].sc[2].materialize_value","subchain_id":2,"parent_transform":1,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":0,"successor":null,"inputs":null,"outputs":null}
 {"type":"ActorCreated","subchain_id":2,"actor_id":3,"tf_id":5,"after":2}
 {"type":"TransformInstantiated","transform_id":5,"transform_name":"loop.it[0].sc[2].exit","subchain_id":2,"parent_transform":1,"function_instance_id":0,"function_name":"__start","caller_fi":null,"predecessor":4,"successor":null,"inputs":null,"outputs":null}
-{"type":"TransformUpdateBegin","transform_id":0,"transform_name":"loop.it[0].sc[2].add","batch_size":1,"input_done":false}
-{"type":"TransformUpdateEnd","transform_id":0,"transform_name":"loop.it[0].sc[2].add","done":false}
+{"type":"TransformUpdateBegin","transform_id":0,"transform_name":"loop.it[0].sc[2].+","batch_size":1,"input_done":false}
+{"type":"TransformUpdateEnd","transform_id":0,"transform_name":"loop.it[0].sc[2].+","done":false}
 {"type":"TransformUpdateBegin","transform_id":4,"transform_name":"loop.it[0].sc[2].materialize_value","batch_size":1,"input_done":false}
 {"type":"TransformUpdateEnd","transform_id":4,"transform_name":"loop.it[0].sc[2].materialize_value","done":false}
 {"type":"FieldModified","field_id":5,"field_name":"current","elem_count_before":0,"append_only":true,"snapshot":{"field":{"id":5,"subchain":2,"prev_actor_id":0,"snapshot_id":0,"field_data_id":5,"batch_tags":[{"Batch":"Once"}],"batch_tag_rls_phys":[1],"repeating_rls":[],"iter_map":{"iters":{},"order":[],"order_dirty":false},"elem_count":1,"dead_data_bytes":0,"pending_drop_scheduled":false,"name":"current"},"data":{"metadata":{"subscribers":[5],"physical_front_index":0,"alive_start_by_field":[[0,5]],"alive_end_by_field":[[1,5]],"dead_data_bytes_by_field":[]},"core":{"cache_maps":{"prototypes":{},"type_cache":{}},"entries":[[26,null,0]]}}}}
@@ -71,8 +71,8 @@
 {"type":"GroupTrackChanged","subchain_id":2,"snapshot":{"id":2,"snapshot_ref":0,"passed_fields_count":0,"group_lengths":[1],"parent_group_advancement":[0],"iterators":{}},"reason":"loop trace"}
 {"type":"RefLedgerChanged","subchain_id":0,"snapshot":{"id":0,"first_row_id":1,"last_row_id":1,"rows":[{"row_id":1,"predecessor":null,"successor":null,"refcount":1}],"track_ids":[0]},"reason":"loop trace"}
 {"type":"RefTrackChanged","subchain_id":2,"snapshot":{"id":0,"subchain":2,"prev_actor_id":0,"snapshot":0,"ledger_id":0,"row_ids":[1],"run_lengths":[1],"dead_row_count":0,"leading_rows_passed_on":0,"last_passed_row_id":0},"reason":"loop trace"}
-{"type":"TransformUpdateBegin","transform_id":0,"transform_name":"loop.it[0].sc[2].add","batch_size":1,"input_done":false}
-{"type":"TransformUpdateEnd","transform_id":0,"transform_name":"loop.it[0].sc[2].add","done":false}
+{"type":"TransformUpdateBegin","transform_id":0,"transform_name":"loop.it[0].sc[2].+","batch_size":1,"input_done":false}
+{"type":"TransformUpdateEnd","transform_id":0,"transform_name":"loop.it[0].sc[2].+","done":false}
 {"type":"TransformUpdateBegin","transform_id":4,"transform_name":"loop.it[0].sc[2].materialize_value","batch_size":1,"input_done":false}
 {"type":"TransformUpdateEnd","transform_id":4,"transform_name":"loop.it[0].sc[2].materialize_value","done":false}
 {"type":"FieldModified","field_id":5,"field_name":"current","elem_count_before":1,"append_only":true,"snapshot":{"field":{"id":5,"subchain":2,"prev_actor_id":0,"snapshot_id":0,"field_data_id":5,"batch_tags":[{"Batch":"Once"}],"batch_tag_rls_phys":[2],"repeating_rls":[],"iter_map":{"iters":{},"order":[],"order_dirty":false},"elem_count":2,"dead_data_bytes":0,"pending_drop_scheduled":false,"name":"current"},"data":{"metadata":{"subscribers":[5],"physical_front_index":0,"alive_start_by_field":[[0,5]],"alive_end_by_field":[[2,5]],"dead_data_bytes_by_field":[]},"core":{"cache_maps":{"prototypes":{},"type_cache":{}},"entries":[[26,null,0],[null,null,1]]}}}}
@@ -83,8 +83,8 @@
 {"type":"GroupTrackChanged","subchain_id":2,"snapshot":{"id":2,"snapshot_ref":0,"passed_fields_count":0,"group_lengths":[1,1],"parent_group_advancement":[0,1],"iterators":{}},"reason":"loop trace"}
 {"type":"RefLedgerChanged","subchain_id":0,"snapshot":{"id":0,"first_row_id":1,"last_row_id":2,"rows":[{"row_id":1,"predecessor":null,"successor":2,"refcount":1},{"row_id":2,"predecessor":1,"successor":null,"refcount":1}],"track_ids":[0]},"reason":"loop trace"}
 {"type":"RefTrackChanged","subchain_id":2,"snapshot":{"id":0,"subchain":2,"prev_actor_id":0,"snapshot":0,"ledger_id":0,"row_ids":[1,2],"run_lengths":[1,1],"dead_row_count":0,"leading_rows_passed_on":0,"last_passed_row_id":0},"reason":"loop trace"}
-{"type":"TransformUpdateBegin","transform_id":0,"transform_name":"loop.it[0].sc[2].add","batch_size":1,"input_done":false}
-{"type":"TransformUpdateEnd","transform_id":0,"transform_name":"loop.it[0].sc[2].add","done":false}
+{"type":"TransformUpdateBegin","transform_id":0,"transform_name":"loop.it[0].sc[2].+","batch_size":1,"input_done":false}
+{"type":"TransformUpdateEnd","transform_id":0,"transform_name":"loop.it[0].sc[2].+","done":false}
 {"type":"TransformUpdateBegin","transform_id":4,"transform_name":"loop.it[0].sc[2].materialize_value","batch_size":1,"input_done":false}
 {"type":"TransformUpdateEnd","transform_id":4,"transform_name":"loop.it[0].sc[2].materialize_value","done":false}
 {"type":"FieldModified","field_id":5,"field_name":"current","elem_count_before":2,"append_only":true,"snapshot":{"field":{"id":5,"subchain":2,"prev_actor_id":0,"snapshot_id":0,"field_data_id":5,"batch_tags":[{"Batch":"Once"}],"batch_tag_rls_phys":[3],"repeating_rls":[],"iter_map":{"iters":{},"order":[],"order_dirty":false},"elem_count":3,"dead_data_bytes":0,"pending_drop_scheduled":false,"name":"current"},"data":{"metadata":{"subscribers":[5],"physical_front_index":0,"alive_start_by_field":[[0,5]],"alive_end_by_field":[[3,5]],"dead_data_bytes_by_field":[]},"core":{"cache_maps":{"prototypes":{},"type_cache":{}},"entries":[[26,null,0],[null,null,1],[null,null,2]]}}}}

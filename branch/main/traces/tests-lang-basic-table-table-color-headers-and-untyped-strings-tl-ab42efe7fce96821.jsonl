@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"table_color_headers_and_untyped_strings","source_path":"./tests/lang/basic/table/table_color_headers_and_untyped_strings.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"table_color_headers_and_untyped_strings","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/table/table_color_headers_and_untyped_strings.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"\"x\" table --plain --color --unindexed\n\n#*@stdout\n┌───┐\n│ \u001b[92m_\u001b[0m │\n├───┤\n│ \u001b[95mx\u001b[39m │\n└───┘\n*#\n","filename":"./tests/lang/basic/table/table_color_headers_and_untyped_strings.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"div_left_associative","source_path":"./tests/lang/basic/div_left_associative.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"div_left_associative","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/div_left_associative.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"4/2/2\n\n#*@stdout\n1\n*#\n","filename":"./tests/lang/basic/div_left_associative.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"range_literal","source_path":"./tests/lang/basic/range_literal.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"range_literal","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/range_literal.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"1..3 print\n\n#*@stdout\n1..3\n*#\n","filename":"./tests/lang/basic/range_literal.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

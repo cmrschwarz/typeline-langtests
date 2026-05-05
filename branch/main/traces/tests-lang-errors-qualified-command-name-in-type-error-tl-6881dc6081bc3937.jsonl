@@ -1,0 +1,6 @@
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/errors/qualified_command_name_in_type_error.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main.foo","source_path":"./tests/lang/errors/qualified_command_name_in_type_error.tl","source_code":"{\n    func parse(x: int) :: int {\n        {x}\n    }\n}"}
+{"type":"FinishedCompilingModule","module_path":"main.foo","success":true,"source_code":"{\n    func parse(x: int) :: int {\n        {x}\n    }\n}"}
+{"type":"CompilingDef","module_path":"main.foo","def_id":"HirDefId { hcx_id: 3, def_id: 1 }","def_kind":"func","source_code":"func parse(x: int) :: int {\n        {x}\n    }"}
+{"type":"FinishedCompilingDef","module_path":"main.foo","def_id":"HirDefId { hcx_id: 3, def_id: 1 }","def_kind":"func","success":true,"source_code":"func parse(x: int) :: int {\n        {x}\n    }"}

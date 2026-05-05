@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"repr_basic","source_path":"./tests/lang/basic/repr/repr_basic.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"repr_basic","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/repr/repr_basic.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"1 repr print\ntrue repr print\narray(-m, 1, 2) repr print\nobject(-m, \"x\", 1) repr print\n\n#*@stdout\nU8\nBool\nArrayInline\nObjectInline\n*#\n","filename":"./tests/lang/basic/repr/repr_basic.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

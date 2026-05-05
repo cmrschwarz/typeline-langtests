@@ -1,7 +1,7 @@
-{"type":"CompilingModule","module_path":"context_call","source_path":"./tests/lang/basic/context_call.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"context_call","success":true,"source_code":null}
-{"type":"CompilingDef","module_path":"context_call","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"func","source_code":"func foo() {\n    set x = 1;\n    print :x;\n}"}
-{"type":"FinishedCompilingDef","module_path":"context_call","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"func","success":true,"source_code":"func foo() {\n    set x = 1;\n    print :x;\n}"}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/context_call.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
+{"type":"CompilingDef","module_path":"main","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"func","source_code":"func foo() {\n    set x = 1;\n    print :x;\n}"}
+{"type":"FinishedCompilingDef","module_path":"main","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"func","success":true,"source_code":"func foo() {\n    set x = 1;\n    print :x;\n}"}
 {"type":"SourceCode","source":"context x: int = 0;\n\nfunc foo() {\n    set x = 1;\n    print :x;\n}\n\nprint :x;\nfoo;\nprint :x;\n\nset x=2;\nprint :x;\nfoo;\nprint :x;\n\n#*@stdout\n0\n1\n0\n2\n1\n2\n*#","filename":"./tests/lang/basic/context_call.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

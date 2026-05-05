@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"multiple_capture_groups","source_path":"./tests/lang/regex/multiple_capture_groups.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"multiple_capture_groups","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/regex/multiple_capture_groups.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"=\"alice 30\"\nregex='(?<name>\\w+)\\s+(?<age>\\d+)'\nf='{name} is {age}'\n\n#*@stdout\nalice is 30\n*#\n","filename":"./tests/lang/regex/multiple_capture_groups.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

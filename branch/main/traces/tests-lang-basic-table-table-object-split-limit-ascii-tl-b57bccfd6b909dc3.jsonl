@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"table_object_split_limit_ascii","source_path":"./tests/lang/basic/table/table_object_split_limit_ascii.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"table_object_split_limit_ascii","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/table/table_object_split_limit_ascii.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"{foo: 0, bar: {x: 1, y: 2}} table --ascii --unindexed --split:1\n\n#*@stdout\n+------------------------+\n|           _            |\n+-----+------------------+\n| foo |       bar        |\n+-----+------------------+\n| 0   | {\"x\": 1, \"y\": 2} |\n+-----+------------------+\n*#\n","filename":"./tests/lang/basic/table/table_object_split_limit_ascii.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

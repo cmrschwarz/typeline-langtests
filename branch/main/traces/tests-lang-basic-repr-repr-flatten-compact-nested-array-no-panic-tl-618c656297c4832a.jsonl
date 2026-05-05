@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"repr_flatten_compact_nested_array_no_panic","source_path":"./tests/lang/basic/repr/repr_flatten_compact_nested_array_no_panic.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"repr_flatten_compact_nested_array_no_panic","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/repr/repr_flatten_compact_nested_array_no_panic.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"array(-c, [[1,2,3,4,5,6,7,8]], [[1,2,3,4,5,6,7,8]]) flatten repr -d _.mode print\n\n#*@stdout\nConstantSize\nConstantSize\n*#\n","filename":"./tests/lang/basic/repr/repr_flatten_compact_nested_array_no_panic.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

@@ -1,11 +1,11 @@
-{"type":"CompilingModule","module_path":"subpackage_lookup","source_path":"./tests/lang/basic/modules/subpackage_lookup/subpackage_lookup.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"subpackage_lookup","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/modules/subpackage_lookup/subpackage_lookup.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"CompilingModule","module_path":"dep","source_path":"/home/runner/work/typeline_v2_2/typeline_v2_2/tests/lang/basic/modules/subpackage_lookup/subpackage_lookup_aux/dep.tl","source_code":"package dep {\n    package bar;\n}\n"}
 {"type":"FinishedCompilingModule","module_path":"dep","success":true,"source_code":"package dep {\n    package bar;\n}\n"}
-{"type":"CompilingModule","module_path":"dep::bar","source_path":"/home/runner/work/typeline_v2_2/typeline_v2_2/tests/lang/basic/modules/subpackage_lookup/subpackage_lookup_aux/bar.tl","source_code":"package bar;\n\npub func id(x: int) :: int {\n    {x}\n}\n"}
-{"type":"FinishedCompilingModule","module_path":"dep::bar","success":true,"source_code":"package bar;\n\npub func id(x: int) :: int {\n    {x}\n}\n"}
-{"type":"CompilingDef","module_path":"dep::bar","def_id":"HirDefId { hcx_id: 5, def_id: 1 }","def_kind":"func","source_code":"func id(x: int) :: int {\n    {x}\n}"}
-{"type":"FinishedCompilingDef","module_path":"dep::bar","def_id":"HirDefId { hcx_id: 5, def_id: 1 }","def_kind":"func","success":true,"source_code":"func id(x: int) :: int {\n    {x}\n}"}
+{"type":"CompilingModule","module_path":"dep.bar","source_path":"/home/runner/work/typeline_v2_2/typeline_v2_2/tests/lang/basic/modules/subpackage_lookup/subpackage_lookup_aux/bar.tl","source_code":"package bar;\n\npub func id(x: int) :: int {\n    {x}\n}\n"}
+{"type":"FinishedCompilingModule","module_path":"dep.bar","success":true,"source_code":"package bar;\n\npub func id(x: int) :: int {\n    {x}\n}\n"}
+{"type":"CompilingDef","module_path":"dep.bar","def_id":"HirDefId { hcx_id: 5, def_id: 1 }","def_kind":"func","source_code":"func id(x: int) :: int {\n    {x}\n}"}
+{"type":"FinishedCompilingDef","module_path":"dep.bar","def_id":"HirDefId { hcx_id: 5, def_id: 1 }","def_kind":"func","success":true,"source_code":"func id(x: int) :: int {\n    {x}\n}"}
 {"type":"SourceCode","source":"require dep = \"subpackage_lookup_aux/dep.tl\";\n\ndep.bar.id :7\n\n#*@stdout\n7\n*#\n","filename":"./tests/lang/basic/modules/subpackage_lookup/subpackage_lookup.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

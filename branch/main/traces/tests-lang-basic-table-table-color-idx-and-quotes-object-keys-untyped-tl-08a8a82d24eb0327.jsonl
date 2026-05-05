@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"table_color_idx_and_quotes_object_keys_untyped","source_path":"./tests/lang/basic/table/table_color_idx_and_quotes_object_keys_untyped.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"table_color_idx_and_quotes_object_keys_untyped","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/table/table_color_idx_and_quotes_object_keys_untyped.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"[ 42,1.5, =foobar { =\"x x\" : 3} ] flatten table --plain --color --idx:42\n\n#*@stdout\n┌────┬────────────┐\n│ \u001b[92m#\u001b[0m  │     \u001b[92m_\u001b[0m      │\n├────┼────────────┤\n│ \u001b[92m42\u001b[0m │ \u001b[96m42\u001b[0m         │\n│ \u001b[92m43\u001b[0m │ \u001b[96m1.5\u001b[0m        │\n│ \u001b[92m44\u001b[0m │ \u001b[95mfoobar\u001b[39m     │\n│ \u001b[92m45\u001b[0m │ {\u001b[95m\"x x\"\u001b[39m: \u001b[96m3\u001b[0m} │\n└────┴────────────┘\n*#\n","filename":"./tests/lang/basic/table/table_color_idx_and_quotes_object_keys_untyped.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

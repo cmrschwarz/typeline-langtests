@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"no_match","source_path":"./tests/lang/regex/no_match.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"no_match","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/regex/no_match.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"=\"hello\"\nregex='(?<num>\\d+)'\nnum\n\n#*@stdout\n*#\n","filename":"./tests/lang/regex/no_match.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"env_dynamic_lookup","source_path":"./tests/lang/basic/env/env_dynamic_lookup.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"env_dynamic_lookup","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/env/env_dynamic_lookup.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"#@params { FOO@=\"left\" BAR@=\"right\" }\n\ncat { =\"FOO\" } { =\"BAR\" } str env -d\n\n#*@stdout\nleft\nright\n*#","filename":"./tests/lang/basic/env/env_dynamic_lookup.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

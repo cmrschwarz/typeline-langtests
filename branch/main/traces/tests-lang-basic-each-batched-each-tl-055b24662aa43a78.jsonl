@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"batched_each","source_path":"./tests/lang/basic/each/batched_each.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"batched_each","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/each/batched_each.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"@bs:3 seq:6 each { seq:_ sum }\n\n#*@stdout\n0\n0\n1\n3\n6\n10\n*#\n","filename":"./tests/lang/basic/each/batched_each.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

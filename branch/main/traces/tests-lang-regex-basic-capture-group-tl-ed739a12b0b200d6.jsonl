@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"basic_capture_group","source_path":"./tests/lang/regex/basic_capture_group.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"basic_capture_group","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/regex/basic_capture_group.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"=\"hello world\"\nregex='(?<first>\\w+)'\nfirst\n\n#*@stdout\nhello\n*#\n","filename":"./tests/lang/regex/basic_capture_group.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

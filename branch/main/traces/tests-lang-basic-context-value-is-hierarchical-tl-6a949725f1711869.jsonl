@@ -1,7 +1,7 @@
-{"type":"CompilingModule","module_path":"context_value_is_hierarchical","source_path":"./tests/lang/basic/context_value_is_hierarchical.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"context_value_is_hierarchical","success":true,"source_code":null}
-{"type":"CompilingDef","module_path":"context_value_is_hierarchical","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"func","source_code":"func foo() {\n    set x = 52;\n    print :x\n}"}
-{"type":"FinishedCompilingDef","module_path":"context_value_is_hierarchical","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"func","success":true,"source_code":"func foo() {\n    set x = 52;\n    print :x\n}"}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/context_value_is_hierarchical.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
+{"type":"CompilingDef","module_path":"main","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"func","source_code":"func foo() {\n    set x = 52;\n    print :x\n}"}
+{"type":"FinishedCompilingDef","module_path":"main","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"func","success":true,"source_code":"func foo() {\n    set x = 52;\n    print :x\n}"}
 {"type":"SourceCode","source":"context x: int = 42;\n\nfunc foo() {\n    set x = 52;\n    print :x\n}\n\nfoo x\n\n#*@stdout\n52\n42\n*#\n","filename":"./tests/lang/basic/context_value_is_hierarchical.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

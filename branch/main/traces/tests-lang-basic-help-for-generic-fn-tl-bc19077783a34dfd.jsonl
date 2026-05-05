@@ -1,7 +1,7 @@
-{"type":"CompilingModule","module_path":"help_for_generic_fn","source_path":"./tests/lang/basic/help_for_generic_fn.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"help_for_generic_fn","success":true,"source_code":null}
-{"type":"CompilingDef","module_path":"help_for_generic_fn","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"func","source_code":"func test<T> (\n    ### doc for x\n    x: T\n) {\n    42\n}"}
-{"type":"FinishedCompilingDef","module_path":"help_for_generic_fn","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"func","success":true,"source_code":"func test<T> (\n    ### doc for x\n    x: T\n) {\n    42\n}"}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/help_for_generic_fn.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
+{"type":"CompilingDef","module_path":"main","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"func","source_code":"func test<T> (\n    ### doc for x\n    x: T\n) {\n    42\n}"}
+{"type":"FinishedCompilingDef","module_path":"main","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"func","success":true,"source_code":"func test<T> (\n    ### doc for x\n    x: T\n) {\n    42\n}"}
 {"type":"SourceCode","source":"func test<T> (\n    ### doc for x\n    x: T\n) {\n    42\n}\n\ntest -h\n\n#*@stdout\nUsage:\n  test [-h] <x>\n\nGenerics:\n  T: type\n\nArguments:\n  <x>: T\n\nOptions:\n  -h, --help: Display this help. Use --help for more details.\n*#\n","filename":"./tests/lang/basic/help_for_generic_fn.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

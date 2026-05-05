@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"object_nested_rows_sizeof_inline_logical","source_path":"./tests/lang/basic/object/object_nested_rows_sizeof_inline_logical.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"object_nested_rows_sizeof_inline_logical","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/object/object_nested_rows_sizeof_inline_logical.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"seq:20 str {x: _} {nested: _, foo:42} bb -m sizeof -li\n\n#*@stdout\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n*#\n","filename":"./tests/lang/basic/object/object_nested_rows_sizeof_inline_logical.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

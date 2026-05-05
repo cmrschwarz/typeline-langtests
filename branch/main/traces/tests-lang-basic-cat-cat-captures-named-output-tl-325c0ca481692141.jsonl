@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"cat_captures_named_output","source_path":"./tests/lang/basic/cat/cat_captures_named_output.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"cat_captures_named_output","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/cat/cat_captures_named_output.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"foo@seq:4 cat { f=\"a:{foo}\" }\n\n#*@stdout\na:0\na:1\na:2\na:3\n*#\n","filename":"./tests/lang/basic/cat/cat_captures_named_output.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

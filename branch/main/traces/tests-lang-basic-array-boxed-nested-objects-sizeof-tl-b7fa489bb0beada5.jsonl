@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"array_boxed_nested_objects_sizeof","source_path":"./tests/lang/basic/array_boxed_nested_objects_sizeof.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"array_boxed_nested_objects_sizeof","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/array_boxed_nested_objects_sizeof.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"array(-m, {foo: [1,2]}, {foo: [3,4]}) sizeof print\narray(-mb, {foo: [1,2]}, {foo: [3,4]}) sizeof print\narray(-m, [{foo: [1,2,3,4,5,6,7,8]}], [{foo: [1,2,3,4,5,6,7,8]}]) sizeof print\narray(-mb, [{foo: [1,2,3,4,5,6,7,8]}], [{foo: [1,2,3,4,5,6,7,8]}]) sizeof print\n\n#*@stdout\n54\n62\n114\n122\n*#\n","filename":"./tests/lang/basic/array_boxed_nested_objects_sizeof.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

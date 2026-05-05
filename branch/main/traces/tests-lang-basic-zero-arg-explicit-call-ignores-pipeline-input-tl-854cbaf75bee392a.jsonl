@@ -1,9 +1,9 @@
-{"type":"CompilingModule","module_path":"zero_arg_explicit_call_ignores_pipeline_input","source_path":"./tests/lang/basic/zero_arg_explicit_call_ignores_pipeline_input.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"zero_arg_explicit_call_ignores_pipeline_input","success":true,"source_code":null}
-{"type":"CompilingDef","module_path":"zero_arg_explicit_call_ignores_pipeline_input","def_id":"HirDefId { hcx_id: 1, def_id: 56 }","def_kind":"func","source_code":"func run<>.{_:any}() :: int {\n    1;\n    bar()\n}"}
-{"type":"FinishedCompilingDef","module_path":"zero_arg_explicit_call_ignores_pipeline_input","def_id":"HirDefId { hcx_id: 1, def_id: 56 }","def_kind":"func","success":true,"source_code":"func run<>.{_:any}() :: int {\n    1;\n    bar()\n}"}
-{"type":"CompilingDef","module_path":"zero_arg_explicit_call_ignores_pipeline_input","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"func","source_code":"func bar() :: int {\n    42\n}"}
-{"type":"FinishedCompilingDef","module_path":"zero_arg_explicit_call_ignores_pipeline_input","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"func","success":true,"source_code":"func bar() :: int {\n    42\n}"}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/zero_arg_explicit_call_ignores_pipeline_input.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
+{"type":"CompilingDef","module_path":"main","def_id":"HirDefId { hcx_id: 1, def_id: 56 }","def_kind":"func","source_code":"func run<>.{_:any}() :: int {\n    1;\n    bar()\n}"}
+{"type":"FinishedCompilingDef","module_path":"main","def_id":"HirDefId { hcx_id: 1, def_id: 56 }","def_kind":"func","success":true,"source_code":"func run<>.{_:any}() :: int {\n    1;\n    bar()\n}"}
+{"type":"CompilingDef","module_path":"main","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"func","source_code":"func bar() :: int {\n    42\n}"}
+{"type":"FinishedCompilingDef","module_path":"main","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"func","success":true,"source_code":"func bar() :: int {\n    42\n}"}
 {"type":"SourceCode","source":"func bar() :: int {\n    42\n}\n\nfunc run<>.{_:any}() :: int {\n    1;\n    bar()\n}\n\nrun\n\n#*@stdout\n42\n*#\n","filename":"./tests/lang/basic/zero_arg_explicit_call_ignores_pipeline_input.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

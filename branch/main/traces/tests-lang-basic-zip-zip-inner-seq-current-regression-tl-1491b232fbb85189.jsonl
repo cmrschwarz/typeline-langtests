@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"zip_inner_seq_current_regression","source_path":"./tests/lang/basic/zip/zip_inner_seq_current_regression.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"zip_inner_seq_current_regression","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/zip/zip_inner_seq_current_regression.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"seq:10 zip -i { seq:_ f=\"{}{}\" } { 42 }\n\n#*@stdout\n(\"00\", 42)\n(\"00\", 42)\n(\"11\", 42)\n(\"00\", 42)\n(\"11\", 42)\n(\"22\", 42)\n(\"00\", 42)\n(\"11\", 42)\n(\"22\", 42)\n(\"33\", 42)\n*#\n","filename":"./tests/lang/basic/zip/zip_inner_seq_current_regression.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

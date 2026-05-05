@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"cat_each_collect_table","source_path":"./tests/lang/basic/cat_each_collect_table.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"cat_each_collect_table","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/cat_each_collect_table.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"@bs:7 foo@seq:10 each -e { { a: { cat {_} {42} collect } } bar@_ } table -n\n\n\n#*@stdout\n┌───┬─────┬────────────────┐\n│ # │ foo │      bar       │\n├───┼─────┼────────────────┤\n│ 0 │ 0   │ {\"a\": [0, 42]} │\n│ 1 │ 0   │ {\"a\": [1, 42]} │\n│ 2 │ 1   │ {\"a\": [2, 42]} │\n│ 3 │ 1   │ {\"a\": [3, 42]} │\n│ 4 │ 2   │ {\"a\": [4, 42]} │\n│ 5 │ 2   │ {\"a\": [5, 42]} │\n│ 6 │ 3   │ {\"a\": [6, 42]} │\n│ 7 │ 3   │ {\"a\": [7, 42]} │\n│ 8 │ 4   │ {\"a\": [8, 42]} │\n│ 9 │ 4   │ {\"a\": [9, 42]} │\n└───┴─────┴────────────────┘\n*#\n","filename":"./tests/lang/basic/cat_each_collect_table.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

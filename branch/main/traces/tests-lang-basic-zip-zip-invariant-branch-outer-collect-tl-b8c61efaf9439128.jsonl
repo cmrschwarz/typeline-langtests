@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"zip_invariant_branch_outer_collect","source_path":"./tests/lang/basic/zip/zip_invariant_branch_outer_collect.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"zip_invariant_branch_outer_collect","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/zip/zip_invariant_branch_outer_collect.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"seq:3 zip { seq :3 } { 42 } collect\n\n#*@stdout\n[(0, 42), (1, 42), (2, 42), (0, null), (1, null), (2, null), (0, null), (1, null), (2, null)]\n*#\n","filename":"./tests/lang/basic/zip/zip_invariant_branch_outer_collect.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

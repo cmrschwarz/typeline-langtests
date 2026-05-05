@@ -1,11 +1,11 @@
-{"type":"CompilingModule","module_path":"self_referential_function","source_path":"./tests/lang/basic/self_referential_function.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"self_referential_function","success":true,"source_code":null}
-{"type":"CompilingDef","module_path":"self_referential_function","def_id":"HirDefId { hcx_id: 1, def_id: 57 }","def_kind":"func","source_code":"func echo(n: int) :: int { {n} }"}
-{"type":"FinishedCompilingDef","module_path":"self_referential_function","def_id":"HirDefId { hcx_id: 1, def_id: 57 }","def_kind":"func","success":true,"source_code":"func echo(n: int) :: int { {n} }"}
-{"type":"CompilingDef","module_path":"self_referential_function","def_id":"HirDefId { hcx_id: 1, def_id: 56 }","def_kind":"func","source_code":"func pass_through(x: int) :: int { {x} }"}
-{"type":"FinishedCompilingDef","module_path":"self_referential_function","def_id":"HirDefId { hcx_id: 1, def_id: 56 }","def_kind":"func","success":true,"source_code":"func pass_through(x: int) :: int { {x} }"}
-{"type":"CompilingDef","module_path":"self_referential_function","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"func","source_code":"func identity(i: int) :: int { {i} }"}
-{"type":"FinishedCompilingDef","module_path":"self_referential_function","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"func","success":true,"source_code":"func identity(i: int) :: int { {i} }"}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/self_referential_function.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
+{"type":"CompilingDef","module_path":"main","def_id":"HirDefId { hcx_id: 1, def_id: 57 }","def_kind":"func","source_code":"func echo(n: int) :: int { {n} }"}
+{"type":"FinishedCompilingDef","module_path":"main","def_id":"HirDefId { hcx_id: 1, def_id: 57 }","def_kind":"func","success":true,"source_code":"func echo(n: int) :: int { {n} }"}
+{"type":"CompilingDef","module_path":"main","def_id":"HirDefId { hcx_id: 1, def_id: 56 }","def_kind":"func","source_code":"func pass_through(x: int) :: int { {x} }"}
+{"type":"FinishedCompilingDef","module_path":"main","def_id":"HirDefId { hcx_id: 1, def_id: 56 }","def_kind":"func","success":true,"source_code":"func pass_through(x: int) :: int { {x} }"}
+{"type":"CompilingDef","module_path":"main","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"func","source_code":"func identity(i: int) :: int { {i} }"}
+{"type":"FinishedCompilingDef","module_path":"main","def_id":"HirDefId { hcx_id: 1, def_id: 55 }","def_kind":"func","success":true,"source_code":"func identity(i: int) :: int { {i} }"}
 {"type":"SourceCode","source":"## Tests for self-referential function declarations\n## These test that functions can reference themselves during their own declaration\n\n## Basic self-referential function with explicit return type\nfunc identity(i: int) :: int { {i} }\nprint :identity(identity(42))\n\n## Nested calls to self-referential function\nfunc pass_through(x: int) :: int { {x} }\nprint :pass_through(pass_through(pass_through(7)))\n\n## Self-referential function used in expression context\nfunc echo(n: int) :: int { {n} }\nlet result = echo(echo(echo(3)));\nprint :result\n\n#*@stdout\n42\n7\n3\n*#\n","filename":"./tests/lang/basic/self_referential_function.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

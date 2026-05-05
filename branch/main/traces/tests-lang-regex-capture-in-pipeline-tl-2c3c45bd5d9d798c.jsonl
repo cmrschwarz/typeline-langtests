@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"capture_in_pipeline","source_path":"./tests/lang/regex/capture_in_pipeline.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"capture_in_pipeline","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/regex/capture_in_pipeline.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"=\"key=value\"\nregex='(?<key>\\w+)=(?<val>\\w+)'\nf='{key}:{val}'\n\n#*@stdout\nkey:value\n*#\n","filename":"./tests/lang/regex/capture_in_pipeline.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

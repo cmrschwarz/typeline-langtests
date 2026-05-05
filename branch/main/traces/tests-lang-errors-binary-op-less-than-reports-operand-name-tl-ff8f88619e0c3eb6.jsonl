@@ -1,0 +1,2 @@
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/errors/binary_op_less_than_reports_operand_name.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}

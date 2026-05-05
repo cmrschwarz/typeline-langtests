@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"each_seq_sum","source_path":"./tests/lang/basic/each/each_seq_sum.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"each_seq_sum","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/each/each_seq_sum.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"seq:10 each { seq:_ sum }\n\n#*@stdout\n0\n0\n1\n3\n6\n10\n15\n21\n28\n36\n*#\n","filename":"./tests/lang/basic/each/each_seq_sum.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"object_dot_access","source_path":"./tests/lang/basic/object_dot_access.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"object_dot_access","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/object_dot_access.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"{foo: {bar: 42}}.foo.bar print\n\n#*@stdout\n42\n*#\n","filename":"./tests/lang/basic/object_dot_access.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"basic_expr","source_path":"./tests/lang/basic/basic_expr.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"basic_expr","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/basic_expr.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"42\n\n#*@stdout\n42\n*#\n","filename":"./tests/lang/basic/basic_expr.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

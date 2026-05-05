@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"optional_capture_is_null","source_path":"./tests/lang/regex/optional_capture_is_null.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"optional_capture_is_null","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/regex/optional_capture_is_null.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"=\"ab\"\nregex='(?<a>a)(?<missing>z)?(?<b>b)'\nmissing\n\n#*@stdout\n*#\n","filename":"./tests/lang/regex/optional_capture_is_null.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

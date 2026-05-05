@@ -1,15 +1,15 @@
-{"type":"CompilingModule","module_path":"use_nested_path_group","source_path":"./tests/lang/basic/modules/use_nested_path_group.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"use_nested_path_group","success":true,"source_code":null}
-{"type":"CompilingModule","module_path":"use_nested_path_group::foo","source_path":"./tests/lang/basic/modules/use_nested_path_group.tl","source_code":"{\n    func a(x: int) :: int {\n        {x}\n    }\n}"}
-{"type":"FinishedCompilingModule","module_path":"use_nested_path_group::foo","success":true,"source_code":"{\n    func a(x: int) :: int {\n        {x}\n    }\n}"}
-{"type":"CompilingModule","module_path":"use_nested_path_group::bar","source_path":"./tests/lang/basic/modules/use_nested_path_group.tl","source_code":"{\n    mod baz {\n        func b(x: int) :: int {\n            {x}\n        }\n    }\n}"}
-{"type":"FinishedCompilingModule","module_path":"use_nested_path_group::bar","success":true,"source_code":"{\n    mod baz {\n        func b(x: int) :: int {\n            {x}\n        }\n    }\n}"}
-{"type":"CompilingModule","module_path":"use_nested_path_group::bar::baz","source_path":"./tests/lang/basic/modules/use_nested_path_group.tl","source_code":"{\n        func b(x: int) :: int {\n            {x}\n        }\n    }"}
-{"type":"FinishedCompilingModule","module_path":"use_nested_path_group::bar::baz","success":true,"source_code":"{\n        func b(x: int) :: int {\n            {x}\n        }\n    }"}
-{"type":"CompilingDef","module_path":"use_nested_path_group::bar::baz","def_id":"HirDefId { hcx_id: 7, def_id: 1 }","def_kind":"func","source_code":"func b(x: int) :: int {\n            {x}\n        }"}
-{"type":"FinishedCompilingDef","module_path":"use_nested_path_group::bar::baz","def_id":"HirDefId { hcx_id: 7, def_id: 1 }","def_kind":"func","success":true,"source_code":"func b(x: int) :: int {\n            {x}\n        }"}
-{"type":"CompilingDef","module_path":"use_nested_path_group::foo","def_id":"HirDefId { hcx_id: 3, def_id: 1 }","def_kind":"func","source_code":"func a(x: int) :: int {\n        {x}\n    }"}
-{"type":"FinishedCompilingDef","module_path":"use_nested_path_group::foo","def_id":"HirDefId { hcx_id: 3, def_id: 1 }","def_kind":"func","success":true,"source_code":"func a(x: int) :: int {\n        {x}\n    }"}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/modules/use_nested_path_group.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main.foo","source_path":"./tests/lang/basic/modules/use_nested_path_group.tl","source_code":"{\n    func a(x: int) :: int {\n        {x}\n    }\n}"}
+{"type":"FinishedCompilingModule","module_path":"main.foo","success":true,"source_code":"{\n    func a(x: int) :: int {\n        {x}\n    }\n}"}
+{"type":"CompilingModule","module_path":"main.bar","source_path":"./tests/lang/basic/modules/use_nested_path_group.tl","source_code":"{\n    mod baz {\n        func b(x: int) :: int {\n            {x}\n        }\n    }\n}"}
+{"type":"FinishedCompilingModule","module_path":"main.bar","success":true,"source_code":"{\n    mod baz {\n        func b(x: int) :: int {\n            {x}\n        }\n    }\n}"}
+{"type":"CompilingModule","module_path":"main.bar.baz","source_path":"./tests/lang/basic/modules/use_nested_path_group.tl","source_code":"{\n        func b(x: int) :: int {\n            {x}\n        }\n    }"}
+{"type":"FinishedCompilingModule","module_path":"main.bar.baz","success":true,"source_code":"{\n        func b(x: int) :: int {\n            {x}\n        }\n    }"}
+{"type":"CompilingDef","module_path":"main.bar.baz","def_id":"HirDefId { hcx_id: 7, def_id: 1 }","def_kind":"func","source_code":"func b(x: int) :: int {\n            {x}\n        }"}
+{"type":"FinishedCompilingDef","module_path":"main.bar.baz","def_id":"HirDefId { hcx_id: 7, def_id: 1 }","def_kind":"func","success":true,"source_code":"func b(x: int) :: int {\n            {x}\n        }"}
+{"type":"CompilingDef","module_path":"main.foo","def_id":"HirDefId { hcx_id: 3, def_id: 1 }","def_kind":"func","source_code":"func a(x: int) :: int {\n        {x}\n    }"}
+{"type":"FinishedCompilingDef","module_path":"main.foo","def_id":"HirDefId { hcx_id: 3, def_id: 1 }","def_kind":"func","success":true,"source_code":"func a(x: int) :: int {\n        {x}\n    }"}
 {"type":"SourceCode","source":"mod foo {\n    func a(x: int) :: int {\n        {x}\n    }\n}\n\nmod bar {\n    mod baz {\n        func b(x: int) :: int {\n            {x}\n        }\n    }\n}\n\nuse wp = {\n    foo.a,\n    bar.baz.{b}\n};\n\nwp.a :1\nwp.b :2\n\n#*@stdout\n2\n*#\n","filename":"./tests/lang/basic/modules/use_nested_path_group.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

@@ -1,13 +1,13 @@
-{"type":"CompilingModule","module_path":"pub_nested_use_leaf_visibility","source_path":"./tests/lang/basic/modules/pub_nested_use_leaf_visibility.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"pub_nested_use_leaf_visibility","success":true,"source_code":null}
-{"type":"CompilingModule","module_path":"pub_nested_use_leaf_visibility::producer","source_path":"./tests/lang/basic/modules/pub_nested_use_leaf_visibility.tl","source_code":"{\n    func asdf(x: int) :: int {\n        {x}\n    }\n\n    use {pub foo = {pub baz = asdf}};\n}"}
-{"type":"FinishedCompilingModule","module_path":"pub_nested_use_leaf_visibility::producer","success":true,"source_code":"{\n    func asdf(x: int) :: int {\n        {x}\n    }\n\n    use {pub foo = {pub baz = asdf}};\n}"}
-{"type":"CompilingModule","module_path":"pub_nested_use_leaf_visibility::consumer","source_path":"./tests/lang/basic/modules/pub_nested_use_leaf_visibility.tl","source_code":"{\n    func run(x: int) :: int {\n        producer.foo.baz :x\n    }\n}"}
-{"type":"FinishedCompilingModule","module_path":"pub_nested_use_leaf_visibility::consumer","success":true,"source_code":"{\n    func run(x: int) :: int {\n        producer.foo.baz :x\n    }\n}"}
-{"type":"CompilingDef","module_path":"pub_nested_use_leaf_visibility::consumer","def_id":"HirDefId { hcx_id: 5, def_id: 1 }","def_kind":"func","source_code":"func run(x: int) :: int {\n        producer.foo.baz :x\n    }"}
-{"type":"FinishedCompilingDef","module_path":"pub_nested_use_leaf_visibility::consumer","def_id":"HirDefId { hcx_id: 5, def_id: 1 }","def_kind":"func","success":true,"source_code":"func run(x: int) :: int {\n        producer.foo.baz :x\n    }"}
-{"type":"CompilingDef","module_path":"pub_nested_use_leaf_visibility::producer","def_id":"HirDefId { hcx_id: 3, def_id: 1 }","def_kind":"func","source_code":"func asdf(x: int) :: int {\n        {x}\n    }"}
-{"type":"FinishedCompilingDef","module_path":"pub_nested_use_leaf_visibility::producer","def_id":"HirDefId { hcx_id: 3, def_id: 1 }","def_kind":"func","success":true,"source_code":"func asdf(x: int) :: int {\n        {x}\n    }"}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/modules/pub_nested_use_leaf_visibility.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main.producer","source_path":"./tests/lang/basic/modules/pub_nested_use_leaf_visibility.tl","source_code":"{\n    func asdf(x: int) :: int {\n        {x}\n    }\n\n    use {pub foo = {pub baz = asdf}};\n}"}
+{"type":"FinishedCompilingModule","module_path":"main.producer","success":true,"source_code":"{\n    func asdf(x: int) :: int {\n        {x}\n    }\n\n    use {pub foo = {pub baz = asdf}};\n}"}
+{"type":"CompilingModule","module_path":"main.consumer","source_path":"./tests/lang/basic/modules/pub_nested_use_leaf_visibility.tl","source_code":"{\n    func run(x: int) :: int {\n        producer.foo.baz :x\n    }\n}"}
+{"type":"FinishedCompilingModule","module_path":"main.consumer","success":true,"source_code":"{\n    func run(x: int) :: int {\n        producer.foo.baz :x\n    }\n}"}
+{"type":"CompilingDef","module_path":"main.consumer","def_id":"HirDefId { hcx_id: 5, def_id: 1 }","def_kind":"func","source_code":"func run(x: int) :: int {\n        producer.foo.baz :x\n    }"}
+{"type":"FinishedCompilingDef","module_path":"main.consumer","def_id":"HirDefId { hcx_id: 5, def_id: 1 }","def_kind":"func","success":true,"source_code":"func run(x: int) :: int {\n        producer.foo.baz :x\n    }"}
+{"type":"CompilingDef","module_path":"main.producer","def_id":"HirDefId { hcx_id: 3, def_id: 1 }","def_kind":"func","source_code":"func asdf(x: int) :: int {\n        {x}\n    }"}
+{"type":"FinishedCompilingDef","module_path":"main.producer","def_id":"HirDefId { hcx_id: 3, def_id: 1 }","def_kind":"func","success":true,"source_code":"func asdf(x: int) :: int {\n        {x}\n    }"}
 {"type":"SourceCode","source":"mod producer {\n    func asdf(x: int) :: int {\n        {x}\n    }\n\n    use {pub foo = {pub baz = asdf}};\n}\n\nmod consumer {\n    func run(x: int) :: int {\n        producer.foo.baz :x\n    }\n}\n\nconsumer.run :5\n\n#*@stdout\n5\n*#\n","filename":"./tests/lang/basic/modules/pub_nested_use_leaf_visibility.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

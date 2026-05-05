@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"each_cat_bs1","source_path":"./tests/lang/basic/cat/each_cat_bs1.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"each_cat_bs1","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/cat/each_cat_bs1.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"@bs:1 seq:4 each { cat {_}{_} }\n\n#*@stdout\n0\n0\n1\n1\n2\n2\n3\n3\n*#\n","filename":"./tests/lang/basic/cat/each_cat_bs1.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}

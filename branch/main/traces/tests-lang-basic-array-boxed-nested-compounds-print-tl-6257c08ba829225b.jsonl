@@ -1,5 +1,5 @@
-{"type":"CompilingModule","module_path":"array_boxed_nested_compounds_print","source_path":"./tests/lang/basic/array_boxed_nested_compounds_print.tl","source_code":null}
-{"type":"FinishedCompilingModule","module_path":"array_boxed_nested_compounds_print","success":true,"source_code":null}
+{"type":"CompilingModule","module_path":"main","source_path":"./tests/lang/basic/array_boxed_nested_compounds_print.tl","source_code":null}
+{"type":"FinishedCompilingModule","module_path":"main","success":true,"source_code":null}
 {"type":"SourceCode","source":"array([[1,2]], [[3,4]]) print\narray(-b, [[1,2]], [[3,4]]) print\narray([{foo: [1,2]}], [{foo: [3,4]}]) print\narray(-b, [{foo: [1,2]}], [{foo: [3,4]}]) print\n\n#*@stdout\n[[[1, 2]], [[3, 4]]]\n[[[1, 2]], [[3, 4]]]\n[[{\"foo\": [1, 2]}], [{\"foo\": [3, 4]}]]\n[[{\"foo\": [1, 2]}], [{\"foo\": [3, 4]}]]\n*#\n","filename":"./tests/lang/basic/array_boxed_nested_compounds_print.tl"}
 {"type":"SubchainCreated","subchain_id":0,"parent_transform":null,"name":"main"}
 {"type":"SubchainChanged","subchain_id":0,"name":"main","successor_subchain_ids":[]}
